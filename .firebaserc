@@ -1,0 +1,13 @@
+{
+  "projects": {
+    "default": "clearhire-docs"
+  },
+  "targets": {
+    "clearhire-docs": {
+      "hosting": {
+        "clearhire-docs": ["clearhire-docs"]
+      }
+    }
+  },
+  "etags": {}
+}

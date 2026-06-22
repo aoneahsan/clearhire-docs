@@ -1,0 +1,49 @@
+# ClearHire — Documentation Index
+
+> ClearHire is a free resume builder and verified-employment job platform. You fill out one structured profile, generate professional resumes from it (PDF/DOCX), and request employment verification from past employers so a "Verified" badge backs each role. It adds job search with alerts, application tracking, mutual candidate-company reviews, and career tools (ATS checker, cover-letter generator, interview prep). Available free on the web and on Android. App: https://clearhire.aoneahsan.com. Author: Ahsan Mahmood (https://aoneahsan.com).
+
+## About
+
+ClearHire's differentiator is verified employment: an employee asks a former or current employer to confirm a role, and once confirmed both sides can leave reviews tied to that real working relationship. The app is free — no subscriptions, no in-app purchases — and shows only first-party promotions for the developer's other apps (no third-party ad networks). Built with React + Capacitor on top of Firebase/Firestore; client-side processing keeps document generation and most tools running in the browser.
+
+This `llms.txt` follows the [llmstxt.org](https://llmstxt.org) spec — a structured index for large language models.
+
+## Getting Started
+
+- [Introduction](https://clearhire-docs.aoneahsan.com/intro): What ClearHire is, who it's for, and how verified employment works.
+- [Quick Start](https://clearhire-docs.aoneahsan.com/getting-started/quick-start): Create an account and build your first resume in minutes.
+- [Create Your Profile](https://clearhire-docs.aoneahsan.com/getting-started/create-your-profile): The seven profile sections every resume is generated from.
+- [Build Your First Resume](https://clearhire-docs.aoneahsan.com/getting-started/build-your-first-resume): Pick a template, choose sections, export to PDF or DOCX.
+
+## Features
+
+- [Profile Management](https://clearhire-docs.aoneahsan.com/features/profile-management): Experience, education, projects, skills, languages, certifications, and awards in one structured record.
+- [Resume Builder](https://clearhire-docs.aoneahsan.com/features/resume-builder): Multiple templates, section control, and PDF/DOCX export.
+- [Employment Verification](https://clearhire-docs.aoneahsan.com/features/employment-verification): Request and grant verification; how the timeout and badge work.
+- [Job Search](https://clearhire-docs.aoneahsan.com/features/job-search): Filters, saved searches, and job alerts.
+- [Application Tracking](https://clearhire-docs.aoneahsan.com/features/applications-tracking): Track every application through its stages.
+- [Company & Employee Reviews](https://clearhire-docs.aoneahsan.com/features/company-reviews): Mutual reviews tied to verified employment.
+- [Career Tools](https://clearhire-docs.aoneahsan.com/features/career-tools): ATS checker, cover-letter and bio generators, interview prep, salary insights.
+- [Gamification](https://clearhire-docs.aoneahsan.com/features/gamification): Badges, levels, streaks, and leaderboards.
+- [Analytics](https://clearhire-docs.aoneahsan.com/features/analytics): Profile views, resume downloads, and application metrics.
+- [For Companies](https://clearhire-docs.aoneahsan.com/features/for-companies): Company profiles, job posting, applicant tracking, and verification.
+- [Browser Extension](https://clearhire-docs.aoneahsan.com/features/browser-extension): Capture jobs from listing pages into your ClearHire tracker.
+
+## Guides
+
+- [Export a resume to PDF or DOCX](https://clearhire-docs.aoneahsan.com/guides/export-resume-pdf-docx)
+- [Request employment verification](https://clearhire-docs.aoneahsan.com/guides/request-employment-verification)
+- [Run the ATS resume checker](https://clearhire-docs.aoneahsan.com/guides/ats-resume-checker)
+- [Export or delete your data](https://clearhire-docs.aoneahsan.com/guides/data-export-and-deletion)
+
+## Reference
+
+- [FAQ](https://clearhire-docs.aoneahsan.com/faq): Common questions about accounts, verification, privacy, and cost.
+- [Privacy & data handling](https://clearhire-docs.aoneahsan.com/privacy): What ClearHire stores, shares, and deletes.
+- [Changelog](https://clearhire-docs.aoneahsan.com/changelog): Notable releases.
+- [About the Author](https://clearhire-docs.aoneahsan.com/about-the-author): Ahsan Mahmood's developer profile and links.
+
+## Product links
+
+- App (web): https://clearhire.aoneahsan.com
+- Android: https://play.google.com/store/apps/details?id=com.aoneahsan.clearhire

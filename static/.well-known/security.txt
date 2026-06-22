@@ -1,0 +1,3 @@
+Contact: mailto:aoneahsan@gmail.com
+Preferred-Languages: en
+Canonical: https://clearhire-docs.aoneahsan.com/.well-known/security.txt

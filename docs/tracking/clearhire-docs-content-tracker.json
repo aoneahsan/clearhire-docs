@@ -1,0 +1,88 @@
+{
+  "$schema": "clearhire-docs-content-tracker",
+  "description": "Resumable per-page content tracker for the ClearHire docs site. Baseline pages documenting every shipped feature are complete; long-tail deep-enrichment batches are listed below.",
+  "site": "clearhire-docs",
+  "repo": "github.com/aoneahsan/clearhire-docs (PUBLIC)",
+  "createdAt": "2026-06-22",
+  "lastUpdated": "2026-06-22",
+  "baselineComplete": true,
+  "totalBaselinePages": 23,
+  "wordsPerPageTarget": "700-1100",
+  "expert": "Ahsan Mahmood",
+  "seoFloor": {
+    "uniqueTitle": "50-60 chars",
+    "uniqueDescription": "140-160 chars",
+    "definitionFirstIntro": true,
+    "h2Sections": "3-6",
+    "faqBlock": "feature + guide pages",
+    "authorCredit": true
+  },
+  "baselinePages": [
+    "intro",
+    "getting-started/quick-start",
+    "getting-started/create-your-profile",
+    "getting-started/build-your-first-resume",
+    "features/profile-management",
+    "features/resume-builder",
+    "features/employment-verification",
+    "features/job-search",
+    "features/applications-tracking",
+    "features/company-reviews",
+    "features/career-tools",
+    "features/gamification",
+    "features/analytics",
+    "features/for-companies",
+    "features/browser-extension",
+    "guides/export-resume-pdf-docx",
+    "guides/request-employment-verification",
+    "guides/ats-resume-checker",
+    "guides/data-export-and-deletion",
+    "faq",
+    "privacy",
+    "changelog",
+    "about-the-author"
+  ],
+  "enrichmentBacklog": [
+    {
+      "id": "batch-01",
+      "status": "pending",
+      "category": "career-tools-deep-dives",
+      "rationale": "career-tools.md summarizes ~10 sub-tools; each (ATS checker depth, cover-letter generator, bio/elevator-pitch, LinkedIn optimizer, keyword optimizer, interview prep, salary insights, career paths) can become its own 1000+ word how-to page with examples + FAQ.",
+      "candidatePages": [
+        "guides/cover-letter-generator",
+        "guides/linkedin-optimizer",
+        "guides/keyword-optimizer",
+        "guides/interview-prep",
+        "guides/salary-insights"
+      ]
+    },
+    {
+      "id": "batch-02",
+      "status": "pending",
+      "category": "company-side-guides",
+      "rationale": "for-companies.md is a single overview; split into per-task guides (post a job, screen applicants, initiate verification, search talent, write employee reviews).",
+      "candidatePages": [
+        "guides/post-a-job",
+        "guides/screen-applicants",
+        "guides/initiate-employment-verification",
+        "guides/talent-search"
+      ]
+    },
+    {
+      "id": "batch-03",
+      "status": "pending",
+      "category": "resume-template-pages",
+      "rationale": "One programmatic page per resume template with screenshots, best-for guidance, and ATS notes.",
+      "candidatePages": ["templates/* (one per shipped template)"]
+    }
+  ],
+  "workflow": [
+    "Read this tracker.",
+    "Pick the first pending batch.",
+    "Confirm the candidate pages map to real app features (no fabrication).",
+    "Write each page to the SEO floor; wire into sidebars.ts.",
+    "yarn typecheck + yarn build clean.",
+    "Update this tracker; ONE commit per batch."
+  ],
+  "resumeInstructions": "Baseline is shipped. To deep-enrich, take the first 'pending' batch in enrichmentBacklog, write its pages to the SEO floor, add them to sidebars.ts, verify the build, mark the batch complete, and commit."
+}
