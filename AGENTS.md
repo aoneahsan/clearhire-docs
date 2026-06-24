@@ -29,6 +29,11 @@ HARD STOP when doc work outpaces the change → ship, then ONE line. No new summ
 Firebase Hosting site creation + `firebase deploy`, enabling GitHub Pages, and DNS for
 `clearhire-docs.aoneahsan.com` are owner-only — see the app repo's `clearhire/docs/MANUAL-TASKS.md`.
 
+## Gitignore Hygiene (IRON-SOLID)
+`.gitignore` stays current with the project structure — ignore only recoverable artifacts (build/`dist`/`www`/`node_modules`/logs/caches/IDE), never lose source. Custom rules always present: `*.ignore.*`, `project-record-ignore/`. This is a **PUBLIC** repo -> secrets/`.env`/keystores are NEVER tracked.
+Full rule + private/public protocol: `~/.claude/rules/project-config.md`.
+Gitignore Last Verified: 2026-06-24
+
 ## Last Updated
 
 2026-06-22

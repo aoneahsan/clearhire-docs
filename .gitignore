@@ -28,10 +28,18 @@ Thumbs.db
 
 # Env / secrets — PUBLIC repo: never commit real env, only .env.example
 .env
+.env.*
+!.env.example
 .env.local
 .env.*.local
 *.pem
 *.key
+*.jks
+*.keystore
+key.properties
+keystore.properties
+*service-account*.json
+.npmrc
 .firebase/
 firebase-debug.log
 .firebaserc.local
