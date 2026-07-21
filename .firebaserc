@@ -5,7 +5,16 @@
   "targets": {
     "clearhire-docs": {
       "hosting": {
-        "clearhire-docs": ["clearhire-docs"]
+        "clearhire-docs": [
+          "clearhire-docs"
+        ]
+      }
+    },
+    "clearhire-ai": {
+      "hosting": {
+        "clearhire-docs": [
+          "clearhire-docs"
+        ]
       }
     }
   },
