@@ -4,7 +4,7 @@
   "site": "clearhire-docs",
   "repo": "github.com/aoneahsan/clearhire-docs (PUBLIC)",
   "createdAt": "2026-06-22",
-  "lastUpdated": "2026-06-22",
+  "lastUpdated": "2026-07-21",
   "baselineComplete": true,
   "totalBaselinePages": 23,
   "wordsPerPageTarget": "700-1100",
@@ -73,7 +73,9 @@
       "status": "pending",
       "category": "resume-template-pages",
       "rationale": "One programmatic page per resume template with screenshots, best-for guidance, and ATS notes.",
-      "candidatePages": ["templates/* (one per shipped template)"]
+      "candidatePages": [
+        "templates/* (one per shipped template)"
+      ]
     }
   ],
   "workflow": [
@@ -84,5 +86,11 @@
     "yarn typecheck + yarn build clean.",
     "Update this tracker; ONE commit per batch."
   ],
-  "resumeInstructions": "Baseline is shipped. To deep-enrich, take the first 'pending' batch in enrichmentBacklog, write its pages to the SEO floor, add them to sidebars.ts, verify the build, mark the batch complete, and commit."
+  "resumeInstructions": "Baseline is shipped. To deep-enrich, take the first 'pending' batch in enrichmentBacklog, write its pages to the SEO floor, add them to sidebars.ts, verify the build, mark the batch complete, and commit.",
+  "accuracyPasses": [
+    {
+      "date": "2026-07-21",
+      "summary": "Accuracy pass vs the ClearHire app: sign-in corrected to Google-only (4 pages); iOS reframed from \"in development\" to not built; browser-extension page rewritten (LinkedIn/Indeed/Glassdoor only, Chrome-only target, browser-local data, no account sync); stale 1.9.x version claims removed; payment links parameterised; \"free\" removed as a selling adjective; white-label licence disclosed; local search added."
+    }
+  ]
 }

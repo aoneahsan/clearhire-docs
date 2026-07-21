@@ -3,7 +3,7 @@
 Public Docusaurus documentation site for the **ClearHire** app.
 
 > Global + workspace rules auto-load from `~/.claude/CLAUDE.md`, `~/.claude/rules/*.md`, and
-> `/home/ahsan/Documents/01-code/CLAUDE.md`. This file is project-specific only. `CLAUDE.md` and
+> `~/Documents/ahsan-work/code/CLAUDE.md`. This file is project-specific only. `CLAUDE.md` and
 > `AGENTS.md` are mirrors — keep both in sync.
 
 ## Task Speed Over Docs (IRON-SOLID — BEHAVIORAL)
@@ -22,7 +22,7 @@ line if anything. No new summary/status/completion files unless asked. Full rule
 | Node | >=18 |
 | Author | Ahsan Mahmood (aoneahsan@gmail.com) |
 | Live URL | https://clearhire-docs.aoneahsan.com (Firebase Hosting site `clearhire-docs` + GitHub Pages) |
-| Documents | the ClearHire app at `/home/ahsan/Documents/01-code/projects/clearhire` |
+| Documents | the ClearHire app at `~/Documents/ahsan-work/code/production-projects/clearhire` |
 | App URL | https://clearhire.aoneahsan.com |
 | Play Store | https://play.google.com/store/apps/details?id=com.aoneahsan.clearhire |
 | Dev port | 5962 (start) / 5963 (serve) |
@@ -33,7 +33,8 @@ line if anything. No new summary/status/completion files unless asked. Full rule
 | Rule | Detail |
 |---|---|
 | PUBLIC repo — no secrets | This repo is PUBLIC. NEVER commit real env/keys. Only `.env.example` if needed; `.env` stays git-ignored. |
-| Honest framing | Document only real, shipped features. iOS + the browser extension are in development / not yet published — never describe them as live. Verification proves the working relationship, not job performance. No fabricated stats. |
+| Honest framing | Document only real, shipped features. No fabricated stats. Verification proves the working relationship, not job performance. No "free/best/#1/top" as selling adjectives — state pricing factually instead. |
+| Verified product facts (2026-07-21) | **Sign-in is Google-only** (no email/password). **iOS does not exist** — no build, no date. **Extension is built (v1.1.1) but unpublished**; Chrome Web Store submission pending; supports **LinkedIn, Indeed, Glassdoor only**; its data is browser-local and does **not** sync to a ClearHire account; its analytics are opt-in, off by default. App analytics (Firebase/Amplitude/Clarity) have **no** user opt-out. A paid **white-label license** exists alongside the free public app. Never link a store URL that does not exist yet. |
 | Single source of truth | Every product fact comes from the ClearHire app code / README. Don't invent features or screens. |
 | SEO floor | Every page: unique title (50-60 chars) + description (140-160), definition-first intro, 3-6 H2 sections, FAQ on feature/guide pages, author credit on longer pages. |
 | One commit per batch | Docs enrichment is committed one batch at a time. |
@@ -62,9 +63,15 @@ Firebase Hosting site creation + `firebase deploy`, enabling GitHub Pages, and D
 Full rule + private/public protocol: `~/.claude/rules/project-config.md`.
 Gitignore Last Verified: 2026-06-24
 
+## Search
+
+Local search via `@easyops-cn/docusaurus-search-local` (no Algolia account). The index is built at
+compile time — **search only works against a real build** (`yarn build && yarn serve`), never `yarn start`.
+
 ## Last Updated
 
-2026-06-22
+2026-07-21 — accuracy pass vs the app: sign-in Google-only, iOS/extension claims corrected, version
+claims fixed, payment links parameterised, local search added, broken-link/anchor checks set to `throw`.
 
 
 ## Sub-agents & Skills — Main-Context-First (IRON-SOLID)

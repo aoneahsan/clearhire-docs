@@ -12,14 +12,14 @@ This ClearHire FAQ is a collection of plain answers to the questions people most
 
 ## Pricing and access
 
-### Is ClearHire free?
-Yes. ClearHire is free, with no subscriptions and no in-app purchases. It shows only first-party promotions for the developer's other apps — there are no third-party ad networks. Supporting the project at [aoneahsan.com/payment](https://aoneahsan.com/payment) is optional.
+### Does ClearHire cost anything?
+No. There are no subscriptions and no in-app purchases. It does show first-party promotions for the developer's other apps, including a promo card that opens shortly after launch; there are no third-party ad networks. A separate paid white-label license exists for organizations that want their own branded deployment — it has no effect on the public app. Supporting the project at [aoneahsan.com/payment](https://aoneahsan.com/payment?project-id=clearhire&project-identifier=com.aoneahsan.clearhire) is optional.
 
 ### Do I need an account to use it?
-Yes. Because ClearHire saves your profile, resumes, applications, and verification requests, you sign in with Google or email so your data persists and syncs across devices.
+Yes. Because ClearHire saves your profile, resumes, applications, and verification requests, you sign in so your data persists and syncs across devices. **Sign-in is Google-only** — there is no email-and-password registration. If you do not want to use a Google account, ClearHire is not usable today.
 
-### Is it free for companies too?
-Yes. Both the job-seeker and the [company](/features/for-companies) sides are free.
+### Does it cost anything for companies?
+No. Both the job-seeker and the [company](/features/for-companies) sides are free to use. Paying is only involved if a company licenses its own white-label deployment of the platform, which is a separate arrangement.
 
 ## Verification
 
@@ -57,13 +57,13 @@ Reviews are mutual and tied to a verified employment link, so they come from peo
 ## Platforms
 
 ### Is there an iOS app?
-Not yet. iOS is in development. ClearHire currently ships on the web and Android.
+No. There is no iOS build, and no release date has been set. ClearHire ships on the web and Android; on an iPhone or iPad, use the web app in Safari.
 
 ### Should I use the web app or the Android app?
 Either — they share one account and data. Use the [web app](https://clearhire.aoneahsan.com) on desktop and the [Android app](https://play.google.com/store/apps/details?id=com.aoneahsan.clearhire) on the go.
 
 ### Is the browser extension available?
-It is built but not yet published to any browser store. See [browser extension](/features/browser-extension).
+No. It is built, but the first Chrome Web Store submission is still pending, so there is nothing to install yet. When it ships it will support LinkedIn, Indeed, and Glassdoor only, and its data stays in your browser rather than syncing to your account. See [browser extension](/features/browser-extension).
 
 ## About
 

@@ -28,7 +28,7 @@ To operate, ClearHire relies on a small set of providers:
 
 | Provider | Purpose |
 | --- | --- |
-| Firebase Auth | Sign-in with Google or email |
+| Firebase Auth | Sign-in (Google only) |
 | Firebase Analytics | Product analytics |
 | Microsoft Clarity | Product/usage insight |
 | Amplitude | Product analytics |
@@ -43,7 +43,9 @@ These help the app function, understand usage, and stay reliable. ClearHire does
 
 ## First-party promotions only
 
-ClearHire is free and shows only first-party promotions for the developer's other apps. There are no third-party ad networks, which means your data is not sold or shared to power external ad targeting.
+ClearHire shows promotions for the developer's other apps only — including a promo card that opens shortly after launch. There are no third-party ad networks, which means your data is not sold or shared to power external ad targeting.
+
+Be aware that the analytics providers listed above still run regardless of the promotions: Microsoft Clarity in particular records usage sessions. There is no in-app toggle to switch product analytics off.
 
 ## Your rights: export and delete
 

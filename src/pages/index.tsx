@@ -96,7 +96,7 @@ function AuthorStrip(): ReactNode {
     <section className={styles.authorStrip}>
       <div className="container">
         <p>
-          ClearHire is free to use. Get it on{' '}
+          ClearHire has no subscriptions or in-app purchases. Get it on{' '}
           <Link href={PLAY_URL}>Google Play</Link> or open it on the{' '}
           <Link href={APP_URL}>web</Link>. Built and maintained by{' '}
           <Link href="https://aoneahsan.com">Ahsan Mahmood</Link> —{' '}
@@ -113,7 +113,7 @@ export default function Home(): ReactNode {
   return (
     <Layout
       title={`${siteConfig.title} — Verified resumes & employment`}
-      description="Documentation for ClearHire: build verified resumes, prove your employment history, search jobs, track applications, and exchange mutual reviews. Free on web and Android."
+      description="Documentation for ClearHire: build verified resumes, prove your employment history, search jobs, track applications, and exchange mutual reviews. Available on web and Android."
     >
       <HomepageHeader />
       <main>

@@ -1,7 +1,7 @@
 ---
 id: changelog
 title: "ClearHire Changelog: Versions and Notable Releases"
-description: A high-level, honest changelog for ClearHire covering the current 1.9.x Android release and the major capabilities shipped — resumes, verification, and tools.
+description: A high-level, honest changelog for ClearHire covering the 1.10.x line and the major capabilities shipped — resumes, verification, job search, and career tools.
 slug: /changelog
 sidebar_label: Changelog
 ---
@@ -12,7 +12,9 @@ This ClearHire changelog is a high-level, honest record of the app's notable cha
 
 ## Current release
 
-**Version 1.9.x — 2026.** The 1.9.x line is the current public release, with the Android app live on [Google Play](https://play.google.com/store/apps/details?id=com.aoneahsan.clearhire) and the web app at [clearhire.aoneahsan.com](https://clearhire.aoneahsan.com). This release brings together the platform's core: a profile-driven resume builder, employment verification, job search and application tracking, mutual reviews, career tools, gamification, and analytics.
+**Version 1.10.x — 2026.** These docs describe the 1.10.x line: a profile-driven resume builder, employment verification, job search and application tracking, mutual reviews, career tools, gamification, and analytics. The web app at [clearhire.aoneahsan.com](https://clearhire.aoneahsan.com) runs this line.
+
+The Android app is live on [Google Play](https://play.google.com/store/apps/details?id=com.aoneahsan.clearhire), but the version installed there may trail the web app while an update is in review. **The Play listing is the authoritative source for which Android version is currently published** — check it there rather than assuming it matches this page. Some earlier version numbers (1.9.0 and 1.9.1) were prepared internally and never published at all, so they do not appear as releases here.
 
 ## Capabilities shipped
 
@@ -37,28 +39,28 @@ The following describe what is available in ClearHire today, grouped by area rat
 
 | Platform | Status |
 | --- | --- |
-| Web (PWA) | Live |
-| Android | Live on Google Play (1.9.x) |
-| iOS | In development — not yet published |
-| Browser extension | Built — not yet published |
+| Web (PWA) | Live at [clearhire.aoneahsan.com](https://clearhire.aoneahsan.com) |
+| Android | Live on [Google Play](https://play.google.com/store/apps/details?id=com.aoneahsan.clearhire) — see the listing for the published version |
+| iOS | Not built. No release planned or dated |
+| Browser extension | Built (1.1.1) — Chrome Web Store submission pending; not installable |
 
-## In development
+## Not yet available
 
-- **iOS app** — not yet published.
-- **Browser extension** for capturing jobs into the tracker — built but not yet published. See [browser extension](/features/browser-extension).
+- **iOS app** — there is no iOS build. It is not in review, not in beta, and has no target date.
+- **Browser extension** — built at version 1.1.1, but the first Chrome Web Store submission is still pending, so it cannot be installed from any store. It supports LinkedIn, Indeed, and Glassdoor only, and its data stays local to the browser. See [browser extension](/features/browser-extension).
 
-When iOS or the extension is published, this changelog and the relevant pages will be updated with concrete availability.
+If either ships, this changelog and the relevant pages will be updated with the real store link.
 
 ## FAQ
 
 ### What version is ClearHire on?
-The current public line is 1.9.x, with the Android app live on [Google Play](https://play.google.com/store/apps/details?id=com.aoneahsan.clearhire).
+These docs describe the 1.10.x line, which the web app runs. For the Android version currently published, check the [Google Play listing](https://play.google.com/store/apps/details?id=com.aoneahsan.clearhire) — it is authoritative and may trail the web app while an update is in review.
 
 ### Why aren't there exact release dates?
 This changelog stays honest and high-level. Rather than fabricate precise dates, it records capabilities and the broad year (2026).
 
 ### Is iOS in this release?
-No. iOS is in development and not yet published. The current release covers web and Android.
+No. There is no iOS build at all — it is not in review and has no target date. ClearHire ships on web and Android.
 
 ### Where do I report an issue or request a feature?
 Reach the developer via [aoneahsan.com](https://aoneahsan.com) or the links on the [author page](/about-the-author).

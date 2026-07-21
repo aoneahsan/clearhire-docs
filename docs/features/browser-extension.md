@@ -1,63 +1,95 @@
 ---
 id: browser-extension
-title: "ClearHire Browser Extension: Capture Jobs to Track"
-description: The ClearHire browser extension captures jobs from the web into your application tracker. It is built but not yet published to any browser store.
+title: "ClearHire Browser Extension: Capture and Auto-Fill"
+description: The ClearHire browser extension captures LinkedIn profiles and auto-fills job applications on LinkedIn, Indeed, and Glassdoor. It is built but not yet published.
 slug: /features/browser-extension
 sidebar_label: Browser Extension
 ---
 
 # ClearHire Browser Extension
 
-The ClearHire browser extension is a planned add-on for Chrome, Firefox, and Edge that captures job listings you find on the web and saves them into your ClearHire [application tracker](/features/applications-tracking). It is designed to remove the friction of copying details by hand: see a role you like, capture it, and it appears in your pipeline ready to manage.
+The ClearHire browser extension is a desktop Chrome add-on that captures a LinkedIn profile, auto-fills job-application forms, and keeps a local list of jobs you have viewed — on three sites only: **LinkedIn, Indeed, and Glassdoor**. Its purpose is narrow on purpose: stop you retyping the same details into every application form.
 
-:::note Status: built but not yet published
-The extension has been built but is **not yet published** to the Chrome Web Store, Firefox Add-ons, or Edge Add-ons. The behavior described here is the intended design. Until it is published, capture and update your applications manually inside the [web app](https://clearhire.aoneahsan.com) or the [Android app](https://play.google.com/store/apps/details?id=com.aoneahsan.clearhire).
+:::warning Status: built, not yet published
+The extension is built (version 1.1.1) but **is not published on any browser store yet**. The first Chrome Web Store submission is still pending review, so there is no install link to give you. Everything below describes the built behavior, not something you can install today. Until it ships, manage applications directly in the [web app](https://clearhire.aoneahsan.com) or the [Android app](https://play.google.com/store/apps/details?id=com.aoneahsan.clearhire).
 :::
 
-## What it is intended to do
+## Supported sites
 
-- **Capture jobs while you browse.** From a listing in your browser, save the role into ClearHire without retyping it.
-- **Feed your tracker.** Captured jobs land in [application tracking](/features/applications-tracking) so they start at the applied stage and move along your pipeline.
-- **Keep your search in one place.** Roles you find anywhere on the web can be collected into the same organized view as roles found in [job search](/features/job-search).
+The extension runs on three sites and nowhere else. It has no permission to read any other page.
 
-## Intended cross-browser support
-
-| Browser | Intended support | Current status |
+| Site | Where it runs | What it does there |
 | --- | --- | --- |
-| Chrome | Yes | Not yet published |
-| Firefox | Yes | Not yet published |
-| Edge | Yes | Not yet published |
+| LinkedIn | Profile pages (`/in/*`) and job pages (`/jobs/*`) only | Capture profile details; auto-fill applications; track a job |
+| Indeed | Site-wide | Auto-fill applications; track a job |
+| Glassdoor | Site-wide | Auto-fill applications; track a job |
 
-## How it will fit your workflow
+On LinkedIn it is deliberately path-restricted, so it does not run on your feed, messaging, or notifications.
 
-1. Find a role on any site while browsing.
-2. Use the extension to capture it into ClearHire.
-3. Open [application tracking](/features/applications-tracking) to manage it.
-4. Tailor a CV in the [resume builder](/features/resume-builder) and apply.
+## What it does
 
-## What the extension does not do (and will not claim to)
+- **Capture a LinkedIn profile.** From a profile page, capture name, headline, current company, location, and summary, plus skills, experience, education, and certifications. The capture is saved on your device for reference.
+- **Auto-fill an application form.** On a detected application form on LinkedIn Jobs, Indeed, or Glassdoor, fill in the details you have stored.
+- **Track a job you viewed.** Save a job to a local list so you can return to it. The list keeps up to 100 entries.
+- **Work by keyboard.** `Alt+Shift+E` to capture, `Alt+Shift+F` to auto-fill, `Alt+Shift+T` to track a job, `Alt+Shift+O` to open the popup.
 
-- **It is not live yet.** Do not expect to install it from a store today; it is in development.
-- **It will not apply for you.** It captures listings; you still decide where and when to apply.
-- **It will not silently harvest data.** Its purpose is to help you capture roles you choose, into your own tracker.
+## Where the data lives
 
-When the extension ships, this page will be updated with install links and exact behavior. Until then, treat everything above as the intended design.
+Extension data — your stored application details, captured profiles, tracked jobs, and settings — is kept **locally in your browser** using `chrome.storage`. It is not a second view of your ClearHire account.
+
+Two consequences worth being clear about:
+
+- **Jobs tracked in the extension do not appear in the app's [application tracking](/features/applications-tracking).** The two lists are separate. To track an application in your ClearHire account, log it in the app.
+- **Nothing syncs across devices.** Install it on a second computer and it starts empty.
+
+Optional Google sign-in (via the Chrome Identity API) exists only to show your name, email, and picture inside the extension. It is not required to use any feature.
+
+## Privacy
+
+- **Analytics and error reporting are off by default.** They are genuinely opt-in: you turn them on in the options page and can turn them off again at any time.
+- **No remote scripts are loaded**, and no third-party auth SDK is bundled.
+- **Data is not sold or shared.**
+
+## Browser availability
+
+Chrome is the only build target today, and the Chrome Web Store is the first and only submission prepared. Brave installs from the same Chrome listing.
+
+| Browser | Status |
+| --- | --- |
+| Chrome | Built; first Chrome Web Store submission pending |
+| Brave | Would install from the Chrome listing once it is published |
+| Edge | Not submitted; listing not yet written |
+| Firefox | Not submitted; listing not yet written |
+
+Edge and Firefox are possible later but are not committed to a date. Treat them as unavailable.
+
+## What the extension does not do
+
+- **It is not installable today.** There is no store listing yet, in any browser.
+- **It does not work on other job sites.** LinkedIn, Indeed, and Glassdoor only — it does not support Workable, Greenhouse, Lever, or company career pages.
+- **It does not sync with your ClearHire account.** Its data stays in your browser.
+- **It does not apply for you.** It fills forms you opened; you review and submit.
+
+When it is published, this page and the [changelog](/changelog) will be updated with the real install link.
 
 ## FAQ
 
 ### Can I install the extension now?
-No. It is built but not yet published to any browser store. Use the [web](https://clearhire.aoneahsan.com) or [Android](https://play.google.com/store/apps/details?id=com.aoneahsan.clearhire) app to manage applications for now.
+No. It is built but has not been published to any browser store. Use the [web app](https://clearhire.aoneahsan.com) or the [Android app](https://play.google.com/store/apps/details?id=com.aoneahsan.clearhire) in the meantime.
+
+### Which sites does it support?
+LinkedIn, Indeed, and Glassdoor. No others.
+
+### Will jobs I track in the extension show up in my ClearHire tracker?
+No. Extension data is stored locally in your browser and is separate from your account. Log applications in the app to see them in [application tracking](/features/applications-tracking).
 
 ### Which browsers will it support?
-The intended targets are Chrome, Firefox, and Edge. Final availability per store will be confirmed at publication.
+Chrome is the build target and the first submission. Brave uses the same listing. Edge and Firefox are not submitted and have no date.
 
-### What problem does it solve?
-It removes manual copying. Instead of retyping a listing's details, you capture the role straight into [application tracking](/features/applications-tracking).
-
-### Will it work with the Android app?
-Browser extensions run in desktop browsers. Your captured jobs sync to your ClearHire account, so they are visible in the Android app's tracker too.
+### Does it collect analytics?
+Only if you switch it on. Analytics and error reporting ship off by default.
 
 ### How will I know when it launches?
-Watch the [changelog](/changelog). This page and the changelog will be updated with store links once the extension is published.
+Watch the [changelog](/changelog). Both pages will be updated with the store link once it is published.
 
 > Built and maintained by [Ahsan Mahmood](https://aoneahsan.com) — [LinkedIn](https://linkedin.com/in/aoneahsan) · [GitHub](https://github.com/aoneahsan).

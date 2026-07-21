@@ -67,7 +67,7 @@ When the employee requests verification, an authorized contact confirms it befor
 ### Are employee reviews anonymous?
 Reviews are tied to a verified employment link, so they reflect a real working relationship rather than anonymous posting. See [company reviews](/features/company-reviews).
 
-### Is ClearHire free for companies too?
-Yes. ClearHire is free, with no subscriptions or in-app purchases, for both job seekers and companies.
+### Does ClearHire cost anything for companies?
+No. There are no subscriptions or in-app purchases, for either job seekers or companies. The one paid option is a separate white-label license for organizations that want their own branded deployment of the platform — it is not required to post jobs or hire on ClearHire itself.
 
 > Built and maintained by [Ahsan Mahmood](https://aoneahsan.com) — [LinkedIn](https://linkedin.com/in/aoneahsan) · [GitHub](https://github.com/aoneahsan).

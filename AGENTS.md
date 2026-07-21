@@ -14,9 +14,26 @@ HARD STOP when doc work outpaces the change → ship, then ONE line. No new summ
 - yarn only (`nvm → npm global → yarn local`); never npm/pnpm. Node >=18.
 - Live URL: https://clearhire-docs.aoneahsan.com (Firebase Hosting site `clearhire-docs` + GitHub Pages).
 - Baseline: 23 pages covering every shipped feature. Enrichment backlog: `docs/tracking/clearhire-docs-content-tracker.json`.
-- Honest framing: only real features; iOS + browser extension are in development (not live); verification proves the relationship, not performance; no fabricated stats.
+- Honest framing: only real features; verification proves the relationship, not performance; no fabricated stats; no "free/best/#1/top" as selling adjectives — state pricing factually.
 - Build gates: `yarn typecheck` exit 0 · `yarn build` exit 0. Agent never runs `yarn start`.
+- Local search via `@easyops-cn/docusaurus-search-local` — the index exists only after a real build, so verify with `yarn build && yarn serve`, never `yarn start`.
 - ONE commit per enrichment batch.
+
+## Verified product facts (2026-07-21) — do not regress these
+
+- **Sign-in is Google-only.** There is no email/password registration.
+- **iOS does not exist** — no build, not in review, no date. Never write "in development".
+- **The browser extension is built (v1.1.1) but published nowhere.** Chrome Web Store submission is
+  pending. It supports **LinkedIn, Indeed, Glassdoor only** (never Workable/Greenhouse/Lever, never
+  "25+ sites"), its data is browser-local and does **not** sync to a ClearHire account, and its
+  analytics are opt-in and off by default. Never link a store URL that does not exist yet.
+- **App analytics** (Firebase, Amplitude, Microsoft Clarity) have **no** user opt-out — only the
+  extension's analytics are opt-in.
+- **Pricing:** the public app costs nothing; a separate paid **white-label license** exists.
+- **Versions:** docs describe the 1.10.x line. 1.9.0/1.9.1 were never published — do not cite them.
+  The Play listing is authoritative for the published Android version.
+- **Support link** is always
+  `https://aoneahsan.com/payment?project-id=clearhire&project-identifier=com.aoneahsan.clearhire`.
 
 ## Hard checks before editing
 
@@ -36,7 +53,8 @@ Gitignore Last Verified: 2026-06-24
 
 ## Last Updated
 
-2026-06-22
+2026-07-21 — accuracy pass vs the app: sign-in Google-only, iOS/extension claims corrected, version
+claims fixed, payment links parameterised, local search added, broken-link/anchor checks set to `throw`.
 
 
 ## Sub-agents & Skills — Main-Context-First (IRON-SOLID)

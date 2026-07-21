@@ -1,6 +1,6 @@
 # ClearHire Docs
 
-Public documentation site for **ClearHire** — a free resume builder and verified-employment
+Public documentation site for **ClearHire** — a resume builder and verified-employment
 job platform. Built with [Docusaurus](https://docusaurus.io), dual-hosted on Firebase Hosting
 and GitHub Pages.
 
@@ -44,4 +44,4 @@ docs/tracking/clearhire-docs-content-tracker.json  # resumable enrichment backlo
 
 ## License
 
-MIT © Ahsan Mahmood. ClearHire is free to use.
+MIT © Ahsan Mahmood.

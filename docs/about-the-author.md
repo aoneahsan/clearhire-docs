@@ -8,7 +8,7 @@ sidebar_label: Author
 
 # About the Author of ClearHire
 
-The author of ClearHire is Ahsan Mahmood, a full-stack developer who designs, builds, and maintains the app along with many other web and mobile products. ClearHire reflects his focus on practical, free tools built with React, Capacitor, and Firebase — shipped to real users on the web and Android.
+The author of ClearHire is Ahsan Mahmood, a full-stack developer who designs, builds, and maintains the app along with many other web and mobile products. ClearHire reflects his focus on practical tools built with React, Capacitor, and Firebase — shipped to real users on the web and Android at no cost to them.
 
 <div className="ch-author-card">
 
@@ -26,16 +26,16 @@ Full-stack developer specializing in React and Capacitor, building cross-platfor
 
 ## What he builds
 
-Ahsan builds full-stack applications end to end — frontend, mobile, and backend integration — with an emphasis on shipping usable products rather than demos. ClearHire is one example: a free [resume builder](/features/resume-builder) and [verified-employment](/features/employment-verification) job platform that runs as a web PWA and an Android app from a single React + Capacitor codebase.
+Ahsan builds full-stack applications end to end — frontend, mobile, and backend integration — with an emphasis on shipping usable products rather than demos. ClearHire is one example: a [resume builder](/features/resume-builder) and [verified-employment](/features/employment-verification) job platform that runs as a web PWA and an Android app from a single React + Capacitor codebase.
 
-His work spans many published projects and reusable npm packages, with a consistent set of standards: client-side-first processing where possible, honest product framing, and free tools supported only by first-party promotion rather than third-party ad networks.
+His work spans many published projects and reusable npm packages, with a consistent set of standards: client-side-first processing where possible, honest product framing, and tools that cost users nothing, supported by first-party promotion rather than third-party ad networks.
 
 ## About ClearHire
 
-ClearHire brings employment verification, resume building, job search, application tracking, and mutual reviews into one free app. To try it, open the [web app](https://clearhire.aoneahsan.com) or get it on [Google Play](https://play.google.com/store/apps/details?id=com.aoneahsan.clearhire). New to it? Start with the [introduction](/intro) and the [quick start](/getting-started/quick-start).
+ClearHire brings employment verification, resume building, job search, application tracking, and mutual reviews into one app. To try it, open the [web app](https://clearhire.aoneahsan.com) or get it on [Google Play](https://play.google.com/store/apps/details?id=com.aoneahsan.clearhire). New to it? Start with the [introduction](/intro) and the [quick start](/getting-started/quick-start).
 
 ## Get in touch
 
-For questions, feedback, or collaboration, reach Ahsan through [aoneahsan.com](https://aoneahsan.com) or any of the links above. If ClearHire saves you time, an optional tip at [aoneahsan.com/payment](https://aoneahsan.com/payment) supports continued development — it is never required.
+For questions, feedback, or collaboration, reach Ahsan through [aoneahsan.com](https://aoneahsan.com) or any of the links above. If ClearHire saves you time, an optional tip at [aoneahsan.com/payment](https://aoneahsan.com/payment?project-id=clearhire&project-identifier=com.aoneahsan.clearhire) supports continued development — it is never required.
 
 > Built and maintained by [Ahsan Mahmood](https://aoneahsan.com) — [LinkedIn](https://linkedin.com/in/aoneahsan) · [GitHub](https://github.com/aoneahsan).

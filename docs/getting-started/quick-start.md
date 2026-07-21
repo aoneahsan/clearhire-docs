@@ -15,7 +15,7 @@ You can follow along in the web app at [clearhire.aoneahsan.com](https://clearhi
 ## Step 1: Create your account
 
 1. Open the [web app](https://clearhire.aoneahsan.com) or launch ClearHire on Android.
-2. Choose **Sign in with Google** for the fastest setup, or register with an **email address and password**.
+2. Choose **Continue with Google** — this is the only sign-in method. There is no email-and-password registration; signing in with Google creates your account if you do not have one.
 3. Confirm you are signed in — your name or avatar appears in the header.
 
 Your account is what stores your profile, resumes, applications, and verification requests, so this step is required before you can save anything.

@@ -34,18 +34,18 @@ You advance each application as it moves, so your dashboard always reflects real
 - Find roles in [job search](/features/job-search), then log them here.
 - Tailor and export a CV in the [resume builder](/features/resume-builder) for each application.
 - Review your activity in [analytics](/features/analytics), which can reflect application progress alongside profile views and resume downloads.
-- Capture roles from the web with the [browser extension](/features/browser-extension) once it is published.
 
 ## What application tracking does not do
 
 - **It does not apply for you.** You submit applications; ClearHire records and organizes them.
-- **It does not read your inbox.** Stage changes are yours to update (until automated capture is published); the tracker reflects what you log.
+- **It does not read your inbox.** Stage changes are yours to update; the tracker reflects what you log.
+- **It is not fed by the browser extension.** The [extension](/features/browser-extension) keeps its own job list locally in your browser; those entries do not appear here. (It is also not published yet.)
 - **It does not guarantee responses.** Tracking improves your follow-through, not an employer's reply rate.
 
 ## FAQ
 
 ### Do I have to update stages manually?
-Yes — you move each application along as it progresses. This keeps the pipeline accurate and under your control. Automated capture via the [browser extension](/features/browser-extension) is built but not yet published.
+Yes. You add each application and move it along as it progresses — there is no automatic capture into this tracker from any source, including the [browser extension](/features/browser-extension), whose job list is separate and local to your browser.
 
 ### Can I track applications to jobs found outside ClearHire?
 The tracker is most directly tied to roles in the app, but its value is organizing your whole search. Logging external applications keeps your pipeline complete.

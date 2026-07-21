@@ -27,7 +27,7 @@ const config: Config = {
   projectName: 'clearhire-docs',
 
   onBrokenLinks: 'throw',
-  onBrokenAnchors: 'warn',
+  onBrokenAnchors: 'throw',
 
   // SEO + AI-citability head tags layered on top of Docusaurus per-page meta.
   // The JSON-LD payloads (WebSite, Organization, SoftwareApplication) help
@@ -126,9 +126,30 @@ const config: Config = {
 
   markdown: {
     mermaid: true,
-    hooks: { onBrokenMarkdownLinks: 'warn' },
+    hooks: { onBrokenMarkdownLinks: 'throw' },
   },
-  themes: ['@docusaurus/theme-mermaid'],
+
+  themes: [
+    '@docusaurus/theme-mermaid',
+    // Offline/local search — this is a PUBLIC docs site with no Algolia account,
+    // so the index is built at compile time and shipped with the static output.
+    // Note: search only works against a real build (`yarn build && yarn serve`),
+    // not `yarn start`.
+    [
+      '@easyops-cn/docusaurus-search-local',
+      {
+        hashed: true,
+        indexDocs: true,
+        indexPages: true,
+        indexBlog: false,
+        docsRouteBasePath: '/',
+        highlightSearchTermsOnTargetPage: true,
+        explicitSearchResultPath: true,
+        searchBarShortcut: true,
+        searchBarShortcutHint: true,
+      },
+    ],
+  ],
 
   presets: [
     [
@@ -144,7 +165,13 @@ const config: Config = {
         },
         blog: false,
         theme: { customCss: './src/css/custom.css' },
-        sitemap: { changefreq: 'weekly', priority: 0.7, lastmod: 'date' },
+        sitemap: {
+          changefreq: 'weekly',
+          priority: 0.7,
+          lastmod: 'date',
+          // /search is a utility page with no indexable content of its own.
+          ignorePatterns: ['/search'],
+        },
       } satisfies Preset.Options,
     ],
   ],
@@ -155,12 +182,12 @@ const config: Config = {
       {
         name: 'description',
         content:
-          'Documentation for ClearHire — build verified resumes, prove your employment history, search jobs, and track applications. Free, ad-supported by first-party promotions only. Maintained by Ahsan Mahmood.',
+          'Documentation for ClearHire — build verified resumes, prove your employment history, search jobs, and track applications. Available on web and Android. Maintained by Ahsan Mahmood.',
       },
       {
         name: 'keywords',
         content:
-          'clearhire, resume builder, cv builder, employment verification, verified employment, job search, applicant tracking, ats resume checker, cover letter generator, mutual reviews, job application tracker, career tools, free resume builder',
+          'clearhire, resume builder, cv builder, employment verification, verified employment, job search, applicant tracking, ats resume checker, cover letter generator, mutual reviews, job application tracker, career tools',
       },
       { name: 'author', content: 'Ahsan Mahmood' },
       {
@@ -254,7 +281,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Ahsan Mahmood. Built with Docusaurus. ClearHire is free to use.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Ahsan Mahmood. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,

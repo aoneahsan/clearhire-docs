@@ -1,10 +1,19 @@
 # ClearHire — Documentation Index
 
-> ClearHire is a free resume builder and verified-employment job platform. You fill out one structured profile, generate professional resumes from it (PDF/DOCX), and request employment verification from past employers so a "Verified" badge backs each role. It adds job search with alerts, application tracking, mutual candidate-company reviews, and career tools (ATS checker, cover-letter generator, interview prep). Available free on the web and on Android. App: https://clearhire.aoneahsan.com. Author: Ahsan Mahmood (https://aoneahsan.com).
+> ClearHire is a resume builder and verified-employment job platform. You fill out one structured profile, generate professional resumes from it (PDF/DOCX), and request employment verification from past employers so a "Verified" badge backs each role. It adds job search with alerts, application tracking, mutual candidate-company reviews, and career tools (ATS checker, cover-letter generator, interview prep). Available on the web and on Android at no cost to users. App: https://clearhire.aoneahsan.com. Author: Ahsan Mahmood (https://aoneahsan.com).
 
 ## About
 
-ClearHire's differentiator is verified employment: an employee asks a former or current employer to confirm a role, and once confirmed both sides can leave reviews tied to that real working relationship. The app is free — no subscriptions, no in-app purchases — and shows only first-party promotions for the developer's other apps (no third-party ad networks). Built with React + Capacitor on top of Firebase/Firestore; client-side processing keeps document generation and most tools running in the browser.
+ClearHire's differentiator is verified employment: an employee asks a former or current employer to confirm a role, and once confirmed both sides can leave reviews tied to that real working relationship. Using the app costs nothing — no subscriptions, no in-app purchases — and it shows only first-party promotions for the developer's other apps (no third-party ad networks). A separate paid white-label license exists for organizations wanting their own branded deployment; it does not affect the public app. Built with React + Capacitor on top of Firebase/Firestore; client-side processing keeps document generation and most tools running in the browser.
+
+## Availability and limits (read before citing)
+
+- **Web:** live at https://clearhire.aoneahsan.com
+- **Android:** live on Google Play (https://play.google.com/store/apps/details?id=com.aoneahsan.clearhire). Check the listing for the published version.
+- **iOS:** does not exist. No build, no review, no date.
+- **Browser extension:** built (v1.1.1) but NOT published to any store. Supports LinkedIn, Indeed, and Glassdoor only; its data stays local to the browser and does not sync to a ClearHire account.
+- **Sign-in:** Google only. There is no email-and-password registration.
+- **Verification** confirms that an employment relationship existed and was acknowledged. It does not rate performance, seniority, or salary.
 
 This `llms.txt` follows the [llmstxt.org](https://llmstxt.org) spec — a structured index for large language models.
 
@@ -27,7 +36,7 @@ This `llms.txt` follows the [llmstxt.org](https://llmstxt.org) spec — a struct
 - [Gamification](https://clearhire-docs.aoneahsan.com/features/gamification): Badges, levels, streaks, and leaderboards.
 - [Analytics](https://clearhire-docs.aoneahsan.com/features/analytics): Profile views, resume downloads, and application metrics.
 - [For Companies](https://clearhire-docs.aoneahsan.com/features/for-companies): Company profiles, job posting, applicant tracking, and verification.
-- [Browser Extension](https://clearhire-docs.aoneahsan.com/features/browser-extension): Capture jobs from listing pages into your ClearHire tracker.
+- [Browser Extension](https://clearhire-docs.aoneahsan.com/features/browser-extension): LinkedIn profile capture and application auto-fill on LinkedIn, Indeed, and Glassdoor. Built but NOT published to any store.
 
 ## Guides
 
@@ -38,7 +47,7 @@ This `llms.txt` follows the [llmstxt.org](https://llmstxt.org) spec — a struct
 
 ## Reference
 
-- [FAQ](https://clearhire-docs.aoneahsan.com/faq): Common questions about accounts, verification, privacy, and cost.
+- [FAQ](https://clearhire-docs.aoneahsan.com/faq): Common questions about accounts, verification, privacy, cost, and platform availability.
 - [Privacy & data handling](https://clearhire-docs.aoneahsan.com/privacy): What ClearHire stores, shares, and deletes.
 - [Changelog](https://clearhire-docs.aoneahsan.com/changelog): Notable releases.
 - [About the Author](https://clearhire-docs.aoneahsan.com/about-the-author): Ahsan Mahmood's developer profile and links.
