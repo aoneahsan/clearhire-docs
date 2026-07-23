@@ -9,13 +9,6 @@
           "clearhire-docs"
         ]
       }
-    },
-    "clearhire-ai": {
-      "hosting": {
-        "clearhire-docs": [
-          "clearhire-docs"
-        ]
-      }
     }
   },
   "etags": {}
