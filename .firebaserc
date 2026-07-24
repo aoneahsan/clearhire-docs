@@ -1,9 +1,9 @@
 {
   "projects": {
-    "default": "clearhire-docs"
+    "default": "clearhire-ai"
   },
   "targets": {
-    "clearhire-docs": {
+    "clearhire-ai": {
       "hosting": {
         "clearhire-docs": [
           "clearhire-docs"

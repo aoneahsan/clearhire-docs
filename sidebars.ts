@@ -34,6 +34,7 @@ const sidebars: SidebarsConfig = {
         'features/career-tools',
         'features/gamification',
         'features/analytics',
+        'features/notifications',
         'features/for-companies',
         'features/browser-extension',
       ],

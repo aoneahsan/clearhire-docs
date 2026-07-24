@@ -1,7 +1,7 @@
 ---
 id: changelog
 title: "ClearHire Changelog: Versions and Notable Releases"
-description: A high-level, honest changelog for ClearHire covering the 1.10.x line and the major capabilities shipped — resumes, verification, job search, and career tools.
+description: A high-level, honest changelog for ClearHire covering the 1.12.x line and the major capabilities shipped — resumes, verification, job search, and career tools.
 slug: /changelog
 sidebar_label: Changelog
 ---
@@ -12,9 +12,19 @@ This ClearHire changelog is a high-level, honest record of the app's notable cha
 
 ## Current release
 
-**Version 1.10.x — 2026.** These docs describe the 1.10.x line: a profile-driven resume builder, employment verification, job search and application tracking, mutual reviews, career tools, gamification, and analytics. The web app at [clearhire.aoneahsan.com](https://clearhire.aoneahsan.com) runs this line.
+**Version 1.12.x — 2026.** These docs describe the 1.12.x line: a profile-driven resume builder, employment verification, job search and application tracking, mutual reviews, career tools, gamification, and analytics. The web app at [clearhire.aoneahsan.com](https://clearhire.aoneahsan.com) runs this line.
 
 The Android app is live on [Google Play](https://play.google.com/store/apps/details?id=com.aoneahsan.clearhire), but the version installed there may trail the web app while an update is in review. **The Play listing is the authoritative source for which Android version is currently published** — check it there rather than assuming it matches this page. Some earlier version numbers (1.9.0 and 1.9.1) were prepared internally and never published at all, so they do not appear as releases here.
+
+### Recent additions
+
+The current release added a few ways ClearHire keeps you informed, plus internal delivery improvements:
+
+- **[In-app notifications](/features/notifications)** for application-status changes, employment-verification results, reviews, and occasional admin announcements.
+- **Optional [push notifications](/features/notifications)** you can turn on in Notification Settings — off by default; the app works fully without them.
+- **A few [transactional emails](/features/notifications)** (welcome, contact-form reply, account-deletion confirmation, identity-verification result). No marketing email.
+- **Anonymous [profile-view counting](/features/analytics)** — profile views now include signed-out visitors, counted at most once per visitor per day.
+- **Over-the-air updates on Android** so web-layer fixes can reach the installed app without waiting for a store release.
 
 ## Capabilities shipped
 
@@ -29,6 +39,7 @@ The following describe what is available in ClearHire today, grouped by area rat
 - **Career tools** including the ATS checker, cover-letter/bio/pitch generators, interview prep, salary insights, coding challenges, career paths, and optimizers — see [career tools](/features/career-tools).
 - **Gamification** with badges, levels, streaks, and leaderboards — see [gamification](/features/gamification).
 - **Analytics** for profile views, resume downloads, and application progress — see [analytics](/features/analytics).
+- **Notifications and emails** — in-app notifications, optional push, and a few transactional emails — see [notifications and emails](/features/notifications).
 
 ### Company
 - **Company profiles** with multiple companies, locations, and branding.
@@ -42,19 +53,19 @@ The following describe what is available in ClearHire today, grouped by area rat
 | Web (PWA) | Live at [clearhire.aoneahsan.com](https://clearhire.aoneahsan.com) |
 | Android | Live on [Google Play](https://play.google.com/store/apps/details?id=com.aoneahsan.clearhire) — see the listing for the published version |
 | iOS | Not built. No release planned or dated |
-| Browser extension | Built (1.1.1) — Chrome Web Store submission pending; not installable |
+| Browser extension | Built (1.2.0) — Chrome Web Store submission pending; not installable |
 
 ## Not yet available
 
 - **iOS app** — there is no iOS build. It is not in review, not in beta, and has no target date.
-- **Browser extension** — built at version 1.1.1, but the first Chrome Web Store submission is still pending, so it cannot be installed from any store. It supports LinkedIn, Indeed, and Glassdoor only, and its data stays local to the browser. See [browser extension](/features/browser-extension).
+- **Browser extension** — built at version 1.2.0, but the first Chrome Web Store submission is still pending, so it cannot be installed from any store. It supports LinkedIn, Indeed, and Glassdoor only, and its data stays local to the browser. See [browser extension](/features/browser-extension).
 
 If either ships, this changelog and the relevant pages will be updated with the real store link.
 
 ## FAQ
 
 ### What version is ClearHire on?
-These docs describe the 1.10.x line, which the web app runs. For the Android version currently published, check the [Google Play listing](https://play.google.com/store/apps/details?id=com.aoneahsan.clearhire) — it is authoritative and may trail the web app while an update is in review.
+These docs describe the 1.12.x line, which the web app runs. For the Android version currently published, check the [Google Play listing](https://play.google.com/store/apps/details?id=com.aoneahsan.clearhire) — it is authoritative and may trail the web app while an update is in review.
 
 ### Why aren't there exact release dates?
 This changelog stays honest and high-level. Rather than fabricate precise dates, it records capabilities and the broad year (2026).

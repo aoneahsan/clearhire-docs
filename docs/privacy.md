@@ -22,6 +22,8 @@ ClearHire stores the data needed to run the product in Firestore, including:
 
 Files you upload (for projects or portfolio) are stored in **FilesHub** rather than Firestore.
 
+ClearHire also keeps aggregate [profile-view counts](/features/analytics). For signed-out visitors, view counting uses a per-day identifier to avoid double-counting and does not build a personal profile of the viewer.
+
 ## Services ClearHire uses
 
 To operate, ClearHire relies on a small set of providers:
@@ -33,7 +35,9 @@ To operate, ClearHire relies on a small set of providers:
 | Microsoft Clarity | Product/usage insight |
 | Amplitude | Product analytics |
 | Sentry | Error monitoring |
-| FilesHub | Storage for uploaded files |
+| FilesHub | Storage for uploaded files and transactional email delivery |
+
+ClearHire sends a small number of transactional emails through FilesHub — welcome, contact-form reply, account-deletion confirmation, and identity-verification result. It sends no marketing email. See [notifications and emails](/features/notifications).
 
 These help the app function, understand usage, and stay reliable. ClearHire does **not** use third-party advertising networks; the only promotions shown are first-party ads for the developer's other apps.
 

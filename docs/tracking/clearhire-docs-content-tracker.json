@@ -4,7 +4,7 @@
   "site": "clearhire-docs",
   "repo": "github.com/aoneahsan/clearhire-docs (PUBLIC)",
   "createdAt": "2026-06-22",
-  "lastUpdated": "2026-07-21",
+  "lastUpdated": "2026-07-24",
   "baselineComplete": true,
   "totalBaselinePages": 23,
   "wordsPerPageTarget": "700-1100",
@@ -91,6 +91,10 @@
     {
       "date": "2026-07-21",
       "summary": "Accuracy pass vs the ClearHire app: sign-in corrected to Google-only (4 pages); iOS reframed from \"in development\" to not built; browser-extension page rewritten (LinkedIn/Indeed/Glassdoor only, Chrome-only target, browser-local data, no account sync); stale 1.9.x version claims removed; payment links parameterised; \"free\" removed as a selling adjective; white-label licence disclosed; local search added."
+    },
+    {
+      "date": "2026-07-24",
+      "summary": "Production-finalization round 2 pass: changelog version reframed 1.10.x -> 1.12.x (web app now 1.12.0), extension staged at 1.2.0 (not store-uploaded) with honest caveats kept, plus one round-2 changelog entry. New page features/notifications.md (in-app notifications, opt-in push, transactional emails) wired into sidebars.ts + Features category. analytics.md extended with anonymous profile-view counting (per-visitor per-day dedup, framed as approximate). privacy.md: FilesHub email delivery + anonymous view-count note. yarn build clean (onBrokenLinks:throw)."
     }
   ]
 }
