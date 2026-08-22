@@ -108,3 +108,16 @@ side carried sections the other lacked.
 
 2026-07-21 — accuracy pass vs the app: sign-in Google-only, iOS/extension claims corrected, version claims
 fixed, payment links parameterised, local search added, broken-link/anchor checks set to `throw`.
+
+## 🔴 Where the project state lives — read this before planning anything
+
+| Read first | [`../RESUME-HERE.md`](../RESUME-HERE.md) — the only file that has to be read whole |
+|---|---|
+
+Its §0 is the daily answer: what is done, what is left, what is waiting on the owner, what is next. **Every
+figure in it is read from [`../clearhire/docs/PROJECT-STATE.json`](../clearhire/docs/PROJECT-STATE.json),
+which is GENERATED** — `cd ../clearhire && yarn state` rewrites it, and `yarn state:assert` (part of
+`yarn test`) fails the suite when it is stale. 🔴 **Never retype a figure out of it into any file here.**
+Companions: `../STATUS.md` (narrative roll-up) · `../DECISIONS-LOG.md` (settled questions) ·
+`../clearhire/docs/features/<wave>/00-tracker.json` (**the truth**, sub-task by sub-task) ·
+`../clearhire/docs/MANUAL-TASKS.md` (owner-only). When prose and a tracker disagree, **the tracker wins**.
