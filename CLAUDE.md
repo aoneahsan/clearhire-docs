@@ -4,7 +4,7 @@ Public Docusaurus documentation site for the **ClearHire** app.
 
 **Mirror of `AGENTS.md`** — byte-identical except this line. Update one, update the other.
 
-| Context Budget Last Verified | 2026-08-17 — CLAUDE.md 6,269 B / no PENDING-TASKS.md; re-check due 2026-08-27 |
+| Context Budget Last Verified | 2026-09-03 — `wc -c CLAUDE.md` / no PENDING-TASKS.md; re-check due 2026-09-13 |
 |---|---|
 
 > Global + workspace rules auto-load every session (`~/.claude/rules/*.md`,
@@ -20,13 +20,13 @@ Public Docusaurus documentation site for the **ClearHire** app.
 | Package manager | yarn only (`nvm → npm global → yarn local`); never npm/pnpm |
 | Node | >=18 |
 | Author | Ahsan Mahmood (aoneahsan@gmail.com) |
-| Live URL | https://clearhire-docs.aoneahsan.com (Firebase Hosting site `clearhire-docs` + GitHub Pages) |
-| Documents | the ClearHire app at `~/Documents/ahsan-work/code/production-projects/clearhire` |
+| Live URL | https://clearhire-docs.aoneahsan.com — **GitHub Pages only** (`deploy-pages.yml` on every push to `main`; serving, verified 2026-09-03). No Firebase target |
+| Documents | the ClearHire **rebuild** (`../clearhire/`, branch `redevelop-v1`, Supabase backend, live since 2026-09-02). 🔴 **The 25 pages still describe the OLD Firebase app** — the alignment pass is phase DOC in `../remaining-work.md`; the intro is story surface `docs-site-intro` (GATE 4 owed) |
 | App URL | https://clearhire.aoneahsan.com |
-| Play Store | https://play.google.com/store/apps/details?id=com.aoneahsan.clearhire |
+| Play Store | https://play.google.com/store/apps/details?id=com.aoneahsan.clearhire — the 1.x listing; the 2.0 Android app is not built yet (wave 10) |
 | Dev port | 5962 (start) / 5963 (serve) |
 | Build gates | `yarn typecheck` exit 0 · `yarn build` (→ `./build`) exit 0 |
-| Baseline | 23 pages covering every shipped feature |
+| Baseline | 25 pages; content predates the rebuild (5 pages name Firebase/Firestore; `browser-extension.md` describes a feature that is OUT of scope for 2.0 — OD-164; `gamification.md` predates wave 8) |
 
 ## 🔴 Verified product facts (2026-07-21) — do not regress these
 
