@@ -1,7 +1,7 @@
 ---
 id: changelog
 title: "ClearHire Changelog: Versions and Notable Releases"
-description: A high-level, honest changelog for ClearHire covering the 1.12.x line and the major capabilities shipped — resumes, verification, job search, and career tools.
+description: A high-level, honest changelog for ClearHire — the 2.0 rebuild on a new backend, what it added and dropped, and the 1.12.x line before it.
 slug: /changelog
 sidebar_label: Changelog
 ---
@@ -12,7 +12,35 @@ This ClearHire changelog is a high-level, honest record of the app's notable cha
 
 ## Current release
 
-**Version 1.12.x — 2026.** These docs describe the 1.12.x line: a profile-driven resume builder, employment verification, job search and application tracking, mutual reviews, career tools, gamification, and analytics. The web app at [clearhire.aoneahsan.com](https://clearhire.aoneahsan.com) runs this line.
+### 2.0.0 — the rebuild
+
+> **This version replaces the backend. Existing installs start from an empty account — data from
+> earlier versions is not carried over. Export anything you need before updating.**
+
+That sentence is the whole of what changed for anyone who used ClearHire before, and it is deliberate
+rather than a fault: 2.0 is a rebuild on a different database, and nothing was migrated across.
+
+**What the rebuild changed under the surface:** the product runs on Supabase — a Postgres database
+with row-level security — instead of Firestore. Every page was rebuilt against an approved design
+rather than ported, which is why some screens read differently even where the feature is the same.
+
+**What is new to use:**
+
+- **[Challenges, badges and levels](/features/gamification)** with an opt-in leaderboard — and, to be
+  clear about what is *not* there, no streaks. Points come from finishing something, never from
+  opening the app.
+- **[System announcements](/features/notifications)** with three levels of loudness, one of which
+  cannot be dismissed.
+- **[Analytics](/features/analytics)** covering where a profile view came from, how long each
+  application stage has taken, and how each resume performs.
+- **A referral programme** — an invite link, points and a badge on every confirmed referral.
+
+**What was dropped:** the [browser extension](/features/browser-extension) is not part of ClearHire
+2.0. It was never published, and the page explains what to use instead.
+
+### The 1.x line
+
+**Version 1.12.x — 2026.** The 1.12.x line was: a profile-driven resume builder, employment verification, job search and application tracking, mutual reviews, career tools, gamification, and analytics. The web app has run 2.0 since September 2026; the Android app still trails it.
 
 The Android app is live on [Google Play](https://play.google.com/store/apps/details?id=com.aoneahsan.clearhire), but the version installed there may trail the web app while an update is in review. **The Play listing is the authoritative source for which Android version is currently published** — check it there rather than assuming it matches this page. Some earlier version numbers (1.9.0 and 1.9.1) were prepared internally and never published at all, so they do not appear as releases here.
 
@@ -53,12 +81,12 @@ The following describe what is available in ClearHire today, grouped by area rat
 | Web (PWA) | Live at [clearhire.aoneahsan.com](https://clearhire.aoneahsan.com) |
 | Android | Live on [Google Play](https://play.google.com/store/apps/details?id=com.aoneahsan.clearhire) — see the listing for the published version |
 | iOS | Not built. No release planned or dated |
-| Browser extension | Built (1.2.0) — Chrome Web Store submission pending; not installable |
+| Browser extension | ~~Built (1.2.0), never published~~ — **dropped in 2.0**, see [browser extensions](/features/browser-extension) |
 
 ## Not yet available
 
 - **iOS app** — there is no iOS build. It is not in review, not in beta, and has no target date.
-- **Browser extension** — built at version 1.2.0, but the first Chrome Web Store submission is still pending, so it cannot be installed from any store. It supports LinkedIn, Indeed, and Glassdoor only, and its data stays local to the browser. See [browser extension](/features/browser-extension).
+- **Browser extension** — a 1.x prototype that was never published to any store and is **not part of ClearHire 2.0**. See [browser extensions](/features/browser-extension).
 
 If either ships, this changelog and the relevant pages will be updated with the real store link.
 

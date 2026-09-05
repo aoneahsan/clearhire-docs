@@ -13,13 +13,30 @@ This ClearHire FAQ is a collection of plain answers to the questions people most
 ## Pricing and access
 
 ### Does ClearHire cost anything?
-No. There are no subscriptions and no in-app purchases. It does show first-party promotions for the developer's other apps, including a promo card that opens shortly after launch; there are no third-party ad networks. A separate paid white-label license exists for organizations that want their own branded deployment — it has no effect on the public app. Supporting the project at [aoneahsan.com/payment](https://aoneahsan.com/payment?project-id=clearhire&project-identifier=com.aoneahsan.clearhire) is optional.
+There are three plans — **Free, Pro and Team** — and Free is a real plan rather than a trial. It
+covers building and exporting resumes, tracking applications, asking for employment verification, the
+career tools and the community, with limits on how many of some things you can hold at once. Pro and
+Team raise those limits; Team applies its limits to every seat in full rather than dividing them
+between seats.
+
+**The current figures live on the pricing page in the app**, which is the only place they are
+authoritative — a price copied into documentation is a price that goes stale without anybody
+noticing.
+
+ClearHire shows first-party promotions for the developer's other apps and uses no third-party ad
+networks. A separate paid white-label licence exists for organizations that want their own branded
+deployment; it has no effect on the public app. Supporting the project at
+[aoneahsan.com/payment](https://aoneahsan.com/payment?project-id=clearhire&project-identifier=com.aoneahsan.clearhire)
+is optional and separate from any plan.
 
 ### Do I need an account to use it?
 Yes. Because ClearHire saves your profile, resumes, applications, and verification requests, you sign in so your data persists and syncs across devices. **Sign-in is Google-only** — there is no email-and-password registration. If you do not want to use a Google account, ClearHire is not usable today.
 
 ### Does it cost anything for companies?
-No. Both the job-seeker and the [company](/features/for-companies) sides are free to use. Paying is only involved if a company licenses its own white-label deployment of the platform, which is a separate arrangement.
+Confirming a former employee's record is free and always will be — a company is doing ClearHire a
+favour by answering, and charging for that would be backwards. The [company](/features/for-companies)
+side's own tools sit under the same three plans as everything else, and a company that wants its own
+branded deployment licenses that separately.
 
 ## Verification
 
@@ -62,8 +79,8 @@ No. There is no iOS build, and no release date has been set. ClearHire ships on 
 ### Should I use the web app or the Android app?
 Either — they share one account and data. Use the [web app](https://clearhire.aoneahsan.com) on desktop and the [Android app](https://play.google.com/store/apps/details?id=com.aoneahsan.clearhire) on the go.
 
-### Is the browser extension available?
-No. It is built, but the first Chrome Web Store submission is still pending, so there is nothing to install yet. When it ships it will support LinkedIn, Indeed, and Glassdoor only, and its data stays in your browser rather than syncing to your account. See [browser extension](/features/browser-extension).
+### Is there a ClearHire browser extension?
+No. There is nothing to install, and nothing pending. An early prototype existed and was never published; the rebuild left extensions out of scope entirely. See [browser extensions](/features/browser-extension) for what to use instead.
 
 ## About
 

@@ -46,7 +46,7 @@ Honesty matters here. Profile management:
 
 ## Privacy and control
 
-Your profile lives in your ClearHire account and is stored in Firestore. You decide which resumes to export and send, and verification shares only what is needed with the employer you ask. Files you attach (for projects or portfolio) are uploaded to FilesHub storage. For the full picture, read the [privacy summary](/privacy) and, for the binding terms, the in-app policy at [clearhire.aoneahsan.com/privacy](https://clearhire.aoneahsan.com/privacy). To export or remove your data, see [data export and deletion](/guides/data-export-and-deletion).
+Your profile lives in your ClearHire account and is stored in ClearHire's Postgres database on Supabase. You decide which resumes to export and send, and verification shares only what is needed with the employer you ask. Files you attach (for projects or portfolio) are uploaded to FilesHub storage. For the full picture, read the [privacy summary](/privacy) and, for the binding terms, the in-app policy at [clearhire.aoneahsan.com/privacy](https://clearhire.aoneahsan.com/privacy). To export or remove your data, see [data export and deletion](/guides/data-export-and-deletion).
 
 ## FAQ
 

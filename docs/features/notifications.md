@@ -1,7 +1,7 @@
 ---
 id: notifications
 title: "ClearHire Notifications and Emails: In-App, Push, and Email"
-description: How ClearHire keeps you informed — in-app notifications for your activity, optional device and web push you turn on yourself, and a few transactional emails.
+description: How ClearHire keeps you informed — in-app notifications for your activity, system announcements with three levels of loudness, optional receive-only push, and a few transactional emails.
 slug: /features/notifications
 sidebar_label: Notifications & Emails
 ---
@@ -17,13 +17,42 @@ In-app notifications appear inside ClearHire and cover your own activity, includ
 - **Application status** changes as you move through the stages in [application tracking](/features/applications-tracking).
 - **Employment-verification** results when an employer confirms a role or a request times out — see [employment verification](/features/employment-verification).
 - **Reviews** tied to your verified employment — see [company reviews](/features/company-reviews).
-- **Admin announcements** — occasional product notices from the ClearHire team.
+- **Forum replies, messages, follows and endorsements** from the community side of the product.
+- **System announcements** — see below.
 
 They are generated as these events happen and are visible whenever you are signed in.
 
+## System announcements
+
+Occasionally ClearHire needs to tell everyone something — a provider outage, a window that has been
+paused, a change worth knowing about before you notice it yourself. Those arrive as an announcement,
+which reaches you two ways at once: as an in-app notification, and by email.
+
+**How loud an announcement is decides how it behaves**, and there are three settings:
+
+| Severity | What it does |
+| --- | --- |
+| Notice | Appears in your notifications and nowhere else |
+| Important | Raises a band at the top of every page, which you can dismiss |
+| Urgent | Raises a band you cannot dismiss; it leaves when you open it or when a later announcement replaces it |
+
+Announcements are sent by ClearHire staff, are recorded in an audit log with the address of whoever
+sent them, and **cannot be recalled** once they have gone out — a later announcement can supersede
+one, but the first is already delivered. They are never marketing: an announcement is about the
+product working or not working.
+
 ## Push notifications (opt-in)
 
-Push notifications are optional and **off by default**. When they are enabled for your ClearHire instance, you can turn them on for your device or browser in **Notification Settings**, and turn them off again at any time. ClearHire works fully without push — it is a convenience for hearing about activity while the app is closed, not a requirement.
+Push notifications are optional and **off by default**. You can turn them on for your device or
+browser in **Notification Settings**, and turn them off again at any time. ClearHire works fully
+without push — it is a convenience for hearing about activity while the app is closed, not a
+requirement.
+
+**ClearHire's push is receive-only, and that is worth being precise about.** Your device subscribes;
+what arrives is composed by the ClearHire team rather than generated automatically for every event.
+So push is a way of hearing about something important while the app is closed — it is not a second
+copy of every in-app notification, and turning it off costs you nothing you would not also see the
+next time you open the product.
 
 ## Transactional emails
 

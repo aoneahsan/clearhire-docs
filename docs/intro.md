@@ -10,7 +10,7 @@ sidebar_label: Introduction
 
 ClearHire is a resume builder and job platform where the employment history on your CV can be confirmed by the people who actually employed you. Instead of trusting a resume on its own, ClearHire lets a job seeker request verification of a past role from that employer; once the employer confirms, a "Verified" badge backs that specific role. The same product also gives companies a place to post jobs, track applicants, and review people they have genuinely worked with.
 
-ClearHire runs on the web at [clearhire.aoneahsan.com](https://clearhire.aoneahsan.com) and on Android via [Google Play](https://play.google.com/store/apps/details?id=com.aoneahsan.clearhire). It is built with React, Capacitor, and Firebase/Firestore, and most document generation and career tools run client-side in your browser.
+ClearHire runs on the web at [clearhire.aoneahsan.com](https://clearhire.aoneahsan.com) and on Android via [Google Play](https://play.google.com/store/apps/details?id=com.aoneahsan.clearhire). It is built with React, Capacitor, and Supabase, and most document generation and career tools run client-side in your browser.
 
 ## What makes ClearHire different
 
@@ -32,13 +32,13 @@ ClearHire serves two audiences from one account model:
 | Web (PWA) | Live at [clearhire.aoneahsan.com](https://clearhire.aoneahsan.com) |
 | Android | Live on [Google Play](https://play.google.com/store/apps/details?id=com.aoneahsan.clearhire) |
 | iOS | Not built — no release planned or dated |
-| Browser extension | Built, but not published to any store (see [browser extension](/features/browser-extension)) |
+| Browser extension | None — dropped in 2.0 (see [browser extensions](/features/browser-extension)) |
 
 The web app and the Android app share the same account and data, so you can start a resume on one and finish on the other.
 
 ## Pricing
 
-Using ClearHire costs nothing. There are no subscriptions and no in-app purchases, for job seekers and companies alike.
+ClearHire has three plans — Free, Pro and Team — and Free is a real plan rather than a trial. Confirming a former employee's record is free for companies and always will be. The current figures live on the pricing page in the app.
 
 The app does show promotions — first-party cards for the developer's other apps, which open automatically shortly after launch. There are no third-party ad networks.
 
@@ -58,7 +58,7 @@ If ClearHire saves you time and you want to support its development, there is an
 ## FAQ
 
 ### Does ClearHire cost anything to use?
-No. There are no subscriptions or in-app purchases. The only promotions you see are first-party ads for the developer's other apps. (A separate paid white-label license exists for organizations wanting their own branded deployment — it does not affect the public app.) Supporting the project at [aoneahsan.com/payment](https://aoneahsan.com/payment?project-id=clearhire&project-identifier=com.aoneahsan.clearhire) is entirely optional.
+There is a Free plan that covers the whole product with limits on how many of some things you can hold at once, and two paid plans — Pro and Team — that raise them. The pricing page in the app carries the current figures. The only promotions you see are first-party ads for the developer's other apps. (A separate paid white-label licence exists for organizations wanting their own branded deployment — it does not affect the public app.) Supporting the project at [aoneahsan.com/payment](https://aoneahsan.com/payment?project-id=clearhire&project-identifier=com.aoneahsan.clearhire) is entirely optional and separate from any plan.
 
 ### Do I need an account to use it?
 Yes. Because ClearHire stores your profile, resumes, applications, and verification requests, you sign in so that data is saved to your account and available across devices. **Google is the only sign-in method** — there is no email-and-password option.

@@ -51,7 +51,7 @@ These optional sections round out your profile. Include them when they are relev
 
 ## A note on privacy
 
-Your profile is stored in your ClearHire account (in Firestore) and is yours to control. Resume exports are generated for you; you decide who to send them to. Employment verification shares only what is necessary between you and the employer you ask. For a plain-language overview of what is stored and the providers involved, read the [privacy summary](/privacy); the authoritative policy lives in-app at [clearhire.aoneahsan.com/privacy](https://clearhire.aoneahsan.com/privacy).
+Your profile is stored in your ClearHire account (in ClearHire's Postgres database on Supabase) and is yours to control. Resume exports are generated for you; you decide who to send them to. Employment verification shares only what is necessary between you and the employer you ask. For a plain-language overview of what is stored and the providers involved, read the [privacy summary](/privacy); the authoritative policy lives in-app at [clearhire.aoneahsan.com/privacy](https://clearhire.aoneahsan.com/privacy).
 
 ## FAQ
 

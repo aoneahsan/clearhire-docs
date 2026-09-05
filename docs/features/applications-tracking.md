@@ -39,13 +39,13 @@ You advance each application as it moves, so your dashboard always reflects real
 
 - **It does not apply for you.** You submit applications; ClearHire records and organizes them.
 - **It does not read your inbox.** Stage changes are yours to update; the tracker reflects what you log.
-- **It is not fed by the browser extension.** The [extension](/features/browser-extension) keeps its own job list locally in your browser; those entries do not appear here. (It is also not published yet.)
+- **Nothing captures applications for you.** There is no [browser extension](/features/browser-extension) and no automatic import; every application here is one you added.
 - **It does not guarantee responses.** Tracking improves your follow-through, not an employer's reply rate.
 
 ## FAQ
 
 ### Do I have to update stages manually?
-Yes. You add each application and move it along as it progresses — there is no automatic capture into this tracker from any source, including the [browser extension](/features/browser-extension), whose job list is separate and local to your browser.
+Yes. You add each application and move it along as it progresses. There is no automatic capture into this tracker from any source — ClearHire has no [browser extension](/features/browser-extension) and no importer.
 
 ### Can I track applications to jobs found outside ClearHire?
 The tracker is most directly tied to roles in the app, but its value is organizing your whole search. Logging external applications keeps your pipeline complete.

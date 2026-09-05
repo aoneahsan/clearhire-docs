@@ -167,6 +167,15 @@ const config: Config = {
             '**/*.test.{js,jsx,ts,tsx}',
             '**/__tests__/**',
             'MANUAL-TASKS.md',
+            // 🔴 `tracking/` is the content tracker — an internal record of which page has been
+            //    walked against which wave. It is not documentation and this repo is public.
+            'tracking/**',
+            // 🔴 `story/**` is excluded ahead of the story surfaces landing (part ST). The Story
+            //    Bible, the voice fingerprint and every draft live under `docs/story/` in the APP
+            //    repo, and if that convention is ever mirrored here the drafts must not publish.
+            //    Excluding a directory that does not exist yet costs nothing; discovering the
+            //    omission after a build has published somebody's working notes costs a lot.
+            'story/**',
           ],
           routeBasePath: '/',
           editUrl: 'https://github.com/aoneahsan/clearhire-docs/edit/main/',

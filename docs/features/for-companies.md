@@ -68,6 +68,6 @@ When the employee requests verification, an authorized contact confirms it befor
 Reviews are tied to a verified employment link, so they reflect a real working relationship rather than anonymous posting. See [company reviews](/features/company-reviews).
 
 ### Does ClearHire cost anything for companies?
-No. There are no subscriptions or in-app purchases, for either job seekers or companies. The one paid option is a separate white-label license for organizations that want their own branded deployment of the platform — it is not required to post jobs or hire on ClearHire itself.
+Confirming a former employee's record is free and always will be — a company answering a request is doing ClearHire a favour, and charging for that would be backwards. The company side's own tools sit under the same three plans as the rest of the product: Free, Pro and Team. A separate white-label licence exists for organizations that want their own branded deployment; it is not required to post jobs or hire on ClearHire itself.
 
 > Built and maintained by [Ahsan Mahmood](https://aoneahsan.com) — [LinkedIn](https://linkedin.com/in/aoneahsan) · [GitHub](https://github.com/aoneahsan).

@@ -52,7 +52,7 @@ Before applying, run your resume through the [ATS resume checker](/guides/ats-re
 ## FAQ
 
 ### Is the resume builder free?
-Yes. Like the rest of ClearHire, building and exporting resumes is free, with no subscriptions or per-export charges.
+Yes, on the Free plan, and there is no per-export charge on any plan. What the plans change is how many resumes you can hold at once and how many exports a month — the pricing page in the app carries the current figures.
 
 ### Can I export to both PDF and DOCX?
 Yes. Export as many times as you like in either format. Use PDF to apply and DOCX when the file needs editing.

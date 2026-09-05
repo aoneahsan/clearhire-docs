@@ -8,13 +8,13 @@ sidebar_label: Author
 
 # About the Author of ClearHire
 
-The author of ClearHire is Ahsan Mahmood, a full-stack developer who designs, builds, and maintains the app along with many other web and mobile products. ClearHire reflects his focus on practical tools built with React, Capacitor, and Firebase — shipped to real users on the web and Android at no cost to them.
+The author of ClearHire is Ahsan Mahmood, a full-stack developer who designs, builds, and maintains the app along with many other web and mobile products. ClearHire reflects his focus on practical tools built with React, Capacitor, and Supabase — shipped to real users on the web and Android at no cost to them.
 
 <div className="ch-author-card">
 
 ## Ahsan Mahmood
 
-Full-stack developer specializing in React and Capacitor, building cross-platform web and mobile apps backed by Firebase/Firestore. Ahsan is the creator and maintainer of ClearHire and a wide range of other applications and open-source packages.
+Full-stack developer specializing in React and Capacitor, building cross-platform web and mobile apps backed by Supabase and Firebase. Ahsan is the creator and maintainer of ClearHire and a wide range of other applications and open-source packages.
 
 - **Website:** [aoneahsan.com](https://aoneahsan.com)
 - **LinkedIn:** [linkedin.com/in/aoneahsan](https://linkedin.com/in/aoneahsan)

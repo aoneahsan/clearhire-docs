@@ -57,7 +57,7 @@ Most career tools run in the browser. That keeps interactions fast and means you
 ## FAQ
 
 ### Do the career tools cost anything?
-No. All career tools are part of ClearHire, which has no subscriptions or in-app purchases.
+The career tools are part of ClearHire and the Free plan covers them. Pro and Team raise the limits that apply across the product rather than unlocking a tool the Free plan cannot open.
 
 ### Does the cover-letter generator write the whole letter for me?
 It drafts a tailored starting point from your profile and the role. You should refine it in your own voice and confirm every claim is accurate before sending.

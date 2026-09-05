@@ -1,7 +1,7 @@
 ---
 id: privacy
 title: "ClearHire Privacy Summary: What It Stores and Shares"
-description: A plain-language summary of what ClearHire stores in Firestore, the providers it uses, how verification data is shared, and your export and deletion rights.
+description: A plain-language summary of what ClearHire stores, the providers it uses, how verification data is shared, and your export and deletion rights.
 slug: /privacy
 sidebar_label: Privacy
 ---
@@ -12,7 +12,7 @@ This ClearHire privacy summary is a plain-language overview of what the app stor
 
 ## What ClearHire stores
 
-ClearHire stores the data needed to run the product in Firestore, including:
+ClearHire stores the data needed to run the product in a Postgres database on Supabase, including:
 
 - Your [profile](/features/profile-management): experience, education, projects, skills, languages, certifications, awards
 - Resumes you build and related settings
@@ -20,7 +20,7 @@ ClearHire stores the data needed to run the product in Firestore, including:
 - [Reviews](/features/company-reviews) tied to verified employment
 - [Verification](/features/employment-verification) requests and confirmations
 
-Files you upload (for projects or portfolio) are stored in **FilesHub** rather than Firestore.
+Files you upload (for projects or portfolio) are stored in **FilesHub** rather than in the database.
 
 ClearHire also keeps aggregate [profile-view counts](/features/analytics). For signed-out visitors, view counting uses a per-day identifier to avoid double-counting and does not build a personal profile of the viewer.
 
@@ -30,12 +30,17 @@ To operate, ClearHire relies on a small set of providers:
 
 | Provider | Purpose |
 | --- | --- |
-| Firebase Auth | Sign-in (Google only) |
-| Firebase Analytics | Product analytics |
-| Microsoft Clarity | Product/usage insight |
+| Supabase | The database, authentication, and the server functions the app runs on |
+| Google Analytics 4 | Product analytics |
 | Amplitude | Product analytics |
+| Microsoft Clarity | Product and usage insight |
 | Sentry | Error monitoring |
+| OneSignal | Push notifications, if you turn them on |
 | FilesHub | Storage for uploaded files and transactional email delivery |
+
+This list is kept in step with the provider table in the
+[in-app privacy policy](https://clearhire.aoneahsan.com/privacy), which is the binding one. If the
+two ever disagree, that policy is right and this page is out of date.
 
 ClearHire sends a small number of transactional emails through FilesHub — welcome, contact-form reply, account-deletion confirmation, and identity-verification result. It sends no marketing email. See [notifications and emails](/features/notifications).
 
@@ -73,7 +78,7 @@ No. This is a plain-language summary. The official, binding policy is in-app at 
 No. ClearHire uses no third-party ad networks and shows only first-party promotions for the developer's own apps.
 
 ### Where are my uploaded files stored?
-Uploaded files are stored in FilesHub. Other data (profile, resumes, applications, reviews) is stored in Firestore.
+Uploaded files are stored in FilesHub. Other data (profile, resumes, applications, reviews) is stored in the Supabase database.
 
 ### What is shared during verification?
 Only what is necessary for the employer to confirm the role. See [employment verification](/features/employment-verification).
