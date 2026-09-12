@@ -21,12 +21,12 @@ Public Docusaurus documentation site for the **ClearHire** app.
 | Node | >=18 |
 | Author | Ahsan Mahmood (aoneahsan@gmail.com) |
 | Live URL | https://clearhire-docs.aoneahsan.com — **GitHub Pages only** (`deploy-pages.yml` on every push to `main`; serving, verified 2026-09-03). No Firebase target |
-| Documents | the ClearHire **rebuild** (`../clearhire/`, branch `redevelop-v1`, Supabase backend, live since 2026-09-02). 🔴 **The 25 pages still describe the OLD Firebase app** — the alignment pass is phase DOC in `../remaining-work.md`; the intro is story surface `docs-site-intro` (GATE 4 owed) |
+| Documents | the ClearHire **rebuild** (`../clearhire/`, branch `redevelop-v1`, Supabase backend, live since 2026-09-02). ✅ **Factually aligned on 2026-09-05 (OD-187)** — Supabase not Firestore, the extension page an honest notice (OD-164), wave 8's real progression, announcements, a 2.0.0 changelog entry, the three plans named. 🔴 **Only `intro.md`'s narrative is owed** — story surface `docs-site-intro` (GATE 4), phase DOC in `../remaining-work.md` |
 | App URL | https://clearhire.aoneahsan.com |
 | Play Store | https://play.google.com/store/apps/details?id=com.aoneahsan.clearhire — the 1.x listing; the 2.0 Android app is not built yet (wave 10) |
 | Dev port | 5962 (start) / 5963 (serve) |
 | Build gates | `yarn typecheck` exit 0 · `yarn build` (→ `./build`) exit 0 |
-| Baseline | 25 pages; content predates the rebuild (5 pages name Firebase/Firestore; `browser-extension.md` describes a feature that is OUT of scope for 2.0 — OD-164; `gamification.md` predates wave 8) |
+| Baseline | 24 published pages (+ `MANUAL-TASKS.md`, excluded); 0 pages name Firebase/Firestore as the backend; 0 pages claim there is no paid tier (a house rule — never write it). Since 2026-09-12 the build also emits `/feed.xml` from the pages' dates (`src/plugins/discoveryFeed.ts`) and serves an IndexNow key file from `static/` |
 
 ## 🔴 Verified product facts (2026-07-21) — do not regress these
 
@@ -81,9 +81,10 @@ complete; deep-enrichment batches are listed there.
 
 ## Manual / user-only tasks (deploy)
 
-Firebase Hosting site creation + `firebase deploy`, enabling GitHub Pages, and DNS for
-`clearhire-docs.aoneahsan.com` are owner-only — tracked in the app repo's
-`clearhire/docs/MANUAL-TASKS.md`.
+Enabling GitHub Pages and the DNS for `clearhire-docs.aoneahsan.com` are owner-only — both done in fact
+(the site serves over HTTPS from GitHub, re-verified 2026-09-12) and tracked in this repo's
+`docs/MANUAL-TASKS.md`, which only the owner ticks. There is no Firebase target and no deploy script; a push
+to `main` is the deploy.
 
 ## Gitignore
 
@@ -94,6 +95,11 @@ Full rule + private/public protocol: `~/.claude/rules/project-config.md`.
 `Gitignore Last Verified: 2026-06-24`
 
 ## Last Updated
+
+2026-09-12 — the second audit pass: the *Documents* and *Baseline* rows now say the site is aligned to the
+rebuild (OD-187, 2026-09-05) with only `intro.md`'s narrative owed; the `discoveryFeed` plugin and the IndexNow key
+file recorded (OD-190); the manual-tasks section no longer names a Firebase target that never existed for this
+site.
 
 2026-08-17 — context pass. Two fleet-copied blocks were removed as **superseded global law**, not as project
 knowledge: `## Sub-agents & Skills — Main-Context-First` and `<!-- RULE:main-context-model-workflow
