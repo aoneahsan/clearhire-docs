@@ -1,6 +1,7 @@
 import { themes as prismThemes } from 'prism-react-renderer';
 import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
+import discoveryFeed from './src/plugins/discoveryFeed';
 
 // ---------------------------------------------------------------------------
 // ClearHire — Documentation site config
@@ -36,7 +37,12 @@ const config: Config = {
   headTags: [
     {
       tagName: 'link',
-      attributes: { rel: 'canonical', href: `${SITE_URL}/` },
+      attributes: {
+        rel: 'alternate',
+        type: 'application/rss+xml',
+        title: 'ClearHire documentation updates',
+        href: `${SITE_URL}/feed.xml`,
+      },
     },
     {
       tagName: 'meta',
@@ -195,6 +201,8 @@ const config: Config = {
       } satisfies Preset.Options,
     ],
   ],
+
+  plugins: [discoveryFeed],
 
   themeConfig: {
     image: 'img/social-card.svg',
