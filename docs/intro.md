@@ -6,70 +6,39 @@ slug: /intro
 sidebar_label: Introduction
 ---
 
-# ClearHire: Verified-Employment Resume Builder and Job Platform
+# ClearHire: what it does, who it is for, and what it will not claim
 
-ClearHire is a resume builder and job platform where the employment history on your CV can be confirmed by the people who actually employed you. Instead of trusting a resume on its own, ClearHire lets a job seeker request verification of a past role from that employer; once the employer confirms, a "Verified" badge backs that specific role. The same product also gives companies a place to post jobs, track applicants, and review people they have genuinely worked with.
+A reference check asks how you did. ClearHire asks a narrower question: whether you held this title at this company between these dates. A named person there answers from the company’s records, and the answer is kept under their name, with the date. That is a countersignature. It sits beside the role on your profile and on any resume you publish, and it is the one line on the page that somebody other than you signed.
 
-ClearHire runs on the web at [clearhire.aoneahsan.com](https://clearhire.aoneahsan.com) and on Android via [Google Play](https://play.google.com/store/apps/details?id=com.aoneahsan.clearhire). It is built with React, Capacitor, and Supabase, and most document generation and career tools run client-side in your browser.
+The rest of the product is what that line needs around it. A resume builder keeps one profile and cuts a resume per role, with PDF and DOCX out and a public link you can switch off again. Career tools, most of which need no account, cover the application, the interview and the number. Companies get the other side of the same record: post a role, search candidates, run the stages, answer a claim.
 
-## What makes ClearHire different
+## What a countersignature proves, and what it does not
 
-Most resume tools only format claims; they cannot tell whether those claims are true. ClearHire adds an [employment verification](/features/employment-verification) layer: a candidate asks a former employer to confirm a role, and the verified result is attached to that role. This does not vouch for your performance, salary, or character — it confirms that an employment relationship existed and was acknowledged by the other party. Reviews follow the same principle: [company reviews](/features/company-reviews) and employee reviews are tied to a verified employment link, so feedback comes from people who really worked together.
+Three facts, as the company has them: the job title, the company and the dates, confirmed by a named company account with a timestamp you can see. Either side can start it. You claim a role and the company gets 7 days; a company asks and you get 3. Silence expires the request instead of failing it, so a role with no countersignature is not false. It is unconfirmed, which is where every role starts.
 
-To be clear about the limits: verification depends on the employer responding, and an employer-side request can time out. A role without a verified badge is not "fake" — it simply has not been confirmed yet.
+It is not a background check. Nobody ran one. It is not an identity check and it is not an endorsement: the company confirmed that you worked there, not that you were good at it. A declined claim stays between you and the company and never appears on a public profile. The whole mechanism, both sides, is on [employment verification](/features/employment-verification); the step-by-step is [request employment verification](/guides/request-employment-verification).
 
-## Who ClearHire is for
+## Who it is for
 
-ClearHire serves two audiences from one account model:
+**Job seekers** build a [profile](/features/profile-management) once, cut resumes from it in the [resume builder](/features/resume-builder), search [jobs](/features/job-search), keep every [application](/features/applications-tracking) on a board with 12 stages, and use the [career tools](/features/career-tools), from the ATS check to the salary calculator.
 
-- **Job seekers** build a structured [profile](/features/profile-management), generate resumes with the [resume builder](/features/resume-builder), search and filter [jobs](/features/job-search), track every [application](/features/applications-tracking), and use [career tools](/features/career-tools) like the ATS checker and cover-letter generator.
-- **Companies** create [company profiles](/features/for-companies), post jobs, manage an applicant pipeline, search for talent, initiate verification for their employees, and exchange reviews.
+**Companies** keep a [company profile](/features/for-companies), post roles, run applicants through the same 12 stages, search for people, answer claims about roles held with them, and exchange [reviews](/features/company-reviews) tied to a countersigned record, so feedback comes from people who actually worked together.
 
-## Platforms and availability
+## Where it runs
 
-| Platform | Status |
-| --- | --- |
-| Web (PWA) | Live at [clearhire.aoneahsan.com](https://clearhire.aoneahsan.com) |
-| Android | Live on [Google Play](https://play.google.com/store/apps/details?id=com.aoneahsan.clearhire) |
-| iOS | Not built — no release planned or dated |
-| Browser extension | None — dropped in 2.0 (see [browser extensions](/features/browser-extension)) |
+On the web at [clearhire.aoneahsan.com](https://clearhire.aoneahsan.com), and on Android. There is no iOS app, no browser extension (dropped in 2.0, see [browser extensions](/features/browser-extension)) and no desktop app, because the web app already is one. Sign-in is Google only. There is no ClearHire password, so there is none to reset and none to lose. One account serves both, so a resume started on the web can be finished on the phone.
 
-The web app and the Android app share the same account and data, so you can start a resume on one and finish on the other.
+## What it costs
 
-## Pricing
+Three plans: Free, Pro and Team. Every feature is in Free, employment verification included. Free is a plan, not a trial. It does not run out. A paid plan raises a ceiling, never credibility: a record countersigned on Free is identical to one countersigned on a paid plan. Every ceiling is a count. How many saved resumes, how many job alerts, that kind of limit. The current table is on the app’s [pricing page](https://clearhire.aoneahsan.com/pricing). Anything paid is bought on the web; the Android app shows which plan you are on and never sells one.
 
-ClearHire has three plans — Free, Pro and Team — and Free is a real plan rather than a trial. Confirming a former employee's record is free for companies and always will be. The current figures live on the pricing page in the app.
-
-The app does show promotions — first-party cards for the developer's other apps, which open automatically shortly after launch. There are no third-party ad networks.
-
-Separately, ClearHire is offered as a **commercial white-label license** for organizations that want to run their own branded copy of the platform. That is a paid business arrangement priced in the thousands of dollars; it has no bearing on using the public app, which stays free. Details are on the app's own licensing pages.
-
-If ClearHire saves you time and you want to support its development, there is an optional tip jar at [aoneahsan.com/payment](https://aoneahsan.com/payment?project-id=clearhire&project-identifier=com.aoneahsan.clearhire).
+Today the only promotions in the product are cards for the developer’s other apps. An organisation that wants to run its own copy of the platform can license it; every figure for that is on the app’s [licensing page](https://clearhire.aoneahsan.com/licensing), and none of it touches the public app. If ClearHire is useful to you and you want to support it, there is a tip jar at [aoneahsan.com/payment](https://aoneahsan.com/payment?project-id=clearhire&project-identifier=com.aoneahsan.clearhire).
 
 ## Where to go next
 
-- New here? Start with the [quick start](/getting-started/quick-start).
-- Build the foundation: [create your profile](/getting-started/create-your-profile).
-- Make a CV: [build your first resume](/getting-started/build-your-first-resume).
-- The flagship feature: [employment verification](/features/employment-verification).
-- Hiring? See [ClearHire for companies](/features/for-companies).
-- Questions about data and privacy? Read the [privacy summary](/privacy) and the [FAQ](/faq).
-
-## FAQ
-
-### Does ClearHire cost anything to use?
-There is a Free plan that covers the whole product with limits on how many of some things you can hold at once, and two paid plans — Pro and Team — that raise them. The pricing page in the app carries the current figures. The only promotions you see are first-party ads for the developer's other apps. (A separate paid white-label licence exists for organizations wanting their own branded deployment — it does not affect the public app.) Supporting the project at [aoneahsan.com/payment](https://aoneahsan.com/payment?project-id=clearhire&project-identifier=com.aoneahsan.clearhire) is entirely optional and separate from any plan.
-
-### Do I need an account to use it?
-Yes. Because ClearHire stores your profile, resumes, applications, and verification requests, you sign in so that data is saved to your account and available across devices. **Google is the only sign-in method** — there is no email-and-password option.
-
-### Does the "Verified" badge prove I was a good employee?
-No. Verification confirms that an employment relationship existed and was acknowledged by the employer. It does not rate your performance, confirm your title's seniority, or validate your salary.
-
-### Is there an iOS app?
-No. There is no iOS build, it is not in review, and no release date has been set. ClearHire ships on the web and on Android. iPhone and iPad users can use the web app in Safari.
-
-### Who built ClearHire?
-ClearHire is built and maintained by Ahsan Mahmood, a full-stack developer. See [about the author](/about-the-author).
+- New here: the [quick start](/getting-started/quick-start), then [create your profile](/getting-started/create-your-profile) and [build your first resume](/getting-started/build-your-first-resume).
+- The part nothing else here does: [employment verification](/features/employment-verification), and the app’s public explainer of [how employment verification works](https://clearhire.aoneahsan.com/help/verification).
+- Hiring: [ClearHire for companies](/features/for-companies).
+- Data, deletion and what is kept: the [privacy summary](/privacy), [data export and deletion](/guides/data-export-and-deletion) and the [FAQ](/faq).
 
 > Built and maintained by [Ahsan Mahmood](https://aoneahsan.com) — [LinkedIn](https://linkedin.com/in/aoneahsan) · [GitHub](https://github.com/aoneahsan).

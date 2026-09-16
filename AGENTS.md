@@ -21,7 +21,7 @@ Public Docusaurus documentation site for the **ClearHire** app.
 | Node | >=18 |
 | Author | Ahsan Mahmood (aoneahsan@gmail.com) |
 | Live URL | https://clearhire-docs.aoneahsan.com — **GitHub Pages only** (`deploy-pages.yml` on every push to `main`; serving, verified 2026-09-03). No Firebase target |
-| Documents | the ClearHire **rebuild** (`../clearhire/`, branch `redevelop-v1`, Supabase backend, live since 2026-09-02). ✅ **Factually aligned on 2026-09-05 (OD-187)** — Supabase not Firestore, the extension page an honest notice (OD-164), wave 8's real progression, announcements, a 2.0.0 changelog entry, the three plans named. 🔴 **Only `intro.md`'s narrative is owed** — story surface `docs-site-intro` (GATE 4), phase DOC in `../remaining-work.md` |
+| Documents | the ClearHire **rebuild** (`../clearhire/`, branch `redevelop-v1`, Supabase backend, live since 2026-09-02). ✅ **Factually aligned on 2026-09-05 (OD-187)** — Supabase not Firestore, the extension page an honest notice (OD-164), wave 8's real progression, announcements, a 2.0.0 changelog entry, the three plans named. ✅ **`intro.md`'s narrative shipped 2026-09-17** — story surface `docs-site-intro`, approved at GATE 4 (OD-217); change it through `../clearhire/docs/story/`, never here |
 | App URL | https://clearhire.aoneahsan.com |
 | Play Store | https://play.google.com/store/apps/details?id=com.aoneahsan.clearhire — the 1.x listing; the 2.0 Android app is not built yet (wave 10) |
 | Dev port | 5962 (start) / 5963 (serve) |
@@ -95,6 +95,8 @@ Full rule + private/public protocol: `~/.claude/rules/project-config.md`.
 `Gitignore Last Verified: 2026-06-24`
 
 ## Last Updated
+
+2026-09-17 — `intro.md` carries the approved story narrative (GATE 4, OD-217); the front matter is unchanged.
 
 2026-09-12 — the second audit pass: the *Documents* and *Baseline* rows now say the site is aligned to the
 rebuild (OD-187, 2026-09-05) with only `intro.md`'s narrative owed; the `discoveryFeed` plugin and the IndexNow key
