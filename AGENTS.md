@@ -19,7 +19,7 @@ Public Docusaurus documentation site for the **ClearHire** app.
 | Type | Docusaurus 3 documentation site (classic preset + Mermaid) |
 | Package manager | yarn only (`nvm → npm global → yarn local`); never npm/pnpm |
 | Node | >=18 |
-| Author | Ahsan Mahmood (aoneahsan@gmail.com) |
+| Maker | the ClearHire team (OD-245/252 — no page names one maker; the team page keeps the fact line "Founder: Ahsan Mahmood", OD-256). Contact aoneahsan@gmail.com |
 | Live URL | https://clearhire-docs.aoneahsan.com — **GitHub Pages only** (`deploy-pages.yml` on every push to `main`; serving, verified 2026-09-03). No Firebase target |
 | Documents | the ClearHire **rebuild** (`../clearhire/`, branch `redevelop-v1`, Supabase backend, live since 2026-09-02). ✅ **Factually aligned on 2026-09-05 (OD-187)** — Supabase not Firestore, the extension page an honest notice (OD-164), wave 8's real progression, announcements, a 2.0.0 changelog entry, the three plans named. ✅ **`intro.md`'s narrative shipped 2026-09-17** — story surface `docs-site-intro`, approved at GATE 4 (OD-217); change it through `../clearhire/docs/story/`, never here |
 | App URL | https://clearhire.aoneahsan.com |
@@ -38,7 +38,8 @@ Public Docusaurus documentation site for the **ClearHire** app.
   analytics are opt-in and off by default. Never link a store URL that does not exist yet.
 - **App analytics** (Firebase, Amplitude, Microsoft Clarity) have **no** user opt-out — only the
   extension's analytics are opt-in.
-- **Pricing:** the public app costs nothing; a separate paid **white-label license** exists.
+- **Pricing:** three plans — Free, Pro and Team (Free is a plan, not a trial; paid plans are bought on the web, the
+  Android app never sells one); a separate paid **white-label license** also exists. Never write that the app costs nothing.
 - **Versions:** docs describe the 1.10.x line. 1.9.0/1.9.1 were never published — do not cite them.
   The Play listing is authoritative for the published Android version.
 - **Support link** is always

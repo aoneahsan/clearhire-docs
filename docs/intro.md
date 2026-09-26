@@ -8,13 +8,13 @@ sidebar_label: Introduction
 
 # ClearHire: what it does, who it is for, and what it will not claim
 
-A reference check asks how you did. ClearHire asks a narrower question: whether you held this title at this company between these dates. A named person there answers from the company’s records, and the answer is kept under their name, with the date. That is a countersignature. It sits beside the role on your profile and on any resume you publish, and it is the one line on the page that somebody other than you signed.
+A reference check asks how you did. ClearHire asks a narrower question: whether you held this title at this company between these dates. A named person there answers from the company’s records, and the answer is kept under their name, with the date. That is a countersignature. It sits beside the role on your profile, and it is the one line on the page that somebody other than you signed. The published resume page and a PDF or DOCX do not carry it yet.
 
 The rest of the product is what that line needs around it. A resume builder keeps one profile and cuts a resume per role, with PDF and DOCX out and a public link you can switch off again. Career tools, most of which need no account, cover the application, the interview and the number. Companies get the other side of the same record: post a role, search candidates, run the stages, answer a claim.
 
 ## What a countersignature proves, and what it does not
 
-Three facts, as the company has them: the job title, the company and the dates, confirmed by a named company account with a timestamp you can see. Either side can start it. You claim a role and the company gets 7 days; a company asks and you get 3. Silence expires the request instead of failing it, so a role with no countersignature is not false. It is unconfirmed, which is where every role starts.
+Three facts, as the company has them: the job title, the company and the dates, confirmed by a named person at the company, with their job title and the date. Either side can start it. You claim a role and the company gets 7 days; a company asks and you get 3. Silence expires the request instead of failing it, so a role with no countersignature is not false. It is unconfirmed, which is where every role starts.
 
 It is not a background check. Nobody ran one. It is not an identity check and it is not an endorsement: the company confirmed that you worked there, not that you were good at it. A declined claim stays between you and the company and never appears on a public profile. The whole mechanism, both sides, is on [employment verification](/features/employment-verification); the step-by-step is [request employment verification](/guides/request-employment-verification).
 
@@ -41,4 +41,4 @@ Today the only promotions in the product are cards for the developer’s other a
 - Hiring: [ClearHire for companies](/features/for-companies).
 - Data, deletion and what is kept: the [privacy summary](/privacy), [data export and deletion](/guides/data-export-and-deletion) and the [FAQ](/faq).
 
-> Built and maintained by [Ahsan Mahmood](https://aoneahsan.com) — [LinkedIn](https://linkedin.com/in/aoneahsan) · [GitHub](https://github.com/aoneahsan).
+> Built and maintained by [the ClearHire team](/about-the-author) — [aoneahsan.com](https://aoneahsan.com) · [GitHub](https://github.com/aoneahsan).

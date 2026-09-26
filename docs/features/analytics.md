@@ -62,4 +62,4 @@ ClearHire uses analytics and monitoring providers to run the product. See the [p
 ### How often should I check my analytics?
 Often enough to spot trends — weekly is reasonable for an active search. Use it to decide what to improve next, not to refresh obsessively.
 
-> Built and maintained by [Ahsan Mahmood](https://aoneahsan.com) — [LinkedIn](https://linkedin.com/in/aoneahsan) · [GitHub](https://github.com/aoneahsan).
+> Built and maintained by [the ClearHire team](/about-the-author) — [aoneahsan.com](https://aoneahsan.com) · [GitHub](https://github.com/aoneahsan).

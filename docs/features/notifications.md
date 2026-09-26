@@ -85,4 +85,4 @@ Application-status changes, employment-verification results, reviews tied to you
 ### Do I need push to use ClearHire?
 No. Push is optional and off by default; the app is fully usable without it.
 
-> Built and maintained by [Ahsan Mahmood](https://aoneahsan.com) — [LinkedIn](https://linkedin.com/in/aoneahsan) · [GitHub](https://github.com/aoneahsan).
+> Built and maintained by [the ClearHire team](/about-the-author) — [aoneahsan.com](https://aoneahsan.com) · [GitHub](https://github.com/aoneahsan).

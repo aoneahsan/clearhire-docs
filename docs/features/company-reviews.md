@@ -25,7 +25,7 @@ This differs from open review sites where anyone can post about any company. Her
 - **As a job seeker:** share your experience of an employer — culture, management, day-to-day reality — to help other candidates.
 - **As a company:** provide feedback on an employee tied to a verified role through [ClearHire for companies](/features/for-companies).
 
-Reviews complement your [profile](/features/profile-management) and [verified roles](/features/employment-verification): a verified history plus honest mutual feedback paints a fuller, more trustworthy picture.
+Reviews sit beside your [profile](/features/profile-management) and your [countersigned roles](/features/employment-verification): each review is tied to a countersigned record, so feedback comes from people who actually worked together.
 
 ## Writing useful reviews
 
@@ -50,10 +50,10 @@ Reviews are grounded in a real working relationship rather than anonymous postin
 ### Can a company review me?
 Yes. The system is mutual: companies can leave reviews for employees tied to a verified role, just as you can review companies.
 
-### Does a review affect my verified badge?
-No. A [verified badge](/features/employment-verification) confirms the role existed; a review is separate, subjective feedback. One does not change the other.
+### Does a review affect my countersigned record?
+No. A [countersignature](/features/employment-verification) confirms the role existed; a review is separate, subjective feedback. One does not change the other.
 
 ### What if I disagree with a review about me?
-Reviews are individual perspectives tied to a real relationship. Your best response is a strong, [verified](/features/employment-verification) profile and honest reviews of your own, which together present a fuller picture.
+Reviews are individual perspectives tied to a real relationship. Your best response is a profile with [countersigned roles](/features/employment-verification) and honest reviews of your own, each tied to a countersigned record.
 
-> Built and maintained by [Ahsan Mahmood](https://aoneahsan.com) — [LinkedIn](https://linkedin.com/in/aoneahsan) · [GitHub](https://github.com/aoneahsan).
+> Built and maintained by [the ClearHire team](/about-the-author) — [aoneahsan.com](https://aoneahsan.com) · [GitHub](https://github.com/aoneahsan).

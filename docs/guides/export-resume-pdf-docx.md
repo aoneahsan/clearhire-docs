@@ -41,7 +41,7 @@ As a default, **export PDF to apply** and **DOCX to edit**. If a job portal does
 - **The download didn't start.** Check your browser's pop-up or download settings, then try again. On Android, confirm the app has permission to save files.
 - **DOCX looks different than the preview.** Word processors substitute fonts and spacing. For a pixel-faithful result, use PDF instead.
 - **The layout breaks across pages.** Reduce the number of included entries or reorder sections so content fits cleanly, then re-export.
-- **A verified role isn't showing as expected.** Verification is per role; confirm the role first via [employment verification](/guides/request-employment-verification).
+- **A countersigned role shows no mark in the export.** A PDF or DOCX download carries no countersignature mark yet. The countersignature sits beside the role on your profile.
 
 ## FAQ
 
@@ -60,4 +60,4 @@ Your content lives in your [profile](/features/profile-management). Exporting pr
 ### Can I export on Android?
 Yes. The export works the same way, with files saved through the Android app's native file handling.
 
-> Built and maintained by [Ahsan Mahmood](https://aoneahsan.com) — [LinkedIn](https://linkedin.com/in/aoneahsan) · [GitHub](https://github.com/aoneahsan).
+> Built and maintained by [the ClearHire team](/about-the-author) — [aoneahsan.com](https://aoneahsan.com) · [GitHub](https://github.com/aoneahsan).

@@ -7,7 +7,7 @@ employment history, in one place. Built with [Docusaurus](https://docusaurus.io)
 - **App:** https://clearhire.aoneahsan.com
 - **Android:** https://play.google.com/store/apps/details?id=com.aoneahsan.clearhire
 - **Docs (this site):** https://clearhire-docs.aoneahsan.com
-- **Author:** [Ahsan Mahmood](https://aoneahsan.com)
+- **Built by:** the ClearHire team ([aoneahsan.com](https://aoneahsan.com))
 
 ## Develop
 

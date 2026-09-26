@@ -61,7 +61,7 @@ The following describe what is available in ClearHire today, grouped by area rat
 ### Job seeker
 - **Profile management** across seven sections — see [profile management](/features/profile-management).
 - **Resume builder** with multiple templates, section control, and PDF/DOCX export — see [resume builder](/features/resume-builder).
-- **Employment verification** with a request flow, employer confirmation, timeout, and a Verified badge — see [employment verification](/features/employment-verification).
+- **Employment verification** with a request flow, employer confirmation, timeout, and a countersignature — see [employment verification](/features/employment-verification).
 - **Job search** with location, remote, salary, and skill filters, plus saved searches and alerts — see [job search](/features/job-search).
 - **Application tracking** from applied to offer — see [application tracking](/features/applications-tracking).
 - **Career tools** including the ATS checker, cover-letter/bio/pitch generators, interview prep, salary insights, coding challenges, career paths, and optimizers — see [career tools](/features/career-tools).
@@ -102,6 +102,6 @@ This changelog stays honest and high-level. Rather than fabricate precise dates,
 No. There is no iOS build at all — it is not in review and has no target date. ClearHire ships on web and Android.
 
 ### Where do I report an issue or request a feature?
-Reach the developer via [aoneahsan.com](https://aoneahsan.com) or the links on the [author page](/about-the-author).
+Reach the ClearHire team via [aoneahsan.com](https://aoneahsan.com) or the links on the [team page](/about-the-author).
 
-> Built and maintained by [Ahsan Mahmood](https://aoneahsan.com) — [LinkedIn](https://linkedin.com/in/aoneahsan) · [GitHub](https://github.com/aoneahsan).
+> Built and maintained by [the ClearHire team](/about-the-author) — [aoneahsan.com](https://aoneahsan.com) · [GitHub](https://github.com/aoneahsan).

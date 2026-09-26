@@ -5,20 +5,21 @@ import discoveryFeed from './src/plugins/discoveryFeed';
 
 // ---------------------------------------------------------------------------
 // ClearHire — Documentation site config
-// Author: Ahsan Mahmood (https://aoneahsan.com)
+// Built by: the ClearHire team (https://aoneahsan.com)
 // App: https://clearhire.aoneahsan.com · Play Store:
 // https://play.google.com/store/apps/details?id=com.aoneahsan.clearhire
 // ---------------------------------------------------------------------------
 
 const SITE_URL = 'https://clearhire-docs.aoneahsan.com';
 const APP_URL = 'https://clearhire.aoneahsan.com';
+const ORG_ID = `${APP_URL}/#organization`;
 const PLAY_URL =
   'https://play.google.com/store/apps/details?id=com.aoneahsan.clearhire';
 
 const config: Config = {
   title: 'ClearHire Docs',
   tagline:
-    'Build verified resumes, prove your employment history, and apply with confidence.',
+    'Build resumes, prove your employment history, and track applications.',
   favicon: 'img/favicon.svg',
 
   url: SITE_URL,
@@ -68,19 +69,9 @@ const config: Config = {
         name: 'ClearHire Documentation',
         url: SITE_URL,
         description:
-          'Documentation for ClearHire — a resume builder and verified-employment job platform. Build CVs from a structured profile, request employment verification from past employers, search jobs, track applications, and write mutual reviews. Author: Ahsan Mahmood.',
+          'Documentation for ClearHire — a resume builder and verified-employment job platform. Build CVs from a structured profile, request employment verification from past employers, search jobs, track applications, and write mutual reviews. Built by the ClearHire team.',
         inLanguage: 'en',
-        publisher: {
-          '@type': 'Person',
-          name: 'Ahsan Mahmood',
-          url: 'https://aoneahsan.com',
-          email: 'aoneahsan@gmail.com',
-          sameAs: [
-            'https://linkedin.com/in/aoneahsan',
-            'https://github.com/aoneahsan',
-            'https://www.npmjs.com/~aoneahsan',
-          ],
-        },
+        publisher: { '@type': 'Organization', '@id': ORG_ID, name: 'ClearHire' },
       }),
     },
     {
@@ -96,11 +87,7 @@ const config: Config = {
         url: APP_URL,
         downloadUrl: PLAY_URL,
         sameAs: [APP_URL, PLAY_URL],
-        author: {
-          '@type': 'Person',
-          name: 'Ahsan Mahmood',
-          url: 'https://aoneahsan.com',
-        },
+        author: { '@type': 'Organization', '@id': ORG_ID, name: 'ClearHire' },
         description:
           'Resume builder and verified-employment job platform. Create professional CVs from one structured profile, request and grant employment verification, search jobs, track applications, and exchange mutual reviews between candidates and companies.',
       }),
@@ -111,17 +98,22 @@ const config: Config = {
       innerHTML: JSON.stringify({
         '@context': 'https://schema.org',
         '@type': 'Organization',
-        name: 'Ahsan Mahmood',
-        alternateName: 'aoneahsan',
-        url: 'https://aoneahsan.com',
+        '@id': ORG_ID,
+        name: 'ClearHire',
+        url: `${APP_URL}/`,
         email: 'aoneahsan@gmail.com',
-        sameAs: [
-          'https://linkedin.com/in/aoneahsan',
-          'https://github.com/aoneahsan',
-          'https://www.npmjs.com/~aoneahsan',
-          'https://aoneahsan.com',
-        ],
-        founder: { '@type': 'Person', name: 'Ahsan Mahmood' },
+        founder: {
+          '@type': 'Person',
+          '@id': `${APP_URL}/#developer`,
+          name: 'Ahsan Mahmood',
+          alternateName: 'aoneahsan',
+          url: 'https://aoneahsan.com',
+          sameAs: [
+            'https://linkedin.com/in/aoneahsan',
+            'https://github.com/aoneahsan',
+            'https://www.npmjs.com/~aoneahsan',
+          ],
+        },
       }),
     },
   ],
@@ -210,14 +202,14 @@ const config: Config = {
       {
         name: 'description',
         content:
-          'Documentation for ClearHire — build verified resumes, prove your employment history, search jobs, and track applications. Available on web and Android. Maintained by Ahsan Mahmood.',
+          'Documentation for ClearHire: build resumes, get past roles countersigned, search jobs and track applications. Web and Android. By the ClearHire team.',
       },
       {
         name: 'keywords',
         content:
           'clearhire, resume builder, cv builder, employment verification, verified employment, job search, applicant tracking, ats resume checker, cover letter generator, mutual reviews, job application tracker, career tools',
       },
-      { name: 'author', content: 'Ahsan Mahmood' },
+      { name: 'author', content: 'The ClearHire team' },
       {
         name: 'robots',
         content:
@@ -231,7 +223,6 @@ const config: Config = {
       { property: 'og:locale', content: 'en_US' },
       { property: 'og:image:width', content: '1200' },
       { property: 'og:image:height', content: '630' },
-      { property: 'article:author', content: 'Ahsan Mahmood' },
     ],
     colorMode: {
       defaultMode: 'light',
@@ -259,7 +250,7 @@ const config: Config = {
         },
         { to: '/getting-started/quick-start', label: 'Get Started', position: 'left' },
         { to: '/faq', label: 'FAQ', position: 'left' },
-        { to: '/about-the-author', label: 'Author', position: 'right' },
+        { to: '/about-the-author', label: 'The team', position: 'right' },
         { href: APP_URL, label: 'Open App', position: 'right' },
         { href: PLAY_URL, label: 'Google Play', position: 'right' },
         {
@@ -300,7 +291,7 @@ const config: Config = {
           ],
         },
         {
-          title: 'Built by Ahsan Mahmood',
+          title: 'Built by the ClearHire team',
           items: [
             { label: 'aoneahsan.com', href: 'https://aoneahsan.com' },
             { label: 'LinkedIn', href: 'https://linkedin.com/in/aoneahsan' },
@@ -309,7 +300,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Ahsan Mahmood. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} an independent developer, the ClearHire team. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,

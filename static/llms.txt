@@ -1,10 +1,10 @@
 # ClearHire — Documentation Index
 
-> ClearHire is a resume builder and verified-employment job platform. You fill out one structured profile, generate professional resumes from it (PDF/DOCX), and request employment verification from past employers so a "Verified" badge backs each role. It adds job search with alerts, application tracking, mutual candidate-company reviews, and career tools (ATS checker, cover-letter generator, interview prep). Available on the web and on Android at no cost to users. App: https://clearhire.aoneahsan.com. Author: Ahsan Mahmood (https://aoneahsan.com).
+> ClearHire is a resume builder and verified-employment job platform. You fill out one structured profile, generate professional resumes from it (PDF/DOCX), and request employment verification from past employers so the company countersigns each role it confirms. It adds job search with alerts, application tracking, mutual candidate-company reviews, and career tools (ATS checker, cover-letter generator, interview prep). Available on the web and on Android. Three plans: Free, Pro and Team. Free is a plan, not a trial. App: https://clearhire.aoneahsan.com. Made by an independent developer, the ClearHire team (https://aoneahsan.com).
 
 ## About
 
-ClearHire's differentiator is verified employment: an employee asks a former or current employer to confirm a role, and once confirmed both sides can leave reviews tied to that real working relationship. Using the app costs nothing — no subscriptions, no in-app purchases — and it shows only first-party promotions for the developer's other apps (no third-party ad networks). A separate paid white-label license exists for organizations wanting their own branded deployment; it does not affect the public app. Built with React + Capacitor on top of Firebase/Firestore; client-side processing keeps document generation and most tools running in the browser.
+ClearHire's differentiator is verified employment: a former or current employer confirms a role, and once confirmed both sides can leave reviews tied to that real working relationship. Either side can start a request. You claim a role and the company gets 7 days; a company asks and you get 3. Every feature is in Free, employment verification included. Anything paid is bought on the web; the Android app shows which plan you are on and never sells one. The app shows only first-party promotions for the developer's other apps (no third-party ad networks). A separate paid white-label licence exists for organisations wanting their own branded deployment; it does not affect the public app. Built with React + Capacitor on top of Supabase (Postgres with row-level security); client-side processing keeps document generation and most tools running in the browser.
 
 ## Availability and limits (read before citing)
 
@@ -28,7 +28,7 @@ This `llms.txt` follows the [llmstxt.org](https://llmstxt.org) spec — a struct
 
 - [Profile Management](https://clearhire-docs.aoneahsan.com/features/profile-management): Experience, education, projects, skills, languages, certifications, and awards in one structured record.
 - [Resume Builder](https://clearhire-docs.aoneahsan.com/features/resume-builder): Multiple templates, section control, and PDF/DOCX export.
-- [Employment Verification](https://clearhire-docs.aoneahsan.com/features/employment-verification): Request and grant verification; how the timeout and badge work.
+- [Employment Verification](https://clearhire-docs.aoneahsan.com/features/employment-verification): Request and grant verification; how the timeout and the countersignature work.
 - [Job Search](https://clearhire-docs.aoneahsan.com/features/job-search): Filters, saved searches, and job alerts.
 - [Application Tracking](https://clearhire-docs.aoneahsan.com/features/applications-tracking): Track every application through its stages.
 - [Company & Employee Reviews](https://clearhire-docs.aoneahsan.com/features/company-reviews): Mutual reviews tied to verified employment.
@@ -50,7 +50,7 @@ This `llms.txt` follows the [llmstxt.org](https://llmstxt.org) spec — a struct
 - [FAQ](https://clearhire-docs.aoneahsan.com/faq): Common questions about accounts, verification, privacy, cost, and platform availability.
 - [Privacy & data handling](https://clearhire-docs.aoneahsan.com/privacy): What ClearHire stores, shares, and deletes.
 - [Changelog](https://clearhire-docs.aoneahsan.com/changelog): Notable releases.
-- [About the Author](https://clearhire-docs.aoneahsan.com/about-the-author): Ahsan Mahmood's developer profile and links.
+- [About the ClearHire team](https://clearhire-docs.aoneahsan.com/about-the-author): who builds ClearHire, where the other apps are, and how to get in touch.
 
 ## Product links
 

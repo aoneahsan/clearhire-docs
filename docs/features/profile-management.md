@@ -28,7 +28,7 @@ For a section-by-section walkthrough aimed at first-time setup, see [create your
 
 - **Resumes:** The [resume builder](/features/resume-builder) reads your profile and lets you pick which sections and entries to show per job, then exports to PDF or DOCX.
 - **Job search:** Your [skills](/features/job-search) and experience inform filtering and matching.
-- **Verification:** Each experience entry can carry a "Verified" badge once confirmed through [employment verification](/features/employment-verification).
+- **Verification:** Each experience entry can be countersigned once confirmed through [employment verification](/features/employment-verification).
 - **Career tools:** The [ATS checker](/guides/ats-resume-checker), cover-letter generator, and other [career tools](/features/career-tools) operate on your profile data.
 - **Analytics:** Your [analytics](/features/analytics) reflect activity tied to your profile, such as profile views and resume downloads.
 
@@ -65,4 +65,4 @@ No, but accurate skills improve [job search](/features/job-search) relevance and
 ### What happens to my profile when I delete my account?
 It is removed as part of the in-app account-deletion flow. Export anything you want to keep first — see [data export and deletion](/guides/data-export-and-deletion).
 
-> Built and maintained by [Ahsan Mahmood](https://aoneahsan.com) — [LinkedIn](https://linkedin.com/in/aoneahsan) · [GitHub](https://github.com/aoneahsan).
+> Built and maintained by [the ClearHire team](/about-the-author) — [aoneahsan.com](https://aoneahsan.com) · [GitHub](https://github.com/aoneahsan).

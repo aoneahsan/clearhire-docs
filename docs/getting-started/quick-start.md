@@ -43,7 +43,7 @@ Need help choosing a format? Read [export your resume as PDF or DOCX](/guides/ex
 
 ## Step 4 (optional): Verify a past role
 
-If you want a "Verified" badge on a previous job, open that experience entry and [request employment verification](/guides/request-employment-verification). Your former employer receives the request and can confirm it. The badge does not prove performance — only that the role existed and was acknowledged.
+If you want a previous job countersigned, open that experience entry and [request employment verification](/guides/request-employment-verification). Your former employer receives the request and can confirm it. It is not an identity check and it is not an endorsement: the company confirmed that you worked there, not that you were good at it.
 
 ## What to do after the basics
 
@@ -72,4 +72,4 @@ Your profile data is saved to your account. When you export a resume, the file d
 ### Is the quick start different on Android?
 The steps are the same. The Android app uses native sign-in and native file handling for exports, but the profile and resume builder work identically.
 
-> Built and maintained by [Ahsan Mahmood](https://aoneahsan.com) — [LinkedIn](https://linkedin.com/in/aoneahsan) · [GitHub](https://github.com/aoneahsan).
+> Built and maintained by [the ClearHire team](/about-the-author) — [aoneahsan.com](https://aoneahsan.com) · [GitHub](https://github.com/aoneahsan).

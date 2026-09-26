@@ -86,4 +86,4 @@ Only what is necessary for the employer to confirm the role. See [employment ver
 ### How do I remove my data?
 Use the in-app account-deletion flow. Export first if you want copies — see [data export and deletion](/guides/data-export-and-deletion).
 
-> Built and maintained by [Ahsan Mahmood](https://aoneahsan.com) — [LinkedIn](https://linkedin.com/in/aoneahsan) · [GitHub](https://github.com/aoneahsan).
+> Built and maintained by [the ClearHire team](/about-the-author) — [aoneahsan.com](https://aoneahsan.com) · [GitHub](https://github.com/aoneahsan).

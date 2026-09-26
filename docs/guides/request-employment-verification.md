@@ -8,9 +8,9 @@ sidebar_label: Request Verification
 
 # How to Request Employment Verification
 
-Requesting employment verification in ClearHire is the action that asks a former or current employer to confirm a specific role on your profile, which — once confirmed — earns that role a "Verified" badge. This guide walks through sending the request, what the employer sees on their side, and how the timeout works, so you know what to expect at each step.
+Requesting employment verification in ClearHire is the action that asks a former or current employer to confirm a specific role on your profile, which — once confirmed — earns that role a countersignature. This guide walks through sending the request, what the employer sees on their side, and how the timeout works, so you know what to expect at each step.
 
-For the concept and what a badge does and does not prove, read the [employment verification](/features/employment-verification) overview first.
+For the concept and what a countersignature does and does not prove, read the [employment verification](/features/employment-verification) overview first.
 
 ## Before you start
 
@@ -25,7 +25,7 @@ For the concept and what a badge does and does not prove, read the [employment v
 3. Provide the employer or contact details ClearHire needs to route the request.
 4. Submit the request.
 5. Wait for the employer to act on it (see the timeout below).
-6. When confirmed, the role displays a **Verified** badge.
+6. When confirmed, the role shows as **Countersigned**.
 
 ## What the employer sees
 
@@ -37,8 +37,8 @@ The employer-side request has a **timeout**. If the contact does not act within 
 
 | Situation | What happens | What to do |
 | --- | --- | --- |
-| Employer confirms in time | Role gets a Verified badge | Nothing — you're done |
-| Employer declines | Role stays unverified | Contact them or pick another contact |
+| Employer confirms in time | Role is countersigned | Nothing — you're done |
+| Employer declines | Role is declined | Contact them or pick another contact |
 | Request times out | Request lapses | Send a fresh request |
 
 A lapsed request is not a rejection and not a black mark. You can simply request again, choose a different contact, or follow up outside the app.
@@ -56,15 +56,15 @@ A lapsed request is not a rejection and not a black mark. You can simply request
 The request carries a timeout window. If it is not actioned in time, the request lapses and you can send a new one.
 
 ### What if my employer declines?
-The role stays unverified. You can reach out to clarify, choose a different authorized contact, or leave the role unverified — which is not a mark against you.
+The role is declined. A declined claim stays between you and the company and never appears on a public profile. You can reach out to clarify, choose a different authorised contact, or leave the role as it is — which is not a mark against you.
 
 ### Can I verify a role at a company that closed?
-Only if a contact who can confirm the role is reachable. If not, the role may remain unverified, and that is normal.
+Only if a contact who can confirm the role is reachable. If not, the role may remain unconfirmed, and that is normal.
 
 ### Does verifying share private information?
 It shares only what is necessary to confirm the role between you and the employer. See the [privacy summary](/privacy).
 
-### Will the badge appear on my resume?
-Verification attaches to the role in your profile. Once confirmed, that verified status can be reflected when you present the role. The [resume builder](/features/resume-builder) draws from your profile.
+### Will the countersignature appear on my resume?
+The countersignature sits beside the role on your profile. The published resume page explains what a countersignature means but does not yet mark individual roles, and a PDF or DOCX download carries no mark. The [resume builder](/features/resume-builder) draws from your profile.
 
-> Built and maintained by [Ahsan Mahmood](https://aoneahsan.com) — [LinkedIn](https://linkedin.com/in/aoneahsan) · [GitHub](https://github.com/aoneahsan).
+> Built and maintained by [the ClearHire team](/about-the-author) — [aoneahsan.com](https://aoneahsan.com) · [GitHub](https://github.com/aoneahsan).

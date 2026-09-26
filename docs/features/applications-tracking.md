@@ -59,4 +59,4 @@ No. Your pipeline is private to you. Employers see your application through thei
 ### What happens to my tracked applications if I delete my account?
 They are removed with the rest of your data per the in-app deletion flow. Export first if you want a record — see [data export and deletion](/guides/data-export-and-deletion).
 
-> Built and maintained by [Ahsan Mahmood](https://aoneahsan.com) — [LinkedIn](https://linkedin.com/in/aoneahsan) · [GitHub](https://github.com/aoneahsan).
+> Built and maintained by [the ClearHire team](/about-the-author) — [aoneahsan.com](https://aoneahsan.com) · [GitHub](https://github.com/aoneahsan).

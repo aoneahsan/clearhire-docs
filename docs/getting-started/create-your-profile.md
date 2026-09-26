@@ -12,7 +12,7 @@ Your ClearHire profile is a structured record of your career — split into seve
 
 ## Why a structured profile matters
 
-A document-first resume locks your information inside one file's layout. A structured profile keeps each fact as data, which means ClearHire can re-arrange it into different templates, hide or show sections per job, and feed your [skills](/features/job-search) into search filters and the [ATS checker](/guides/ats-resume-checker). It also lets a specific work experience entry carry a verified badge once an employer confirms it through [employment verification](/features/employment-verification).
+A document-first resume locks your information inside one file's layout. A structured profile keeps each fact as data, which means ClearHire can re-arrange it into different templates, hide or show sections per job, and feed your [skills](/features/job-search) into search filters and the [ATS checker](/guides/ats-resume-checker). It also lets a specific work experience entry carry a countersignature once an employer confirms it through [employment verification](/features/employment-verification).
 
 ## The seven profile sections
 
@@ -70,4 +70,4 @@ Your profile data is tied to your account. Companies using [talent search](/feat
 ### What happens to my profile if I delete my account?
 Account deletion removes your data per the in-app flow. See [data export and deletion](/guides/data-export-and-deletion) for how to export first and how deletion works.
 
-> Built and maintained by [Ahsan Mahmood](https://aoneahsan.com) — [LinkedIn](https://linkedin.com/in/aoneahsan) · [GitHub](https://github.com/aoneahsan).
+> Built and maintained by [the ClearHire team](/about-the-author) — [aoneahsan.com](https://aoneahsan.com) · [GitHub](https://github.com/aoneahsan).

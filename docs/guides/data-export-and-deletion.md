@@ -68,4 +68,4 @@ Export them as [PDF or DOCX](/guides/export-resume-pdf-docx). Those files stay o
 ### Where is the authoritative privacy policy?
 In-app at [clearhire.aoneahsan.com/privacy](https://clearhire.aoneahsan.com/privacy). This docs site provides a plain-language [summary](/privacy), not the legal policy.
 
-> Built and maintained by [Ahsan Mahmood](https://aoneahsan.com) — [LinkedIn](https://linkedin.com/in/aoneahsan) · [GitHub](https://github.com/aoneahsan).
+> Built and maintained by [the ClearHire team](/about-the-author) — [aoneahsan.com](https://aoneahsan.com) · [GitHub](https://github.com/aoneahsan).

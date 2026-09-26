@@ -51,4 +51,4 @@ No. Stuffing reads poorly to humans and fails you in interviews. Add only skills
 ### Does my data leave my device when I run the checker?
 Most career-tool processing runs client-side in your browser. For the full picture of what ClearHire stores, see the [privacy summary](/privacy).
 
-> Built and maintained by [Ahsan Mahmood](https://aoneahsan.com) — [LinkedIn](https://linkedin.com/in/aoneahsan) · [GitHub](https://github.com/aoneahsan).
+> Built and maintained by [the ClearHire team](/about-the-author) — [aoneahsan.com](https://aoneahsan.com) · [GitHub](https://github.com/aoneahsan).

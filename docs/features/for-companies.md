@@ -8,7 +8,7 @@ sidebar_label: For Companies
 
 # ClearHire for Companies
 
-ClearHire for companies is the employer side of the platform that lets organizations create company profiles, post jobs, manage applicants, search for talent, review employees, and confirm employment through verification. It is the counterpart to the job-seeker experience: where candidates build verified histories, companies post roles and engage with candidates whose claims can be confirmed.
+ClearHire for companies is the employer side of the platform that lets organisations create company profiles, post jobs, manage applicants, search for talent, review employees, and confirm employment through verification. It is the counterpart to the job-seeker experience: where candidates build a record a company can countersign, companies post roles and engage with candidates whose claims can be confirmed.
 
 ## Company profiles
 
@@ -37,7 +37,7 @@ Search for candidates by skills, experience, and location to source proactively 
 
 ## Employment verification (employer side)
 
-When a current or former employee requests verification of a role, an authorized contact at your company can confirm it. Confirmations are time-bound: requests carry a **timeout**, so action them promptly to avoid letting valid requests lapse. By confirming honestly, you help build a more trustworthy hiring ecosystem for everyone. See [employment verification](/features/employment-verification) for how the request flow works end to end.
+Either side can start it: a current or former employee can ask your company to confirm a role, or an authorised contact at your company can start the record. Confirmations are time-bound: requests carry a **timeout**, so action them promptly to avoid letting valid requests lapse. Confirming puts a named person at your company, with their own job title and the date, behind three facts: the job title, the company and the dates. See [employment verification](/features/employment-verification) for how the request flow works end to end.
 
 ## Employee reviews
 
@@ -62,7 +62,7 @@ Yes. You can create multiple company profiles, each with its own locations and b
 Including a range is recommended. It feeds the candidate-side [salary filter](/features/job-search) and tends to attract better-matched applicants.
 
 ### How do we confirm an employee's role?
-When the employee requests verification, an authorized contact confirms it before the request times out. The role then carries a verified badge. See [employment verification](/features/employment-verification).
+Either the employee requests it or an authorised contact at your company starts the record. The other side answers before it times out (the company has 7 days to answer, a person has 3). The role is then countersigned. See [employment verification](/features/employment-verification).
 
 ### Are employee reviews anonymous?
 Reviews are tied to a verified employment link, so they reflect a real working relationship rather than anonymous posting. See [company reviews](/features/company-reviews).
@@ -70,4 +70,4 @@ Reviews are tied to a verified employment link, so they reflect a real working r
 ### Does ClearHire cost anything for companies?
 Confirming a former employee's record is free and always will be — a company answering a request is doing ClearHire a favour, and charging for that would be backwards. The company side's own tools sit under the same three plans as the rest of the product: Free, Pro and Team. A separate white-label licence exists for organizations that want their own branded deployment; it is not required to post jobs or hire on ClearHire itself.
 
-> Built and maintained by [Ahsan Mahmood](https://aoneahsan.com) — [LinkedIn](https://linkedin.com/in/aoneahsan) · [GitHub](https://github.com/aoneahsan).
+> Built and maintained by [the ClearHire team](/about-the-author) — [aoneahsan.com](https://aoneahsan.com) · [GitHub](https://github.com/aoneahsan).

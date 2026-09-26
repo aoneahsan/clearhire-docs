@@ -37,7 +37,7 @@ When you find a role worth pursuing:
 2. Tailor a CV in the [resume builder](/features/resume-builder) and check it with the [ATS checker](/guides/ats-resume-checker).
 3. Apply, then log it in [application tracking](/features/applications-tracking) so you can follow it from applied to offer.
 
-A [verified](/features/employment-verification) work history can strengthen your candidacy when you apply.
+Before you apply, you can [request employment verification](/guides/request-employment-verification) for past roles. Once a company confirms one, it shows as countersigned on your profile.
 
 ## What job search does not do
 
@@ -62,4 +62,4 @@ Only when a job includes a salary range. Companies posting through [ClearHire fo
 ### What should I do after I apply?
 Log the application in [application tracking](/features/applications-tracking) to monitor its stage, and consider requesting [employment verification](/features/employment-verification) for the roles a recruiter is most likely to scrutinize.
 
-> Built and maintained by [Ahsan Mahmood](https://aoneahsan.com) — [LinkedIn](https://linkedin.com/in/aoneahsan) · [GitHub](https://github.com/aoneahsan).
+> Built and maintained by [the ClearHire team](/about-the-author) — [aoneahsan.com](https://aoneahsan.com) · [GitHub](https://github.com/aoneahsan).

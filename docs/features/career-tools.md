@@ -71,4 +71,4 @@ Most processing runs client-side in your browser. For the full picture of what C
 ### Which tool should I use first?
 The [ATS resume checker](/guides/ats-resume-checker) — aligning your resume to the job description is the highest-leverage step before you apply.
 
-> Built and maintained by [Ahsan Mahmood](https://aoneahsan.com) — [LinkedIn](https://linkedin.com/in/aoneahsan) · [GitHub](https://github.com/aoneahsan).
+> Built and maintained by [the ClearHire team](/about-the-author) — [aoneahsan.com](https://aoneahsan.com) · [GitHub](https://github.com/aoneahsan).

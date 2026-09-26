@@ -41,9 +41,9 @@ branded deployment licenses that separately.
 ## Verification
 
 ### How does employment verification work?
-You request verification of a specific role from your employer; an authorized contact confirms it; the role then shows a "Verified" badge. See [employment verification](/features/employment-verification) and the [how-to guide](/guides/request-employment-verification).
+You request verification of a specific role from your employer; an authorised contact confirms it; the role then shows as Countersigned. See [employment verification](/features/employment-verification) and the [how-to guide](/guides/request-employment-verification).
 
-### Does a Verified badge prove I was a good employee?
+### Does a countersignature prove I was a good employee?
 No. It confirms the role existed and was acknowledged by the employer. It does not rate performance, confirm salary, or validate seniority.
 
 ### What happens if my employer doesn't respond?
@@ -85,6 +85,6 @@ No. There is nothing to install, and nothing pending. An early prototype existed
 ## About
 
 ### Who built ClearHire?
-ClearHire is built and maintained by Ahsan Mahmood, a full-stack developer. See [about the author](/about-the-author).
+ClearHire is built and maintained by an independent developer, the ClearHire team. See [about the team](/about-the-author).
 
-> Built and maintained by [Ahsan Mahmood](https://aoneahsan.com) — [LinkedIn](https://linkedin.com/in/aoneahsan) · [GitHub](https://github.com/aoneahsan).
+> Built and maintained by [the ClearHire team](/about-the-author) — [aoneahsan.com](https://aoneahsan.com) · [GitHub](https://github.com/aoneahsan).

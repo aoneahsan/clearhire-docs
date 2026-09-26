@@ -1,5 +1,5 @@
 # ClearHire Docs — robots.txt
-# Maintained by Ahsan Mahmood (https://aoneahsan.com)
+# Maintained by the ClearHire team (https://aoneahsan.com)
 # Last updated: 2026-06-22
 #
 # Public crawl policy for https://clearhire-docs.aoneahsan.com. We allow every

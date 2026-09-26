@@ -2,7 +2,7 @@
   "name": "clearhire-docs",
   "version": "0.1.0",
   "private": true,
-  "description": "Public documentation site for ClearHire — a resume builder and verified-employment job platform (https://clearhire.aoneahsan.com). Built with Docusaurus, deployed to Firebase Hosting + GitHub Pages.",
+  "description": "Public documentation site for ClearHire — a resume builder and verified-employment job platform (https://clearhire.aoneahsan.com). Built with Docusaurus, deployed to GitHub Pages.",
   "author": {
     "name": "Ahsan Mahmood",
     "email": "aoneahsan@gmail.com",

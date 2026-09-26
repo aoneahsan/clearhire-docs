@@ -47,7 +47,7 @@ Before applying, run your resume through the [ATS resume checker](/guides/ats-re
 
 - **It does not invent your experience.** It formats what you provide; the facts stay yours.
 - **It does not guarantee interviews.** A clean, keyword-aligned resume helps, but outcomes depend on the role and competition.
-- **It is not a verification of your claims.** A verified badge comes from [employment verification](/features/employment-verification), not from the resume layout.
+- **It is not a verification of your claims.** A countersignature comes from [employment verification](/features/employment-verification), not from the resume layout.
 
 ## FAQ
 
@@ -60,10 +60,10 @@ Yes. Export as many times as you like in either format. Use PDF to apply and DOC
 ### Will my resume look the same on every device?
 PDF preserves layout consistently. DOCX may render slightly differently depending on the word processor and fonts installed.
 
-### How do I show a verified role on my resume?
-First confirm the role via [employment verification](/guides/request-employment-verification). Once verified, that experience entry carries a badge that can be reflected in the app.
+### How do I show a countersigned role on my resume?
+First confirm the role via [employment verification](/guides/request-employment-verification). The countersignature sits beside the role on your profile. The published resume page explains what a countersignature means but does not yet mark individual roles, and a PDF or DOCX download carries no mark.
 
 ### Can I keep multiple tailored resumes?
 You tailor output per job from one profile. The fastest workflow is to adjust the template and section selection for each application rather than maintaining many separate documents.
 
-> Built and maintained by [Ahsan Mahmood](https://aoneahsan.com) — [LinkedIn](https://linkedin.com/in/aoneahsan) · [GitHub](https://github.com/aoneahsan).
+> Built and maintained by [the ClearHire team](/about-the-author) — [aoneahsan.com](https://aoneahsan.com) · [GitHub](https://github.com/aoneahsan).

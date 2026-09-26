@@ -71,4 +71,4 @@ No. ClearHire formats your real information and offers tools like the [ATS check
 ### Will switching templates lose my edits?
 No. Content is stored in your profile, so changing the template re-renders the same information in a new layout.
 
-> Built and maintained by [Ahsan Mahmood](https://aoneahsan.com) — [LinkedIn](https://linkedin.com/in/aoneahsan) · [GitHub](https://github.com/aoneahsan).
+> Built and maintained by [the ClearHire team](/about-the-author) — [aoneahsan.com](https://aoneahsan.com) · [GitHub](https://github.com/aoneahsan).
