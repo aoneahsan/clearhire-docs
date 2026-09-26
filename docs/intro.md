@@ -8,7 +8,7 @@ sidebar_label: Introduction
 
 # ClearHire: what it does, who it is for, and what it will not claim
 
-A reference check asks how you did. ClearHire asks a narrower question: whether you held this title at this company between these dates. A named person there answers from the company’s records, and the answer is kept under their name, with the date. That is a countersignature. It sits beside the role on your profile, and it is the one line on the page that somebody other than you signed. The published resume page and a PDF or DOCX do not carry it yet.
+A reference check asks how you did. ClearHire asks a narrower question: whether you held this title at this company between these dates. A named person there answers from the company’s records, and the answer is kept under their name, with the date. That is a countersignature. It sits beside the role on your profile and on any resume you publish, and it is the one line on the page that somebody other than you signed.
 
 The rest of the product is what that line needs around it. A resume builder keeps one profile and cuts a resume per role, with PDF and DOCX out and a public link you can switch off again. Career tools, most of which need no account, cover the application, the interview and the number. Companies get the other side of the same record: post a role, search candidates, run the stages, answer a claim.
 

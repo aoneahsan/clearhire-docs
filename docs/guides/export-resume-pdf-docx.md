@@ -41,7 +41,7 @@ As a default, **export PDF to apply** and **DOCX to edit**. If a job portal does
 - **The download didn't start.** Check your browser's pop-up or download settings, then try again. On Android, confirm the app has permission to save files.
 - **DOCX looks different than the preview.** Word processors substitute fonts and spacing. For a pixel-faithful result, use PDF instead.
 - **The layout breaks across pages.** Reduce the number of included entries or reorder sections so content fits cleanly, then re-export.
-- **A countersigned role shows no mark in the export.** A PDF or DOCX download carries no countersignature mark yet. The countersignature sits beside the role on your profile.
+- **A countersigned role shows no mark in the export.** Turn on the verified strip on the export page; each countersigned role then prints "Countersigned by" the company, with the date. A role still waiting for its company prints nothing, and Markdown has no strip at all.
 
 ## FAQ
 

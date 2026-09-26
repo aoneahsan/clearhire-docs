@@ -65,6 +65,6 @@ Only if a contact who can confirm the role is reachable. If not, the role may re
 It shares only what is necessary to confirm the role between you and the employer. See the [privacy summary](/privacy).
 
 ### Will the countersignature appear on my resume?
-The countersignature sits beside the role on your profile. The published resume page explains what a countersignature means but does not yet mark individual roles, and a PDF or DOCX download carries no mark. The [resume builder](/features/resume-builder) draws from your profile.
+The countersignature sits beside the role on your profile and on any resume you publish. In a PDF or DOCX download, turn on the verified strip and each countersigned role prints "Countersigned by" the company, with the date. The [resume builder](/features/resume-builder) draws from your profile.
 
 > Built and maintained by [the ClearHire team](/about-the-author) — [aoneahsan.com](https://aoneahsan.com) · [GitHub](https://github.com/aoneahsan).

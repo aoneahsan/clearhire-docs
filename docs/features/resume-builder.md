@@ -61,7 +61,7 @@ Yes. Export as many times as you like in either format. Use PDF to apply and DOC
 PDF preserves layout consistently. DOCX may render slightly differently depending on the word processor and fonts installed.
 
 ### How do I show a countersigned role on my resume?
-First confirm the role via [employment verification](/guides/request-employment-verification). The countersignature sits beside the role on your profile. The published resume page explains what a countersignature means but does not yet mark individual roles, and a PDF or DOCX download carries no mark.
+First confirm the role via [employment verification](/guides/request-employment-verification). The countersignature sits beside the role on your profile and on any resume you publish. In a PDF or DOCX download, turn on the verified strip and each countersigned role prints "Countersigned by" the company, with the date.
 
 ### Can I keep multiple tailored resumes?
 You tailor output per job from one profile. The fastest workflow is to adjust the template and section selection for each application rather than maintaining many separate documents.
