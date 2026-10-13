@@ -4,7 +4,7 @@ Public Docusaurus documentation site for the **ClearHire** app.
 
 **Mirror of `CLAUDE.md`** — byte-identical except this line. Update one, update the other.
 
-| Context Budget Last Verified | 2026-09-03 — `wc -c CLAUDE.md` / no PENDING-TASKS.md; re-check due 2026-09-13 |
+| Context Budget Last Verified | 2026-10-13 — root and docs pair checked; next routine pass 2026-11-12 |
 |---|---|
 
 > Global + workspace rules auto-load every session (`~/.claude/rules/*.md`,
@@ -23,7 +23,7 @@ Public Docusaurus documentation site for the **ClearHire** app.
 | Live URL | https://clearhire-docs.aoneahsan.com — **GitHub Pages only** (`deploy-pages.yml` on every push to `main`; serving, verified 2026-09-03). No Firebase target |
 | Documents | the ClearHire **rebuild** (`../clearhire/`, branch `redevelop-v1`, Supabase backend, live since 2026-09-02). ✅ **Factually aligned on 2026-09-05 (OD-187)** — Supabase not Firestore, the extension page an honest notice (OD-164), wave 8's real progression, announcements, a 2.0.0 changelog entry, the three plans named. ✅ **`intro.md`'s narrative shipped 2026-09-17** — story surface `docs-site-intro`, approved at GATE 4 (OD-217); change it through `../clearhire/docs/story/`, never here |
 | App URL | https://clearhire.aoneahsan.com |
-| Play Store | https://play.google.com/store/apps/details?id=com.aoneahsan.clearhire — the 1.x listing; the 2.0 Android app is not built yet (wave 10) |
+| Play Store | https://play.google.com/store/apps/details?id=com.aoneahsan.clearhire — the 1.x listing; the 2.0 Android code is complete, but owner device/store release rows remain |
 | Dev port | 5962 (start) / 5963 (serve) |
 | Build gates | `yarn typecheck` exit 0 · `yarn build` (→ `./build`) exit 0 |
 | Baseline | 24 published pages (+ `MANUAL-TASKS.md`, excluded); 0 pages name Firebase/Firestore as the backend; 0 pages claim there is no paid tier (a house rule — never write it). Since 2026-09-12 the build also emits `/feed.xml` from the pages' dates (`src/plugins/discoveryFeed.ts`) and serves an IndexNow key file from `static/` |
@@ -93,9 +93,11 @@ to `main` is the deploy.
 `www`, `node_modules`, logs, caches, IDE), never lose source. Custom rules always present: `*.ignore.*`,
 `project-record-ignore/`. This is a **PUBLIC** repo → secrets, `.env` and keystores are NEVER tracked.
 Full rule + private/public protocol: `~/.claude/rules/project-config.md`.
-`Gitignore Last Verified: 2026-06-24`
+`Gitignore Last Verified: 2026-10-13` — generated `supabase/.temp/` CLI metadata is ignored and stays local; no CLI state is published.
 
 ## Last Updated
+
+2026-10-13 — context pair refreshed on the 30-day fleet cadence; the Android release statement and generated CLI ignore now match the checked-in project state. No site page or product copy was changed.
 
 2026-09-17 — `intro.md` carries the approved story narrative (GATE 4, OD-217); the front matter is unchanged.
 
