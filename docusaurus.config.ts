@@ -17,6 +17,11 @@ const PLAY_URL =
   'https://play.google.com/store/apps/details?id=com.aoneahsan.clearhire';
 
 const config: Config = {
+  future: {
+    v4: true,
+    faster: true,
+  },
+
   title: 'ClearHire Docs',
   tagline:
     'Build resumes, prove your employment history, and track applications.',
@@ -184,8 +189,6 @@ const config: Config = {
         blog: false,
         theme: { customCss: './src/css/custom.css' },
         sitemap: {
-          changefreq: 'weekly',
-          priority: 0.7,
           lastmod: 'date',
           // /search is a utility page with no indexable content of its own.
           ignorePatterns: ['/search'],

@@ -13,12 +13,12 @@ employment history, in one place. Built with [Docusaurus](https://docusaurus.io)
 
 ```bash
 yarn install
-yarn start        # local dev server on http://localhost:5962
-yarn build        # static build → ./build
-yarn typecheck    # tsc --noEmit
+yarn dev          # local dev server on http://localhost:5962
+yarn gates        # typecheck + production build
+yarn serve        # serve the built site on http://localhost:5963
 ```
 
-Yarn only (`nvm → npm global → yarn local`). Never `npm`/`pnpm` for local installs.
+Node 24.13.0 and Yarn 4.18.1 are pinned. Use Yarn only for local installs.
 
 ## Deploy
 
@@ -40,7 +40,12 @@ sidebars.ts            # Sidebar layout
 docs/tracking/clearhire-docs-content-tracker.json  # resumable enrichment backlog (excluded from the build)
 ```
 
-**Last Updated:** 2026-09-12
+## Maintenance
+
+- [PACKAGES.md](PACKAGES.md) records the current dependency baseline and verification commands.
+- [VERSION-BLOCKERS.md](VERSION-BLOCKERS.md) records upgrades that are intentionally held.
+
+**Last Updated:** 2026-10-21
 
 ## License
 

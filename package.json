@@ -15,10 +15,11 @@
     "url": "git+https://github.com/aoneahsan/clearhire-docs.git"
   },
   "engines": {
-    "node": ">=18.0.0"
+    "node": ">=24.13.0"
   },
   "scripts": {
     "docusaurus": "docusaurus",
+    "dev": "yarn start",
     "start": "docusaurus start --port 5962 --host 0.0.0.0",
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
@@ -26,25 +27,30 @@
     "serve": "docusaurus serve --port 5963",
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "gates": "yarn typecheck && yarn build",
+    "deps:outdated": "yarn dlx npm-check-updates@latest --reject typescript",
+    "deps:update": "yarn dlx npm-check-updates@latest -u --reject typescript && yarn install"
   },
   "dependencies": {
-    "@docusaurus/core": "^3.10.1",
-    "@docusaurus/preset-classic": "^3.10.1",
-    "@docusaurus/theme-mermaid": "^3.10.1",
-    "@easyops-cn/docusaurus-search-local": "^0.55.2",
+    "@docusaurus/core": "^3.10.2",
+    "@docusaurus/plugin-content-docs": "^3.10.2",
+    "@docusaurus/preset-classic": "^3.10.2",
+    "@docusaurus/theme-mermaid": "^3.10.2",
+    "@easyops-cn/docusaurus-search-local": "^0.55.3",
     "@mdx-js/react": "^3.1.1",
     "clsx": "^2.1.1",
     "prism-react-renderer": "^2.4.1",
-    "react": "^19.2.7",
-    "react-dom": "^19.2.7"
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
   },
   "devDependencies": {
-    "@docusaurus/module-type-aliases": "^3.10.1",
+    "@docusaurus/faster": "^3.10.2",
+    "@docusaurus/module-type-aliases": "^3.10.2",
     "@docusaurus/theme-common": "^3.10.2",
-    "@docusaurus/tsconfig": "^3.10.1",
-    "@docusaurus/types": "^3.10.1",
-    "@types/react": "^19.2.17",
+    "@docusaurus/tsconfig": "^3.10.2",
+    "@docusaurus/types": "^3.10.2",
+    "@types/react": "^19.3.0",
     "typescript": "~6.0.3"
   },
   "browserslist": {
@@ -59,5 +65,5 @@
       "last 5 safari version"
     ]
   },
-  "packageManager": "yarn@4.17.1"
+  "packageManager": "yarn@4.18.1"
 }
