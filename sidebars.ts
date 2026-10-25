@@ -35,6 +35,7 @@ const sidebars: SidebarsConfig = {
         'features/gamification',
         'features/analytics',
         'features/notifications',
+        'features/page-tours-and-walkthrough',
         'features/for-companies',
         'features/browser-extension',
       ],

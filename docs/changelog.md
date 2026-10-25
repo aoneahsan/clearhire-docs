@@ -53,6 +53,7 @@ The current release added a few ways ClearHire keeps you informed, plus internal
 - **A few [transactional emails](/features/notifications)** (welcome, contact-form reply, account-deletion confirmation, identity-verification result). No marketing email.
 - **Anonymous [profile-view counting](/features/analytics)** — profile views now include signed-out visitors, counted at most once per visitor per day.
 - **Over-the-air updates on Android** so web-layer fixes can reach the installed app without waiting for a store release.
+- **[Page tours and How ClearHire works](/features/page-tours-and-walkthrough)**: a tour of the page you are on, from a button in every header, and a public six-step walkthrough of the product.
 
 ## Capabilities shipped
 
