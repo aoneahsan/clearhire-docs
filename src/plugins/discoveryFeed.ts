@@ -9,17 +9,35 @@ type FeedItem = {
   description: string;
   permalink: string;
   updatedAt: Date;
+  /** The first path segment, or `start` for a top-level page. Groups the `/sitemap` cards. */
+  group: string;
+  tags: string[];
+};
+
+/** What the `/sitemap` and `/feed` pages receive as their `data` module. */
+export type DiscoveryPageData = {
+  items: Array<Omit<FeedItem, 'updatedAt'> & { updatedAt: string }>;
+  newest: string;
 };
 
 export default function discoveryFeed(): Plugin {
   let items: FeedItem[] = [];
   return {
     name: 'discovery-feed',
-    allContentLoaded({ allContent }) {
+    async allContentLoaded({ allContent, actions }) {
       items = docsFeedItems(allContent);
       if (items.length === 0) {
         throw new Error('discovery-feed: no dated documentation pages were found');
       }
+      /* The readable twins of sitemap.xml and feed.xml (rules/project-config.md): every frontend ships
+         /sitemap and /feed as pages, prerendered so the whole list reads with no script. */
+      const pageData: DiscoveryPageData = {
+        items: items.map((item) => ({ ...item, updatedAt: item.updatedAt.toISOString() })),
+        newest: items[0]!.updatedAt.toISOString(),
+      };
+      const data = await actions.createData('discovery-pages.json', JSON.stringify(pageData));
+      actions.addRoute({ path: '/sitemap', exact: true, component: '@site/src/components/SitemapPage', modules: { data } });
+      actions.addRoute({ path: '/feed', exact: true, component: '@site/src/components/FeedPage', modules: { data } });
     },
     async postBuild({ outDir, siteConfig }) {
       const siteUrl = new URL(siteConfig.baseUrl, siteConfig.url).toString();
@@ -48,12 +66,15 @@ function docsFeedItems(allContent: AllContent): FeedItem[] {
           last_update?: { date?: Date | string };
         };
         const updatedAt = parseDate(frontMatter.last_update?.date ?? doc.lastUpdatedAt);
+        const segments = doc.permalink.split('/').filter(Boolean);
         return updatedAt
           ? [{
               title: doc.title,
               description: doc.description,
               permalink: doc.permalink,
               updatedAt,
+              group: segments.length > 1 ? segments[0]! : 'start',
+              tags: doc.tags.map((tag) => tag.label),
             }]
           : [];
       }),

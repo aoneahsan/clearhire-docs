@@ -21,9 +21,9 @@ Public Docusaurus documentation site for the **ClearHire** app.
 | Node | 24.13.0 (`.nvmrc`; CI uses the same version) |
 | Maker | the ClearHire team (OD-245/252 — no page names one maker; the team page keeps the fact line "Founder: Ahsan Mahmood", OD-256). Contact aoneahsan@gmail.com |
 | Live URL | https://clearhire-docs.aoneahsan.com — **GitHub Pages only** (`deploy-pages.yml` on every push to `main`; serving, verified 2026-09-03). No Firebase target |
-| Documents | the ClearHire **rebuild** (`../clearhire/`, branch `redevelop-v1`, Supabase backend, live since 2026-09-02). ✅ **Factually aligned on 2026-09-05 (OD-187)** — Supabase not Firestore, the extension page an honest notice (OD-164), wave 8's real progression, announcements, a 2.0.0 changelog entry, the three plans named. ✅ **`intro.md`'s narrative shipped 2026-09-17** — story surface `docs-site-intro`, approved at GATE 4 (OD-217); change it through `../clearhire/docs/story/`, never here |
+| Documents | the ClearHire **rebuild** (`../clearhire/`, branch `main` since 2026-10-27 (OD-283), Supabase backend, live since 2026-09-02). ✅ **Factually aligned on 2026-09-05 (OD-187)** — Supabase not Firestore, the extension page an honest notice (OD-164), wave 8's real progression, announcements, a 2.0.0 changelog entry, the three plans named. ✅ **`intro.md`'s narrative shipped 2026-09-17** — story surface `docs-site-intro`, approved at GATE 4 (OD-217); change it through `../clearhire/docs/story/`, never here |
 | App URL | https://clearhire.aoneahsan.com |
-| Play Store | https://play.google.com/store/apps/details?id=com.aoneahsan.clearhire — the 1.x listing; the 2.0 Android code is complete, but owner device/store release rows remain |
+| Play Store | https://play.google.com/store/apps/details?id=com.aoneahsan.clearhire — the rebuild, 2.15.0, live on production since 2026-10-27 (owner-confirmed, OD-284) |
 | Dev port | 5962 (start) / 5963 (serve) |
 | Build gates | `yarn gates` = typecheck + production build (→ `./build`) |
 | Baseline | 24 published pages (+ `MANUAL-TASKS.md`, excluded); 0 pages name Firebase/Firestore as the backend; 0 pages claim there is no paid tier (a house rule — never write it). Since 2026-09-12 the build also emits `/feed.xml` from the pages' dates (`src/plugins/discoveryFeed.ts`) and serves an IndexNow key file from `static/` |
@@ -96,6 +96,8 @@ Full rule + private/public protocol: `~/.claude/rules/project-config.md`.
 `Gitignore Last Verified: 2026-10-13` — generated `supabase/.temp/` CLI metadata is ignored and stays local; no CLI state is published.
 
 ## Last Updated
+
+2026-10-28 — readable `/sitemap` and `/feed` pages built by `src/plugins/discoveryFeed.ts`, a lastmod on every sitemap URL (an undated page fails the build, so commit before building), `/search` noindexed through a `SearchPage` wrapper, a PNG social card, the changelog's current release set to 2.15.0, and the phone app view page. The app's branch and Play rows above now read `main` and 2.15.0.
 
 2026-10-21 — Docusaurus 3.10.2, React 19.3.1, Yarn 4.18.1, Node 24.13.0 and the current GitHub Pages actions are pinned. `PACKAGES.md` and `VERSION-BLOCKERS.md` record the verified dependency baseline, audit, and TypeScript hold. Published content did not change; the context cooldown remains 2026-11-12.
 

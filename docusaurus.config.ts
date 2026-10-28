@@ -190,8 +190,25 @@ const config: Config = {
         theme: { customCss: './src/css/custom.css' },
         sitemap: {
           lastmod: 'date',
+          changefreq: null,
+          priority: null,
           // /search is a utility page with no indexable content of its own.
           ignorePatterns: ['/search'],
+          /* A lastmod on EVERY URL. The doc pages carry their git date; the pages that list them
+             (/, /sitemap, /feed) take the newest date of what they list. An undated URL fails the build. */
+          createSitemapItems: async ({ defaultCreateSitemapItems, ...params }) => {
+            const items = await defaultCreateSitemapItems(params);
+            let newest: string | null = null;
+            for (const item of items) {
+              if (item.lastmod && (newest === null || item.lastmod > newest)) newest = item.lastmod;
+            }
+            if (newest === null) throw new Error('sitemap: no dated page');
+            const listing = new Set([`${SITE_URL}/`, `${SITE_URL}/sitemap`, `${SITE_URL}/feed`]);
+            const undated = items.filter((item) => !item.lastmod && !listing.has(item.url));
+            if (undated.length > 0) throw new Error(`sitemap: undated ${undated.map((i) => i.url).join(', ')}`);
+            const lastmod: string = newest;
+            return items.map((item) => (item.lastmod ? item : { ...item, lastmod }));
+          },
         },
       } satisfies Preset.Options,
     ],
@@ -200,7 +217,7 @@ const config: Config = {
   plugins: [discoveryFeed],
 
   themeConfig: {
-    image: 'img/social-card.svg',
+    image: 'img/social-card.png',
     metadata: [
       {
         name: 'description',
@@ -291,6 +308,8 @@ const config: Config = {
             { label: 'Get it on Google Play', href: PLAY_URL },
             { label: 'Privacy', to: '/privacy' },
             { label: 'Changelog', to: '/changelog' },
+            { label: 'Sitemap', to: '/sitemap' },
+            { label: 'Updates', to: '/feed' },
           ],
         },
         {

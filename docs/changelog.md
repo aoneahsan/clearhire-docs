@@ -1,7 +1,7 @@
 ---
 id: changelog
 title: "ClearHire Changelog: Versions and Notable Releases"
-description: A high-level, honest changelog for ClearHire — the 2.0 rebuild on a new backend, what it added and dropped, and the 1.12.x line before it.
+description: A high-level, honest changelog for ClearHire — the 2.15 rebuild on a new backend, what it added and dropped, and the 1.12.x line before it.
 slug: /changelog
 sidebar_label: Changelog
 ---
@@ -12,7 +12,11 @@ This ClearHire changelog is a high-level, honest record of the app's notable cha
 
 ## Current release
 
-### 2.0.0 — the rebuild
+### 2.15.0 — the rebuild
+
+The rebuild reached Google Play as version 2.15.0 on 27 October 2026, and the web app serves the same
+release. Earlier notes called it 2.0.0: the number changed so that its middle figure matches the Android
+build number, and nothing else about the release changed with it.
 
 > **This version replaces the backend. Existing installs start from an empty account — data from
 > earlier versions is not carried over. Export anything you need before updating.**
@@ -26,6 +30,8 @@ rather than ported, which is why some screens read differently even where the fe
 
 **What is new to use:**
 
+- **[The phone app view](/features/phone-app-view)** — on a phone, ClearHire opens with a top bar, a tab bar
+  and one action under your thumb (October 2026).
 - **[Challenges, badges and levels](/features/gamification)** with an opt-in leaderboard — and, to be
   clear about what is *not* there, no streaks. Points come from finishing something, never from
   opening the app.
@@ -40,7 +46,7 @@ rather than ported, which is why some screens read differently even where the fe
 
 ### The 1.x line
 
-**Version 1.12.x — 2026.** The 1.12.x line was: a profile-driven resume builder, employment verification, job search and application tracking, mutual reviews, career tools, gamification, and analytics. The web app has run 2.0 since September 2026; the Android app still trails it.
+**Version 1.12.x — 2026.** The 1.12.x line was: a profile-driven resume builder, employment verification, job search and application tracking, mutual reviews, career tools, gamification, and analytics. The web app has run the rebuild since September 2026, and the Android app joined it with 2.15.0 on 27 October 2026.
 
 The Android app is live on [Google Play](https://play.google.com/store/apps/details?id=com.aoneahsan.clearhire), but the version installed there may trail the web app while an update is in review. **The Play listing is the authoritative source for which Android version is currently published** — check it there rather than assuming it matches this page. Some earlier version numbers (1.9.0 and 1.9.1) were prepared internally and never published at all, so they do not appear as releases here.
 
