@@ -37,6 +37,7 @@ const sidebars: SidebarsConfig = {
         'features/notifications',
         'features/page-tours-and-walkthrough',
         'features/phone-app-view',
+        'features/paid-plans',
         'features/for-companies',
         'features/browser-extension',
       ],

@@ -32,6 +32,8 @@ rather than ported, which is why some screens read differently even where the fe
 
 - **[The phone app view](/features/phone-app-view)** — on a phone, ClearHire opens with a top bar, a tab bar
   and one action under your thumb (October 2026).
+- **[Requesting a paid plan](/features/paid-plans)** — Pro and Team are requested in the app and set up on
+  your account by the ClearHire team (October 2026).
 - **[Challenges, badges and levels](/features/gamification)** with an opt-in leaderboard — and, to be
   clear about what is *not* there, no streaks. Points come from finishing something, never from
   opening the app.
