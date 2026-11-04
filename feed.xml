@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ClearHire Docs</title>
+    <link>https://clearhire-docs.aoneahsan.com/</link>
+    <description><![CDATA[Build resumes, prove your employment history, and track applications.]]></description>
+    <language>en</language>
+    <lastBuildDate>Thu, 29 Oct 2026 12:35:12 GMT</lastBuildDate>
+    <atom:link href="https://clearhire-docs.aoneahsan.com/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ClearHire Changelog: Versions and Notable Releases</title>
+      <link>https://clearhire-docs.aoneahsan.com/changelog</link>
+      <guid isPermaLink="true">https://clearhire-docs.aoneahsan.com/changelog</guid>
+      <pubDate>Thu, 29 Oct 2026 12:35:12 GMT</pubDate>
+      <description><![CDATA[A high-level, honest changelog for ClearHire — the 2.15 rebuild on a new backend, what it added and dropped, and the 1.12.x line before it.]]></description>
+    </item>
+    <item>
+      <title>ClearHire Paid Plans: Requesting Pro or Team in the App</title>
+      <link>https://clearhire-docs.aoneahsan.com/features/paid-plans</link>
+      <guid isPermaLink="true">https://clearhire-docs.aoneahsan.com/features/paid-plans</guid>
+      <pubDate>Thu, 29 Oct 2026 12:35:12 GMT</pubDate>
+      <description><![CDATA[ClearHire's Pro and Team plans are requested in the app and set up on your account by the ClearHire team. Here is how a request works and what you see after it.]]></description>
+    </item>
+    <item>
+      <title>ClearHire on a Phone: The App View, Tab Bar and Account Sheet</title>
+      <link>https://clearhire-docs.aoneahsan.com/features/phone-app-view</link>
+      <guid isPermaLink="true">https://clearhire-docs.aoneahsan.com/features/phone-app-view</guid>
+      <pubDate>Wed, 28 Oct 2026 17:23:26 GMT</pubDate>
+      <description><![CDATA[On a phone ClearHire opens as an app, with a top bar, a tab bar and one action under your thumb. Here is what changes on a phone and what stays the same.]]></description>
+    </item>
+    <item>
+      <title>ClearHire Page Tours and the How ClearHire Works Page</title>
+      <link>https://clearhire-docs.aoneahsan.com/features/page-tours-and-walkthrough</link>
+      <guid isPermaLink="true">https://clearhire-docs.aoneahsan.com/features/page-tours-and-walkthrough</guid>
+      <pubDate>Sun, 25 Oct 2026 01:39:03 GMT</pubDate>
+      <description><![CDATA[ClearHire's page tours walk you through one page at a time, and the How ClearHire works page covers the product in six steps. Here is how both work.]]></description>
+    </item>
+    <item>
+      <title>ClearHire Resume Builder: Templates, PDF, and DOCX</title>
+      <link>https://clearhire-docs.aoneahsan.com/features/resume-builder</link>
+      <guid isPermaLink="true">https://clearhire-docs.aoneahsan.com/features/resume-builder</guid>
+      <pubDate>Sat, 26 Sep 2026 14:03:39 GMT</pubDate>
+      <description><![CDATA[The ClearHire resume builder turns your profile into formatted CVs with multiple templates, section control, and PDF or DOCX export — all free and in-browser.]]></description>
+    </item>
+    <item>
+      <title>Export a ClearHire Resume as PDF or DOCX Step by Step</title>
+      <link>https://clearhire-docs.aoneahsan.com/guides/export-resume-pdf-docx</link>
+      <guid isPermaLink="true">https://clearhire-docs.aoneahsan.com/guides/export-resume-pdf-docx</guid>
+      <pubDate>Sat, 26 Sep 2026 14:03:39 GMT</pubDate>
+      <description><![CDATA[Step-by-step guide to exporting a ClearHire resume as PDF or DOCX, when to choose each format, and how to fix common export and formatting problems.]]></description>
+    </item>
+    <item>
+      <title>How to Request Employment Verification in ClearHire</title>
+      <link>https://clearhire-docs.aoneahsan.com/guides/request-employment-verification</link>
+      <guid isPermaLink="true">https://clearhire-docs.aoneahsan.com/guides/request-employment-verification</guid>
+      <pubDate>Sat, 26 Sep 2026 14:03:39 GMT</pubDate>
+      <description><![CDATA[A step-by-step guide to requesting employment verification in ClearHire — how to send a request, what the employer sees, and how the request timeout behaves.]]></description>
+    </item>
+    <item>
+      <title>ClearHire: Verified-Employment Resume Builder</title>
+      <link>https://clearhire-docs.aoneahsan.com/intro</link>
+      <guid isPermaLink="true">https://clearhire-docs.aoneahsan.com/intro</guid>
+      <pubDate>Sat, 26 Sep 2026 14:03:39 GMT</pubDate>
+      <description><![CDATA[ClearHire is a resume builder and verified-employment job platform where past employers confirm your roles. Learn what it does, who it serves, and its limits.]]></description>
+    </item>
+    <item>
+      <title>About the ClearHire Team: An Independent Developer</title>
+      <link>https://clearhire-docs.aoneahsan.com/about-the-author</link>
+      <guid isPermaLink="true">https://clearhire-docs.aoneahsan.com/about-the-author</guid>
+      <pubDate>Sat, 26 Sep 2026 11:30:51 GMT</pubDate>
+      <description><![CDATA[ClearHire is built and maintained by an independent developer, the ClearHire team. What that means for you, where the other apps are, and how to get in touch.]]></description>
+    </item>
+    <item>
+      <title>ClearHire FAQ: Pricing, Accounts, Verification, Data</title>
+      <link>https://clearhire-docs.aoneahsan.com/faq</link>
+      <guid isPermaLink="true">https://clearhire-docs.aoneahsan.com/faq</guid>
+      <pubDate>Sat, 26 Sep 2026 11:30:51 GMT</pubDate>
+      <description><![CDATA[Answers to common ClearHire questions about pricing, accounts, employment verification, privacy, resume formats, platforms, account deletion, and who built it.]]></description>
+    </item>
+    <item>
+      <title>Analytics in ClearHire: Profile Views and Downloads</title>
+      <link>https://clearhire-docs.aoneahsan.com/features/analytics</link>
+      <guid isPermaLink="true">https://clearhire-docs.aoneahsan.com/features/analytics</guid>
+      <pubDate>Sat, 26 Sep 2026 11:30:51 GMT</pubDate>
+      <description><![CDATA[Analytics in ClearHire show your profile views, resume downloads, and application progress, turning job-search activity into signals you can act on.]]></description>
+    </item>
+    <item>
+      <title>Application Tracking in ClearHire: Applied to Offer</title>
+      <link>https://clearhire-docs.aoneahsan.com/features/applications-tracking</link>
+      <guid isPermaLink="true">https://clearhire-docs.aoneahsan.com/features/applications-tracking</guid>
+      <pubDate>Sat, 26 Sep 2026 11:30:51 GMT</pubDate>
+      <description><![CDATA[Application tracking in ClearHire organizes every job you apply to through stages from applied to offer, so you always know where each opportunity stands.]]></description>
+    </item>
+    <item>
+      <title>ClearHire Career Tools: ATS Checker, Cover Letters</title>
+      <link>https://clearhire-docs.aoneahsan.com/features/career-tools</link>
+      <guid isPermaLink="true">https://clearhire-docs.aoneahsan.com/features/career-tools</guid>
+      <pubDate>Sat, 26 Sep 2026 11:30:51 GMT</pubDate>
+      <description><![CDATA[ClearHire career tools include an ATS resume checker, cover-letter and bio generators, interview prep, salary insights, coding challenges, and career paths.]]></description>
+    </item>
+    <item>
+      <title>Company Reviews in ClearHire: Tied to Real Employment</title>
+      <link>https://clearhire-docs.aoneahsan.com/features/company-reviews</link>
+      <guid isPermaLink="true">https://clearhire-docs.aoneahsan.com/features/company-reviews</guid>
+      <pubDate>Sat, 26 Sep 2026 11:30:51 GMT</pubDate>
+      <description><![CDATA[Company reviews in ClearHire are mutual and tied to a verified employment link, so feedback comes from people who actually worked together. Here is how.]]></description>
+    </item>
+    <item>
+      <title>Employment Verification in ClearHire: How It Works</title>
+      <link>https://clearhire-docs.aoneahsan.com/features/employment-verification</link>
+      <guid isPermaLink="true">https://clearhire-docs.aoneahsan.com/features/employment-verification</guid>
+      <pubDate>Sat, 26 Sep 2026 11:30:51 GMT</pubDate>
+      <description><![CDATA[Employment verification in ClearHire lets a past employer confirm a role on your profile, adding a countersignature. Learn the request flow, timeout, and its limits.]]></description>
+    </item>
+    <item>
+      <title>ClearHire for Companies: Post Jobs, Verify, and Hire</title>
+      <link>https://clearhire-docs.aoneahsan.com/features/for-companies</link>
+      <guid isPermaLink="true">https://clearhire-docs.aoneahsan.com/features/for-companies</guid>
+      <pubDate>Sat, 26 Sep 2026 11:30:51 GMT</pubDate>
+      <description><![CDATA[ClearHire for companies covers company profiles, job posting, applicant tracking, talent search, employee reviews, and employment verification in one place.]]></description>
+    </item>
+    <item>
+      <title>Job Search in ClearHire: Filters, Alerts, Saved Searches</title>
+      <link>https://clearhire-docs.aoneahsan.com/features/job-search</link>
+      <guid isPermaLink="true">https://clearhire-docs.aoneahsan.com/features/job-search</guid>
+      <pubDate>Sat, 26 Sep 2026 11:30:51 GMT</pubDate>
+      <description><![CDATA[Job search in ClearHire finds roles with filters for location, remote, salary, and skills, plus saved searches and job alerts. See how it works and its limits.]]></description>
+    </item>
+    <item>
+      <title>ClearHire Notifications and Emails: In-App, Push, and Email</title>
+      <link>https://clearhire-docs.aoneahsan.com/features/notifications</link>
+      <guid isPermaLink="true">https://clearhire-docs.aoneahsan.com/features/notifications</guid>
+      <pubDate>Sat, 26 Sep 2026 11:30:51 GMT</pubDate>
+      <description><![CDATA[How ClearHire keeps you informed — in-app notifications for your activity, system announcements with three levels of loudness, optional receive-only push, and a few transactional emails.]]></description>
+    </item>
+    <item>
+      <title>Profile Management in ClearHire: One Career Record</title>
+      <link>https://clearhire-docs.aoneahsan.com/features/profile-management</link>
+      <guid isPermaLink="true">https://clearhire-docs.aoneahsan.com/features/profile-management</guid>
+      <pubDate>Sat, 26 Sep 2026 11:30:51 GMT</pubDate>
+      <description><![CDATA[Profile management in ClearHire keeps your career in seven structured sections that feed resumes, job search, and verification. See how it works and its limits.]]></description>
+    </item>
+    <item>
+      <title>Build Your First Resume in ClearHire: Step by Step</title>
+      <link>https://clearhire-docs.aoneahsan.com/getting-started/build-your-first-resume</link>
+      <guid isPermaLink="true">https://clearhire-docs.aoneahsan.com/getting-started/build-your-first-resume</guid>
+      <pubDate>Sat, 26 Sep 2026 11:30:51 GMT</pubDate>
+      <description><![CDATA[Learn to build your first resume in ClearHire — pick a template, choose profile sections, preview the layout, and export to PDF or DOCX in a few steps.]]></description>
+    </item>
+    <item>
+      <title>Create Your ClearHire Profile: 7 Sections Explained</title>
+      <link>https://clearhire-docs.aoneahsan.com/getting-started/create-your-profile</link>
+      <guid isPermaLink="true">https://clearhire-docs.aoneahsan.com/getting-started/create-your-profile</guid>
+      <pubDate>Sat, 26 Sep 2026 11:30:51 GMT</pubDate>
+      <description><![CDATA[Your ClearHire profile has seven sections that feed every resume and job match. Learn what each section captures, plus tips for completeness and privacy.]]></description>
+    </item>
+    <item>
+      <title>ClearHire Quick Start: Account, Profile, and Resume</title>
+      <link>https://clearhire-docs.aoneahsan.com/getting-started/quick-start</link>
+      <guid isPermaLink="true">https://clearhire-docs.aoneahsan.com/getting-started/quick-start</guid>
+      <pubDate>Sat, 26 Sep 2026 11:30:51 GMT</pubDate>
+      <description><![CDATA[A quick-start guide to ClearHire — create an account, complete your profile, and build and export your first resume in a few short, numbered steps.]]></description>
+    </item>
+    <item>
+      <title>ATS Resume Checker in ClearHire: How to Use It Well</title>
+      <link>https://clearhire-docs.aoneahsan.com/guides/ats-resume-checker</link>
+      <guid isPermaLink="true">https://clearhire-docs.aoneahsan.com/guides/ats-resume-checker</guid>
+      <pubDate>Sat, 26 Sep 2026 11:30:51 GMT</pubDate>
+      <description><![CDATA[Learn what an ATS is, how the ClearHire ATS resume checker scores keyword alignment against a job, and how to improve your resume — guidance, not a guarantee.]]></description>
+    </item>
+    <item>
+      <title>Exporting or Deleting Your ClearHire Data and Account</title>
+      <link>https://clearhire-docs.aoneahsan.com/guides/data-export-and-deletion</link>
+      <guid isPermaLink="true">https://clearhire-docs.aoneahsan.com/guides/data-export-and-deletion</guid>
+      <pubDate>Sat, 26 Sep 2026 11:30:51 GMT</pubDate>
+      <description><![CDATA[How to export your ClearHire data and how to delete your account and data using the in-app account-deletion flow, with a pointer to the full privacy policy.]]></description>
+    </item>
+    <item>
+      <title>ClearHire Privacy Summary: What It Stores and Shares</title>
+      <link>https://clearhire-docs.aoneahsan.com/privacy</link>
+      <guid isPermaLink="true">https://clearhire-docs.aoneahsan.com/privacy</guid>
+      <pubDate>Sat, 26 Sep 2026 11:30:51 GMT</pubDate>
+      <description><![CDATA[A plain-language summary of what ClearHire stores, the providers it uses, how verification data is shared, and your export and deletion rights.]]></description>
+    </item>
+    <item>
+      <title>ClearHire and Browser Extensions: There Is No Extension</title>
+      <link>https://clearhire-docs.aoneahsan.com/features/browser-extension</link>
+      <guid isPermaLink="true">https://clearhire-docs.aoneahsan.com/features/browser-extension</guid>
+      <pubDate>Sat, 05 Sep 2026 13:57:55 GMT</pubDate>
+      <description><![CDATA[ClearHire does not ship a browser extension. An earlier prototype captured LinkedIn profiles and auto-filled application forms; it was never published and is not part of ClearHire today.]]></description>
+    </item>
+    <item>
+      <title>Challenges, Badges and Levels in ClearHire</title>
+      <link>https://clearhire-docs.aoneahsan.com/features/gamification</link>
+      <guid isPermaLink="true">https://clearhire-docs.aoneahsan.com/features/gamification</guid>
+      <pubDate>Sat, 05 Sep 2026 13:57:55 GMT</pubDate>
+      <description><![CDATA[ClearHire has challenges, badges, levels and an opt-in leaderboard. Points come from finishing a challenge, never from opening the app, and there is no streak to break.]]></description>
+    </item>
+  </channel>
+</rss>
