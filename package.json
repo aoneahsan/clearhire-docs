@@ -30,8 +30,7 @@
     "typecheck": "tsc --noEmit",
     "gates": "yarn typecheck && yarn build",
     "deps:outdated": "yarn dlx npm-check-updates@latest --reject typescript",
-    "deps:update": "yarn dlx npm-check-updates@latest -u --reject typescript && yarn install",
-    "deploy": "yarn build && npx -y wrangler@4 pages deploy build --project-name clearhire-docs --branch main --commit-dirty=true"
+    "deps:update": "yarn dlx npm-check-updates@latest -u --reject typescript && yarn install"
   },
   "dependencies": {
     "@docusaurus/core": "^3.10.2",
