@@ -1,7 +1,7 @@
 ---
 id: ziprecruiter
 title: "Moving from ZipRecruiter to ClearHire: steps and dated facts"
-description: "Use ClearHire beside or instead of ZipRecruiter: post the role again, or track what you already sent and filter the board. Facts checked 7 November 2026."
+description: "Using ClearHire beside ZipRecruiter: we could not read its pages on 7 November 2026, so this guide covers only what changes on our side. Facts checked 7 November 2026."
 slug: /compare/ziprecruiter
 sidebar_label: "ZipRecruiter"
 last_update:
@@ -11,59 +11,31 @@ last_update:
 
 # Moving from ZipRecruiter to ClearHire
 
-**ZipRecruiter:** A job board that distributes a post to many sites; its pages answered our reads with a bot check. This page is the practical half: what carries across, in what order, and where it stops.
+ZipRecruiter sends one post to many boards, and its price comes through a sales conversation. That is as far as we can go: on 7 November 2026 its pricing, post-jobs and employer pages each answered with a security check, so nothing in their own words could be confirmed. Every row’s source is on <a href="https://www.ziprecruiter.com" target="_blank" rel="noopener noreferrer nofollow">ZipRecruiter’s site</a>.
 
-## Who should stay, and who should move
+What ClearHire offers is on the page: the price, a post, and candidates whose roles a company countersigned.
 
-Choose ZipRecruiter if you want one post sent to many boards and a sales conversation about price suits you.
+## If you hire through ZipRecruiter
 
-Choose ClearHire if you want the price on the page, a free post, and candidates with countersigned roles.
+1. **Create the company here.** [ClearHire for companies](/features/for-companies).
+2. **Post the role directly.** One board, not many.
+3. **Answer employment claims.** That puts your company in the candidates’ verified filter.
 
-## If you hire
+## If you job hunt through it
 
-1. **Sign in with Google and add your company.** [ClearHire for companies](/features/for-companies) covers the profile and its locations.
-2. **Post the role again.** A ZipRecruiter posting does not copy across, and ClearHire has no importer for postings.
-3. **Work the applicants in the pipeline.** Answer employment claims from people who name your company while you are there.
-
-## If you are looking for work
-
-1. **Build your profile once.** [Create your profile](/getting-started/create-your-profile) is the place to start.
-2. **Search the board.** [Job search](/features/job-search) explains the filters, including the one for companies that answer employment claims.
-3. **Add what you already sent through ZipRecruiter by hand.** [Application tracking](/features/applications-tracking) holds jobs found anywhere, not only here.
-4. **Keep ZipRecruiter open as well.** A job board is not an either-or, and nothing here asks you to leave it.
-
-
-## What we checked
-
-Every row was read on ZipRecruiter’s own pages on 7 November 2026. A page that did not say gets “not stated”, never “no”. Open <a href="https://www.ziprecruiter.com" target="_blank" rel="noopener noreferrer nofollow">ZipRecruiter’s site</a> and check us.
-
-| What | ZipRecruiter | ClearHire | ZipRecruiter’s page |
-| --- | --- | --- | --- |
-| Companies post jobs and people apply | Not stated on the pages we checked | Yes | — |
-| Filter to jobs from companies that confirm employment | Not stated on the pages we checked | Yes | — |
-| A named company countersigns a role, and the record is then locked | Not stated on the pages we checked | Yes | — |
+1. **Profile.** [Create your profile](/getting-started/create-your-profile).
+2. **Add your ZipRecruiter applications to the tracker.** [Application tracking](/features/applications-tracking).
+3. **Search with the verified filter.** [Job search](/features/job-search).
 
 | ZipRecruiter plan | Price | Note | Page |
 | --- | --- | --- | --- |
 | Job posting | No public price | Quote only: the pricing, post-jobs and employer pages could not be read on this date | <a href="https://www.ziprecruiter.com/pricing" target="_blank" rel="noopener noreferrer nofollow">ziprecruiter.com/pricing</a> |
 
-ClearHire’s plans and prices are on [Paid plans](/features/paid-plans), and the full side-by-side is on [ClearHire’s comparison page](https://clearhire.aoneahsan.com/compare/ziprecruiter).
+Our prices: [Paid plans](/features/paid-plans). The comparison: [ClearHire vs ZipRecruiter](https://clearhire.aoneahsan.com/compare/ziprecruiter).
 
-Note from the check: Three official pages returned a security check; nothing could be confirmed.
+## Where we are smaller
 
-## Where ClearHire falls short
-
-- **Only resumes leave in six formats.** A [resume exports](/guides/export-resume-pdf-docx) as PDF, Word, JSON, HTML, Markdown or XML. Cover letters copy out as plain text, and a portfolio has no export.
-- **Free exports name us.** A resume exported on Free carries one “built with” line. [Paid plans](/features/paid-plans) remove it.
-- **There is no career path on your record.** The roadmap and skills-gap pages are reading, not a plan kept for you.
-- **A company’s answer about a person stays private.** Only that person and the company’s admins can read it.
-
-## FAQ
-
-### Can ClearHire import my ZipRecruiter data?
-No. ClearHire has no importer, so anything you bring across is typed in or pasted.
-
-### Do I have to pay to try this?
-No. Free is a plan and it does not end. [Paid plans](/features/paid-plans) raise the limits.
+- **We post to one board, ours.** ZipRecruiter’s distribution has no match here.
+- **Resume-only exports** in [six formats](/guides/export-resume-pdf-docx).
 
 > Built and maintained by [the ClearHire team](/about-the-author) — [aoneahsan.com](https://aoneahsan.com) · [GitHub](https://github.com/aoneahsan).

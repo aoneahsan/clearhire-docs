@@ -1,7 +1,7 @@
 ---
 id: myperfectresume
 title: "Moving from MyPerfectResume to ClearHire: steps and dated facts"
-description: "Move a CV from MyPerfectResume to ClearHire: get the text out, enter your roles once, have each company confirm them, export. Facts checked 7 November 2026."
+description: "Leaving MyPerfectResume for ClearHire: free downloads are TXT, PDF and Word sit on a renewing plan. Bring your trade’s wording across and get roles countersigned. Facts checked 7 November 2026."
 slug: /compare/myperfectresume
 sidebar_label: "MyPerfectResume"
 last_update:
@@ -11,38 +11,30 @@ last_update:
 
 # Moving from MyPerfectResume to ClearHire
 
-**MyPerfectResume:** A resume and cover letter builder with unlimited TXT downloads free and PDF and Word on a renewing paid plan. This page is the practical half: what carries across, in what order, and where it stops.
+MyPerfectResume is strong on pre-written skill and duty wording for each trade. Free downloads are unlimited, in TXT. PDF and Word, for resumes and cover letters, sit on a paid plan that renews at $23.95 every four weeks after a 14-day trial, or $95.40 a year up front.
 
-## Who should stay, and who should move
+If wording for your trade is the help you want, it gives you that. ClearHire is for PDF and Word without a renewing plan, with countersigned roles on the page.
 
-Choose MyPerfectResume if pre-written skill and duty wording for your trade is the help you want.
+## Moving across
 
-Choose ClearHire if you want PDF and Word without a renewing plan, and a countersigned role on the page.
+1. **Download the TXT.** Free and unlimited, and it pastes cleanly.
+2. **Download letters as Word if you are paying.** On free, copy them from the screen.
+3. **Keep the trade wording that fits your actual job,** and cut the rest. A countersigned role reads oddly next to a duty you never did.
+4. **Sign in with Google and fill in your profile.** [Quick start](/getting-started/quick-start), [Create your profile](/getting-started/create-your-profile). No importer.
+5. **Build the resume.** [Build your first resume](/getting-started/build-your-first-resume).
+6. **Request countersignatures.** [Request employment verification](/guides/request-employment-verification).
+7. **Export PDF or Word.** [Export as PDF or DOCX](/guides/export-resume-pdf-docx).
 
-## Steps
+## What MyPerfectResume’s pages say
 
-1. **Get your words out of MyPerfectResume.** Its PDF download depends on the plan, so check the table below first.
-2. **Sign in to ClearHire with Google.** That is the only sign-in, and the [quick start](/getting-started/quick-start) takes it from there.
-3. **Type your roles into your profile, once.** ClearHire has no importer, so this part is by hand. [Create your profile](/getting-started/create-your-profile) lists the sections; every resume after this draws from them.
-4. **Build the resume.** [Build your first resume](/getting-started/build-your-first-resume) covers the template and the sections.
-5. **Ask each company to confirm the role.** This is the step with no MyPerfectResume equivalent to copy. [Request employment verification](/guides/request-employment-verification) says what the company sees and how long it has.
-6. **Export and open the file.** [Export as PDF or DOCX](/guides/export-resume-pdf-docx) has the troubleshooting.
-7. **Keep your MyPerfectResume account until that file opens properly.** Then decide. Nothing here needs you to close it.
-
-
-## What we checked
-
-Every row was read on MyPerfectResume’s own pages on 7 November 2026. A page that did not say gets “not stated”, never “no”. Open <a href="https://www.myperfectresume.com" target="_blank" rel="noopener noreferrer nofollow">MyPerfectResume’s site</a> and check us.
+Read on 7 November 2026. The pricing page did not mention data exports, whether free downloads carry its name, or role confirmation. Check any row yourself on <a href="https://www.myperfectresume.com" target="_blank" rel="noopener noreferrer nofollow">MyPerfectResume’s site</a>.
 
 | What | MyPerfectResume | ClearHire | MyPerfectResume’s page |
 | --- | --- | --- | --- |
 | A free plan that does not end | Yes | Yes | <a href="https://www.myperfectresume.com/pricing" target="_blank" rel="noopener noreferrer nofollow">myperfectresume.com/pricing</a> |
 | Downloads a PDF | Partly | Yes | <a href="https://www.myperfectresume.com/pricing" target="_blank" rel="noopener noreferrer nofollow">myperfectresume.com/pricing</a> |
 | Downloads a Word file | Partly | Yes | <a href="https://www.myperfectresume.com/pricing" target="_blank" rel="noopener noreferrer nofollow">myperfectresume.com/pricing</a> |
-| Exports JSON, HTML, Markdown and XML | Not stated on the pages we checked | Yes | — |
-| Free downloads carry no vendor line | Not stated on the pages we checked | No | — |
 | Cover letters | Yes | Yes | <a href="https://www.myperfectresume.com/pricing" target="_blank" rel="noopener noreferrer nofollow">myperfectresume.com/pricing</a> |
-| A named company countersigns a role, and the record is then locked | Not stated on the pages we checked | Yes | — |
 
 | MyPerfectResume plan | Price | Note | Page |
 | --- | --- | --- | --- |
@@ -50,21 +42,12 @@ Every row was read on MyPerfectResume’s own pages on 7 November 2026. A page t
 | 14-day trial | No public price | Quote only: after 14 days, auto-renews at $23.95 billed every 4 weeks; the trial amount was not in the page text we could read | <a href="https://www.myperfectresume.com/pricing" target="_blank" rel="noopener noreferrer nofollow">myperfectresume.com/pricing</a> |
 | Annual | $95.40 a year | $7.95/month, paid up-front, renews each year | <a href="https://www.myperfectresume.com/pricing" target="_blank" rel="noopener noreferrer nofollow">myperfectresume.com/pricing</a> |
 
-ClearHire’s plans and prices are on [Paid plans](/features/paid-plans), and the full side-by-side is on [ClearHire’s comparison page](https://clearhire.aoneahsan.com/compare/myperfectresume).
+What ClearHire costs is on [Paid plans](/features/paid-plans). The comparison: [ClearHire vs MyPerfectResume](https://clearhire.aoneahsan.com/compare/myperfectresume).
 
-## Where ClearHire falls short
+## What you give up
 
-- **Only resumes leave in six formats.** A [resume exports](/guides/export-resume-pdf-docx) as PDF, Word, JSON, HTML, Markdown or XML. Cover letters copy out as plain text, and a portfolio has no export.
-- **Free exports name us.** A resume exported on Free carries one “built with” line. [Paid plans](/features/paid-plans) remove it.
-- **There is no career path on your record.** The roadmap and skills-gap pages are reading, not a plan kept for you.
-- **A company’s answer about a person stays private.** Only that person and the company’s admins can read it.
-
-## FAQ
-
-### Can ClearHire import my MyPerfectResume data?
-No. ClearHire has no importer, so anything you bring across is typed in or pasted.
-
-### Do I have to pay to try this?
-No. Free is a plan and it does not end. [Paid plans](/features/paid-plans) raise the limits.
+- **Wording libraries by trade.** We have none.
+- **Cover letters as PDF or Word.** Ours copy out as plain text.
+- **A clean free file.** One “built with” line on Free; [Paid plans](/features/paid-plans).
 
 > Built and maintained by [the ClearHire team](/about-the-author) — [aoneahsan.com](https://aoneahsan.com) · [GitHub](https://github.com/aoneahsan).

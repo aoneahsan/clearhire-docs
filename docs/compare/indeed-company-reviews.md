@@ -1,7 +1,7 @@
 ---
 id: indeed-company-reviews
 title: "Indeed Company Reviews and ClearHire: how they differ, where to start"
-description: "Indeed Company Reviews and ClearHire do different jobs, so nothing moves across. How the two differ, where to start here, and the dated facts we checked on 7 November 2026."
+description: "Indeed Company Reviews are anonymous accounts of workplaces; ClearHire reviews sit beside a countersigned role. Nothing moves across. Facts checked 7 November 2026."
 slug: /compare/indeed-company-reviews
 sidebar_label: "Indeed Company Reviews"
 last_update:
@@ -11,40 +11,31 @@ last_update:
 
 # Indeed Company Reviews and ClearHire
 
-**Indeed Company Reviews:** Anonymous reviews of companies by people who work or worked there, one per person per company. This page is the practical half: what carries across, in what order, and where it stops. For this one, very little does.
+Indeed Company Reviews come from people who work or worked at a company, one review per person per company, and they are anonymous. An official representative can claim the company page. For the widest set of anonymous accounts of a workplace, Indeed is the place.
 
-## Who should stay, and who should move
-
-Choose Indeed Company Reviews if you want the widest set of anonymous accounts of a workplace.
-
-Choose ClearHire if you want a review tied to a role the company has countersigned, and a company able to write back about the person.
+On ClearHire, a review is tied to a role the company has countersigned, and the company can write about the person too.
 
 ## There is nothing to move
 
-A review written on Indeed Company Reviews stays on Indeed Company Reviews. ClearHire imports none, and we know of no way to bring one across.
+Indeed reviews stay on Indeed. You cannot carry one across, and you would not want an anonymous one attached to your name.
 
-- On ClearHire, reviews are tied to a role. [Company reviews](/features/company-reviews) says who can write one and how it is checked before it shows.
-- If you want the role itself on record first, start with [Request employment verification](/guides/request-employment-verification).
+- **To review a company you worked for:** get the role countersigned first ([Request employment verification](/guides/request-employment-verification)), then see [Company reviews](/features/company-reviews).
+- **To show the confirmed role to an employer:** [export the resume](/guides/export-resume-pdf-docx).
 
-## What we checked
+## What Indeed’s guidelines say
 
-Every row was read on Indeed Company Reviews’s own pages on 7 November 2026. A page that did not say gets “not stated”, never “no”. Open <a href="https://www.indeed.com/help/job-seekers/articles/360046789111-company-reviews-best-practices-policies-and-guidelines" target="_blank" rel="noopener noreferrer nofollow">Indeed Company Reviews’s site</a> and check us.
+Read on 7 November 2026. The guidelines did not mention companies writing about people, or role confirmation. <a href="https://www.indeed.com/help/job-seekers/articles/360046789111-company-reviews-best-practices-policies-and-guidelines" target="_blank" rel="noopener noreferrer nofollow">Indeed Company Reviews’s site</a> is one click away if you want to check us.
 
 | What | Indeed Company Reviews | ClearHire | Indeed Company Reviews’s page |
 | --- | --- | --- | --- |
-| A named company countersigns a role, and the record is then locked | Not stated on the pages we checked | Yes | — |
 | People write about companies in public | Yes | Yes | <a href="https://www.indeed.com/help/job-seekers/articles/360046789111-company-reviews-best-practices-policies-and-guidelines" target="_blank" rel="noopener noreferrer nofollow">indeed.com/…</a> |
-| Companies write about people, in public | Not stated on the pages we checked | Partly | — |
 
-Indeed Company Reviews’s prices: not stated on the pages we checked.
-
-ClearHire’s plans and prices are on [Paid plans](/features/paid-plans), and the full side-by-side is on [ClearHire’s comparison page](https://clearhire.aoneahsan.com/compare/indeed-company-reviews).
+Our prices: [Paid plans](/features/paid-plans). Side by side: [ClearHire vs Indeed Company Reviews](https://clearhire.aoneahsan.com/compare/indeed-company-reviews).
 
 ## Where ClearHire falls short
 
-- **Only resumes leave in six formats.** A [resume exports](/guides/export-resume-pdf-docx) as PDF, Word, JSON, HTML, Markdown or XML. Cover letters copy out as plain text, and a portfolio has no export.
-- **Free exports name us.** A resume exported on Free carries one “built with” line. [Paid plans](/features/paid-plans) remove it.
-- **There is no career path on your record.** The roadmap and skills-gap pages are reading, not a plan kept for you.
-- **A company’s answer about a person stays private.** Only that person and the company’s admins can read it.
+- **Not anonymous.** Your review is tied to your countersigned role.
+- **A company’s review of a person is not public.** Only the person and the company’s admins read it.
+- **Reviews wait for a moderator** before anyone sees them.
 
 > Built and maintained by [the ClearHire team](/about-the-author) — [aoneahsan.com](https://aoneahsan.com) · [GitHub](https://github.com/aoneahsan).

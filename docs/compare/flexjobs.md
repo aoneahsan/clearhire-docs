@@ -1,7 +1,7 @@
 ---
 id: flexjobs
 title: "Moving from FlexJobs to ClearHire: steps and dated facts"
-description: "Use ClearHire beside or instead of FlexJobs: post the role again, or track what you already sent and filter the board. Facts checked 7 November 2026."
+description: "Leaving FlexJobs for ClearHire as a job seeker: a free board where the employer mark means a company answers claims, not that a listing passed a screen. Facts checked 7 November 2026."
 slug: /compare/flexjobs
 sidebar_label: "FlexJobs"
 last_update:
@@ -11,38 +11,32 @@ last_update:
 
 # Moving from FlexJobs to ClearHire
 
-**FlexJobs:** A remote and flexible job board that charges the job seeker and says it screens every listing. This page is the practical half: what carries across, in what order, and where it stops.
+FlexJobs charges the job seeker, not the employer: a $2.95 14-day trial that renews at $23.95 every four weeks, or $71.40 a year. In return it says it screens and verifies every job on the list. If a human-screened remote list is worth a subscription to you, that is what you are paying for.
 
-## Who should stay, and who should move
+ClearHire’s board is free to job seekers. Its employer mark means something different: the company answers employment claims from people who worked there. It says nothing about whether a listing was screened.
 
-Choose FlexJobs if you want a human-screened remote list and will pay a subscription for it.
+## If you pay for FlexJobs
 
-Choose ClearHire if you want the board free, and the employer mark to mean a company answers claims rather than that a listing passed a screen.
+1. **Write down the jobs you have saved** before your renewal date.
+2. **Make your ClearHire profile.** [Create your profile](/getting-started/create-your-profile).
+3. **Add the applications you sent through FlexJobs.** [Application tracking](/features/applications-tracking).
+4. **Use the remote filter and the verified filter together.** [Job search](/features/job-search).
+5. **Decide on the renewal once you have tried both.** The screening is the thing you would lose.
 
-## If you hire
+## If you post on FlexJobs
 
-1. **Sign in with Google and add your company.** [ClearHire for companies](/features/for-companies) covers the profile and its locations.
-2. **Post the role again.** A FlexJobs posting does not copy across, and ClearHire has no importer for postings.
-3. **Work the applicants in the pipeline.** Answer employment claims from people who name your company while you are there.
+1. **Create your company here.** [ClearHire for companies](/features/for-companies).
+2. **Post again.** Nothing copies over.
 
-## If you are looking for work
+## What FlexJobs’s pages say
 
-1. **Build your profile once.** [Create your profile](/getting-started/create-your-profile) is the place to start.
-2. **Search the board.** [Job search](/features/job-search) explains the filters, including the one for companies that answer employment claims.
-3. **Add what you already sent through FlexJobs by hand.** [Application tracking](/features/applications-tracking) holds jobs found anywhere, not only here.
-4. **Keep FlexJobs open as well.** A job board is not an either-or, and nothing here asks you to leave it.
-
-
-## What we checked
-
-Every row was read on FlexJobs’s own pages on 7 November 2026. A page that did not say gets “not stated”, never “no”. Open <a href="https://www.flexjobs.com" target="_blank" rel="noopener noreferrer nofollow">FlexJobs’s site</a> and check us.
+Read on 7 November 2026. The pricing page did not mention role confirmation. Its “screen and verify every single job” is about listings, which is why the filter row says Partly. Check us against <a href="https://www.flexjobs.com" target="_blank" rel="noopener noreferrer nofollow">FlexJobs’s site</a>.
 
 | What | FlexJobs | ClearHire | FlexJobs’s page |
 | --- | --- | --- | --- |
 | A free plan that does not end | No | Yes | <a href="https://www.flexjobs.com/pricing" target="_blank" rel="noopener noreferrer nofollow">flexjobs.com/pricing</a> |
 | Companies post jobs and people apply | Yes | Yes | <a href="https://www.flexjobs.com/pricing" target="_blank" rel="noopener noreferrer nofollow">flexjobs.com/pricing</a> |
 | Filter to jobs from companies that confirm employment | Partly | Yes | <a href="https://www.flexjobs.com/pricing" target="_blank" rel="noopener noreferrer nofollow">flexjobs.com/pricing</a> |
-| A named company countersigns a role, and the record is then locked | Not stated on the pages we checked | Yes | — |
 
 | FlexJobs plan | Price | Note | Page |
 | --- | --- | --- | --- |
@@ -50,21 +44,11 @@ Every row was read on FlexJobs’s own pages on 7 November 2026. A page that did
 | 3-month | $29.85 per 3 months | $9.95/month, auto-renews every 3 months | <a href="https://www.flexjobs.com/pricing" target="_blank" rel="noopener noreferrer nofollow">flexjobs.com/pricing</a> |
 | Annual | $71.40 a year | $5.95/month, auto-renews every year | <a href="https://www.flexjobs.com/pricing" target="_blank" rel="noopener noreferrer nofollow">flexjobs.com/pricing</a> |
 
-ClearHire’s plans and prices are on [Paid plans](/features/paid-plans), and the full side-by-side is on [ClearHire’s comparison page](https://clearhire.aoneahsan.com/compare/flexjobs).
+What ClearHire costs is on [Paid plans](/features/paid-plans). The comparison: [ClearHire vs FlexJobs](https://clearhire.aoneahsan.com/compare/flexjobs).
 
-## Where ClearHire falls short
+## Where we are smaller
 
-- **Only resumes leave in six formats.** A [resume exports](/guides/export-resume-pdf-docx) as PDF, Word, JSON, HTML, Markdown or XML. Cover letters copy out as plain text, and a portfolio has no export.
-- **Free exports name us.** A resume exported on Free carries one “built with” line. [Paid plans](/features/paid-plans) remove it.
-- **There is no career path on your record.** The roadmap and skills-gap pages are reading, not a plan kept for you.
-- **A company’s answer about a person stays private.** Only that person and the company’s admins can read it.
-
-## FAQ
-
-### Can ClearHire import my FlexJobs data?
-No. ClearHire has no importer, so anything you bring across is typed in or pasted.
-
-### Do I have to pay to try this?
-No. Free is a plan and it does not end. [Paid plans](/features/paid-plans) raise the limits.
+- **No one screens our listings the way FlexJobs says it does.** Our mark is about employment claims.
+- **Exports are resume-only.** [Six formats](/guides/export-resume-pdf-docx).
 
 > Built and maintained by [the ClearHire team](/about-the-author) — [aoneahsan.com](https://aoneahsan.com) · [GitHub](https://github.com/aoneahsan).

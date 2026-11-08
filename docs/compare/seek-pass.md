@@ -1,7 +1,7 @@
 ---
 id: seek-pass
 title: "Moving from SEEK Pass, Career History to ClearHire: steps and dated facts"
-description: "A SEEK Pass, Career History confirmation does not transfer. How to ask the company again on ClearHire, what each side shows, and facts checked on 7 November 2026."
+description: "A SEEK Pass Career History tick does not transfer. Ask the company again on ClearHire, including for roles you have left, and the answer travels with your file. Facts checked 7 November 2026."
 slug: /compare/seek-pass
 sidebar_label: "SEEK Pass, Career History"
 last_update:
@@ -11,55 +11,38 @@ last_update:
 
 # Moving from SEEK Pass, Career History to ClearHire
 
-**SEEK Pass, Career History:** A free credential on a SEEK profile confirmed by a code sent to your current work email. This page is the practical half: what carries across, in what order, and where it stops.
+SEEK Pass Career History is free. A code goes to your current work email, and once you enter it, SEEK can show employers that you work where you say you work. It shares nothing more than that. If you apply through SEEK, a tick on your current job inside that flow is useful.
 
-## Who should stay, and who should move
+ClearHire asks a named person at the company to answer, for current roles and roles you have left, and the countersignature goes wherever your resume file goes.
 
-Choose SEEK Pass if you apply through SEEK and want a tick on your current job inside that flow.
+## Moving across
 
-Choose ClearHire if a named person at the company should answer, including for roles you have left, and the mark should travel with the file.
+Your SEEK Pass credential belongs to SEEK. It does not come across.
 
-## Steps
+1. **Sign in with Google.** [Quick start](/getting-started/quick-start).
+2. **Add every role, not only the current one.** [Create your profile](/getting-started/create-your-profile).
+3. **Pick the right person for each request.** A work email code needed no one; here someone at the company answers. HR or a direct manager is usually right. [Request employment verification](/guides/request-employment-verification).
+4. **Export with the verified strip on.** [Export as PDF or DOCX](/guides/export-resume-pdf-docx).
+5. **Keep SEEK Pass for SEEK applications.**
 
-A confirmation made on SEEK Pass, Career History stays on SEEK Pass, Career History. It does not transfer, so each role is asked for again.
+## What SEEK Pass’s page says
 
-1. **Sign in to ClearHire with Google** and follow the [quick start](/getting-started/quick-start).
-2. **Add the role to your profile.** [Create your profile](/getting-started/create-your-profile) has the fields.
-3. **Send the request to the company.** [Request employment verification](/guides/request-employment-verification) says what they see and what happens if they do not answer.
-4. **Show the record.** A countersigned role appears on your profile and can print on a [resume export](/guides/export-resume-pdf-docx).
-5. **Leave SEEK Pass, Career History as it is.** The two records can sit side by side.
-
-
-## What we checked
-
-Every row was read on SEEK Pass, Career History’s own pages on 7 November 2026. A page that did not say gets “not stated”, never “no”. Open <a href="https://seekpass.co/credentials/career-history" target="_blank" rel="noopener noreferrer nofollow">SEEK Pass, Career History’s site</a> and check us.
+Read on 7 November 2026. The page did not say whether past roles are covered, or mention public company reviews. Check any row yourself on <a href="https://seekpass.co/credentials/career-history" target="_blank" rel="noopener noreferrer nofollow">SEEK Pass, Career History’s site</a>.
 
 | What | SEEK Pass, Career History | ClearHire | SEEK Pass, Career History’s page |
 | --- | --- | --- | --- |
 | A free plan that does not end | Yes | Yes | <a href="https://seekpass.co/credentials/career-history" target="_blank" rel="noopener noreferrer nofollow">seekpass.co/credentials/career-history</a> |
-| A named company countersigns a role, and the record is then locked | Partly | Yes | <a href="https://seekpass.co/credentials/career-history" target="_blank" rel="noopener noreferrer nofollow">seekpass.co/credentials/career-history</a> |
-| Covers roles you have already left | Not stated on the pages we checked | Yes | — |
-| People write about companies in public | Not stated on the pages we checked | Yes | — |
+| A named company countersigns a role; you can no longer edit it, the company can still change its answer | Partly | Yes | <a href="https://seekpass.co/credentials/career-history" target="_blank" rel="noopener noreferrer nofollow">seekpass.co/credentials/career-history</a> |
 
 | SEEK Pass, Career History plan | Price | Note | Page |
 | --- | --- | --- | --- |
 | Career History credential | A$0 once | At no cost to you | <a href="https://seekpass.co/credentials/career-history" target="_blank" rel="noopener noreferrer nofollow">seekpass.co/credentials/career-history</a> |
 
-ClearHire’s plans and prices are on [Paid plans](/features/paid-plans), and the full side-by-side is on [ClearHire’s comparison page](https://clearhire.aoneahsan.com/compare/seek-pass).
+Our prices: [Paid plans](/features/paid-plans). Side by side: [ClearHire vs SEEK Pass](https://clearhire.aoneahsan.com/compare/seek-pass).
 
 ## Where ClearHire falls short
 
-- **Only resumes leave in six formats.** A [resume exports](/guides/export-resume-pdf-docx) as PDF, Word, JSON, HTML, Markdown or XML. Cover letters copy out as plain text, and a portfolio has no export.
-- **Free exports name us.** A resume exported on Free carries one “built with” line. [Paid plans](/features/paid-plans) remove it.
-- **There is no career path on your record.** The roadmap and skills-gap pages are reading, not a plan kept for you.
-- **A company’s answer about a person stays private.** Only that person and the company’s admins can read it.
-
-## FAQ
-
-### Can ClearHire import my SEEK Pass, Career History data?
-No. ClearHire has no importer, so anything you bring across is typed in or pasted.
-
-### Do I have to pay to try this?
-No. Free is a plan and it does not end. [Paid plans](/features/paid-plans) raise the limits.
+- **It is slower than a code.** A person has to answer, and a request with no answer lapses.
+- **What a company writes about a person stays private** to that person and the company’s admins.
 
 > Built and maintained by [the ClearHire team](/about-the-author) — [aoneahsan.com](https://aoneahsan.com) · [GitHub](https://github.com/aoneahsan).

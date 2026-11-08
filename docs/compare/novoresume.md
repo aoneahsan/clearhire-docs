@@ -1,7 +1,7 @@
 ---
 id: novoresume
 title: "Moving from Novoresume to ClearHire: steps and dated facts"
-description: "Move a CV from Novoresume to ClearHire: get the text out, enter your roles once, have each company confirm them, export. Facts checked 7 November 2026."
+description: "Leaving Novoresume for ClearHire: your one-page Basic resume comes out as a branded PDF; copy it in, split it into versions, get each role countersigned. Facts checked 7 November 2026."
 slug: /compare/novoresume
 sidebar_label: "Novoresume"
 last_update:
@@ -11,59 +11,40 @@ last_update:
 
 # Moving from Novoresume to ClearHire
 
-**Novoresume:** A resume builder with a free plan that does not expire and a one-payment Pro tier. This page is the practical half: what carries across, in what order, and where it stops.
+Novoresume’s free Basic plan does not expire. It gives one resume, one page, eight templates, and a PDF with Novoresume’s branding on it. Pro is a single payment for one, three or six months, with nothing to cancel.
 
-## Who should stay, and who should move
+If one well-made page is all you will ever need, that is a fair deal. ClearHire is for when one page has stopped being enough: 30 resumes on the free plan, Word and data formats beside the PDF, and roles a company has countersigned.
 
-Choose Novoresume if one well-designed page is all you need and a single payment suits you better than a plan.
+## Moving across
 
-Choose ClearHire if you want more than one resume on the free plan, Word and data formats beside the PDF, and verified roles.
+1. **Download your Basic PDF.** It carries Novoresume’s branding, which does not matter here: you only need the text.
+2. **Sign in with Google, then paste each role into your profile.** We have no importer. [Create your profile](/getting-started/create-your-profile); the [quick start](/getting-started/quick-start) shows the way in.
+3. **Put back what the one-page limit made you cut.** The profile has no page limit. The resume decides what to show.
+4. **Build a resume, or several.** [Build your first resume](/getting-started/build-your-first-resume).
+5. **Ask each company to countersign the role.** [Request employment verification](/guides/request-employment-verification). Once a company has countersigned, you can no longer edit that role yourself; the company can still change its own answer.
+6. **Export it.** [Export as PDF or DOCX](/guides/export-resume-pdf-docx).
 
-## Steps
+## What Novoresume’s pages say
 
-1. **Get your words out of Novoresume.** Its pages also list a PDF download.
-2. **Sign in to ClearHire with Google.** That is the only sign-in, and the [quick start](/getting-started/quick-start) takes it from there.
-3. **Type your roles into your profile, once.** ClearHire has no importer, so this part is by hand. [Create your profile](/getting-started/create-your-profile) lists the sections; every resume after this draws from them.
-4. **Build the resume.** [Build your first resume](/getting-started/build-your-first-resume) covers the template and the sections.
-5. **Ask each company to confirm the role.** This is the step with no Novoresume equivalent to copy. [Request employment verification](/guides/request-employment-verification) says what the company sees and how long it has.
-6. **Export and open the file.** [Export as PDF or DOCX](/guides/export-resume-pdf-docx) has the troubleshooting.
-7. **Keep your Novoresume account until that file opens properly.** Then decide. Nothing here needs you to close it.
-
-
-## What we checked
-
-Every row was read on Novoresume’s own pages on 7 November 2026. A page that did not say gets “not stated”, never “no”. Open <a href="https://novoresume.com" target="_blank" rel="noopener noreferrer nofollow">Novoresume’s site</a> and check us.
+Read on 7 November 2026. Their pricing page did not mention Word downloads, data exports or anyone confirming a role. <a href="https://novoresume.com" target="_blank" rel="noopener noreferrer nofollow">Novoresume’s site</a> is one click away if you want to check us.
 
 | What | Novoresume | ClearHire | Novoresume’s page |
 | --- | --- | --- | --- |
 | A free plan that does not end | Yes | Yes | <a href="https://novoresume.com/pricing" target="_blank" rel="noopener noreferrer nofollow">novoresume.com/pricing</a> |
 | Downloads a PDF | Yes | Yes | <a href="https://novoresume.com/pricing" target="_blank" rel="noopener noreferrer nofollow">novoresume.com/pricing</a> |
-| Downloads a Word file | Not stated on the pages we checked | Yes | — |
-| Exports JSON, HTML, Markdown and XML | Not stated on the pages we checked | Yes | — |
 | Free downloads carry no vendor line | No | No | <a href="https://novoresume.com/pricing" target="_blank" rel="noopener noreferrer nofollow">novoresume.com/pricing</a> |
 | Cover letters | Partly | Yes | <a href="https://novoresume.com/pricing" target="_blank" rel="noopener noreferrer nofollow">novoresume.com/pricing</a> |
-| A named company countersigns a role, and the record is then locked | Not stated on the pages we checked | Yes | — |
 
 | Novoresume plan | Price | Note | Page |
 | --- | --- | --- | --- |
 | Basic | $0 a month | Free; the free plan does not expire; Novoresume branding on the PDF | <a href="https://novoresume.com/pricing" target="_blank" rel="noopener noreferrer nofollow">novoresume.com/pricing</a> |
 | Pro | No public price | Quote only: 1, 3 or 6 months, one payment; amount not in the page text we could read | <a href="https://novoresume.com/pricing" target="_blank" rel="noopener noreferrer nofollow">novoresume.com/pricing</a> |
 
-ClearHire’s plans and prices are on [Paid plans](/features/paid-plans), and the full side-by-side is on [ClearHire’s comparison page](https://clearhire.aoneahsan.com/compare/novoresume).
+Our side is on [Paid plans](/features/paid-plans), and [ClearHire vs Novoresume](https://clearhire.aoneahsan.com/compare/novoresume) has the full comparison.
 
-## Where ClearHire falls short
+## What you give up
 
-- **Only resumes leave in six formats.** A [resume exports](/guides/export-resume-pdf-docx) as PDF, Word, JSON, HTML, Markdown or XML. Cover letters copy out as plain text, and a portfolio has no export.
-- **Free exports name us.** A resume exported on Free carries one “built with” line. [Paid plans](/features/paid-plans) remove it.
-- **There is no career path on your record.** The roadmap and skills-gap pages are reading, not a plan kept for you.
-- **A company’s answer about a person stays private.** Only that person and the company’s admins can read it.
-
-## FAQ
-
-### Can ClearHire import my Novoresume data?
-No. ClearHire has no importer, so anything you bring across is typed in or pasted.
-
-### Do I have to pay to try this?
-No. Free is a plan and it does not end. [Paid plans](/features/paid-plans) raise the limits.
+- **Our free file is not clean either.** A free ClearHire export prints one “built with” line, the same kind of thing Novoresume puts on its free PDF. [Paid plans](/features/paid-plans) drop it.
+- **A Pro you pay for once.** Novoresume’s single payment has no direct match; ours are plans.
 
 > Built and maintained by [the ClearHire team](/about-the-author) — [aoneahsan.com](https://aoneahsan.com) · [GitHub](https://github.com/aoneahsan).

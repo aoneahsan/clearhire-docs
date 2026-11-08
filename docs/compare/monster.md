@@ -1,7 +1,7 @@
 ---
 id: monster
 title: "Moving from Monster to ClearHire: steps and dated facts"
-description: "Use ClearHire beside or instead of Monster: post the role again, or track what you already sent and filter the board. Facts checked 7 November 2026."
+description: "Using ClearHire beside Monster: post here without a daily budget, search talent by skill, and let candidates filter to companies that answer claims. Facts checked 7 November 2026."
 slug: /compare/monster
 sidebar_label: "Monster"
 last_update:
@@ -11,58 +11,41 @@ last_update:
 
 # Moving from Monster to ClearHire
 
-**Monster:** A job board selling promoted posts from a daily budget and a monthly credit plan with resume search. This page is the practical half: what carries across, in what order, and where it stops.
+Monster sells promoted job posts from $8 a day, and Monster+ Pro at $299 a month in credits that expire monthly, with resume search. If searching a large resume database and paying by the click or view is how you hire, Monster is set up for that.
 
-## Who should stay, and who should move
+On ClearHire, the post is free, and candidates can filter to companies that answer employment claims.
 
-Choose Monster if you want to search a resume database and pay per click or per view.
+## If you hire on Monster
 
-Choose ClearHire if you want a free post and candidates who can filter to companies that answer employment claims.
+1. **Create your company.** [ClearHire for companies](/features/for-companies).
+2. **Retype the role.** Include the salary range; it feeds the candidate-side filter.
+3. **Use talent search instead of a resume database.** It finds people by skills, experience and location. It is not Monster’s database, and it does not claim the same size.
+4. **Spend credits on Monster as you were.** Monthly credits that expire are worth using up.
 
-## If you hire
+## If you job hunt on Monster
 
-1. **Sign in with Google and add your company.** [ClearHire for companies](/features/for-companies) covers the profile and its locations.
-2. **Post the role again.** A Monster posting does not copy across, and ClearHire has no importer for postings.
-3. **Work the applicants in the pipeline.** Answer employment claims from people who name your company while you are there.
+1. **Build your profile.** [Create your profile](/getting-started/create-your-profile).
+2. **Copy your Monster applications into the tracker.** [Application tracking](/features/applications-tracking).
+3. **Search with the verified filter.** [Job search](/features/job-search).
 
-## If you are looking for work
+## What Monster’s pages say
 
-1. **Build your profile once.** [Create your profile](/getting-started/create-your-profile) is the place to start.
-2. **Search the board.** [Job search](/features/job-search) explains the filters, including the one for companies that answer employment claims.
-3. **Add what you already sent through Monster by hand.** [Application tracking](/features/applications-tracking) holds jobs found anywhere, not only here.
-4. **Keep Monster open as well.** A job board is not an either-or, and nothing here asks you to leave it.
-
-
-## What we checked
-
-Every row was read on Monster’s own pages on 7 November 2026. A page that did not say gets “not stated”, never “no”. Open <a href="https://hiring.monster.com" target="_blank" rel="noopener noreferrer nofollow">Monster’s site</a> and check us.
+Read on 7 November 2026, on the hiring home page. It was silent on a verified-employer filter and on role confirmation. Check us against <a href="https://hiring.monster.com" target="_blank" rel="noopener noreferrer nofollow">Monster’s site</a>.
 
 | What | Monster | ClearHire | Monster’s page |
 | --- | --- | --- | --- |
 | Companies post jobs and people apply | Yes | Yes | <a href="https://hiring.monster.com/" target="_blank" rel="noopener noreferrer nofollow">hiring.monster.com</a> |
-| Filter to jobs from companies that confirm employment | Not stated on the pages we checked | Yes | — |
-| A named company countersigns a role, and the record is then locked | Not stated on the pages we checked | Yes | — |
 
 | Monster plan | Price | Note | Page |
 | --- | --- | --- | --- |
 | Monster+ Standard | $8 a day | Promoted Jobs starting at $8/day | <a href="https://hiring.monster.com/" target="_blank" rel="noopener noreferrer nofollow">hiring.monster.com</a> |
 | Monster+ Pro | $299 a month | 299 credits that expire monthly; one credit = $1 USD | <a href="https://hiring.monster.com/" target="_blank" rel="noopener noreferrer nofollow">hiring.monster.com</a> |
 
-ClearHire’s plans and prices are on [Paid plans](/features/paid-plans), and the full side-by-side is on [ClearHire’s comparison page](https://clearhire.aoneahsan.com/compare/monster).
+Our prices: [Paid plans](/features/paid-plans). The comparison: [ClearHire vs Monster](https://clearhire.aoneahsan.com/compare/monster).
 
-## Where ClearHire falls short
+## Where we are smaller
 
-- **Only resumes leave in six formats.** A [resume exports](/guides/export-resume-pdf-docx) as PDF, Word, JSON, HTML, Markdown or XML. Cover letters copy out as plain text, and a portfolio has no export.
-- **Free exports name us.** A resume exported on Free carries one “built with” line. [Paid plans](/features/paid-plans) remove it.
-- **There is no career path on your record.** The roadmap and skills-gap pages are reading, not a plan kept for you.
-- **A company’s answer about a person stays private.** Only that person and the company’s admins can read it.
-
-## FAQ
-
-### Can ClearHire import my Monster data?
-No. ClearHire has no importer, so anything you bring across is typed in or pasted.
-
-### Do I have to pay to try this?
-No. Free is a plan and it does not end. [Paid plans](/features/paid-plans) raise the limits.
+- **Database size.** We make no claim about how many people are in ours.
+- **Exports are resume-only.** [Six formats](/guides/export-resume-pdf-docx).
 
 > Built and maintained by [the ClearHire team](/about-the-author) — [aoneahsan.com](https://aoneahsan.com) · [GitHub](https://github.com/aoneahsan).

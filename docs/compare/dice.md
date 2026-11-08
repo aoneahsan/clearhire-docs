@@ -1,7 +1,7 @@
 ---
 id: dice
 title: "Moving from Dice to ClearHire: steps and dated facts"
-description: "Use ClearHire beside or instead of Dice: post the role again, or track what you already sent and filter the board. Facts checked 7 November 2026."
+description: "Using ClearHire beside Dice: tech teams can post here without a monthly slot and see roles a former employer countersigned. Facts checked 7 November 2026."
 slug: /compare/dice
 sidebar_label: "Dice"
 last_update:
@@ -11,37 +11,31 @@ last_update:
 
 # Moving from Dice to ClearHire
 
-**Dice:** A technology job board sold as monthly job slots with candidate views. This page is the practical half: what carries across, in what order, and where it stops.
+Dice is for technology hiring, sold as monthly job slots with candidate views: Starter is $649 a month for one slot on month-to-month, or $549 on an annual contract. If you hire technologists all year, the slot and the candidate database make sense.
 
-## Who should stay, and who should move
+ClearHire is for a team that posts now and then, and wants to see a candidate’s roles countersigned by the companies they worked for.
 
-Choose Dice if you hire technologists and want a candidate database beside the slot.
+## If you hire engineers on Dice
 
-Choose ClearHire if you want a free post and a candidate whose roles a former employer has countersigned.
+1. **Set up the company.** [ClearHire for companies](/features/for-companies).
+2. **Post the role again here.** A Dice slot does not carry over.
+3. **Read the countersigned roles on each application.** That is the difference: a past employer has already answered.
+4. **Let the annual contract run its course** if you are on one. Nothing here needs you to break it.
 
-## If you hire
+## If you are a technologist on Dice
 
-1. **Sign in with Google and add your company.** [ClearHire for companies](/features/for-companies) covers the profile and its locations.
-2. **Post the role again.** A Dice posting does not copy across, and ClearHire has no importer for postings.
-3. **Work the applicants in the pipeline.** Answer employment claims from people who name your company while you are there.
+1. **Profile first.** [Create your profile](/getting-started/create-your-profile).
+2. **Get your last two roles countersigned.**
+3. **Track Dice applications here.** [Application tracking](/features/applications-tracking).
+4. **Search the board.** [Job search](/features/job-search).
 
-## If you are looking for work
+## What Dice’s pages say
 
-1. **Build your profile once.** [Create your profile](/getting-started/create-your-profile) is the place to start.
-2. **Search the board.** [Job search](/features/job-search) explains the filters, including the one for companies that answer employment claims.
-3. **Add what you already sent through Dice by hand.** [Application tracking](/features/applications-tracking) holds jobs found anywhere, not only here.
-4. **Keep Dice open as well.** A job board is not an either-or, and nothing here asks you to leave it.
-
-
-## What we checked
-
-Every row was read on Dice’s own pages on 7 November 2026. A page that did not say gets “not stated”, never “no”. Open <a href="https://www.dice.com/hiring" target="_blank" rel="noopener noreferrer nofollow">Dice’s site</a> and check us.
+Read on 7 November 2026, on the hiring pricing page. It did not mention a verified-employer filter or role confirmation. <a href="https://www.dice.com/hiring" target="_blank" rel="noopener noreferrer nofollow">Dice’s site</a> is one click away if you want to check us.
 
 | What | Dice | ClearHire | Dice’s page |
 | --- | --- | --- | --- |
 | Companies post jobs and people apply | Yes | Yes | <a href="https://www.dice.com/hiring/pricing" target="_blank" rel="noopener noreferrer nofollow">dice.com/hiring/pricing</a> |
-| Filter to jobs from companies that confirm employment | Not stated on the pages we checked | Yes | — |
-| A named company countersigns a role, and the record is then locked | Not stated on the pages we checked | Yes | — |
 
 | Dice plan | Price | Note | Page |
 | --- | --- | --- | --- |
@@ -50,21 +44,11 @@ Every row was read on Dice’s own pages on 7 November 2026. A page that did not
 | Standard, month-to-month | $899 a month | 3 job slots/month | <a href="https://www.dice.com/hiring/pricing" target="_blank" rel="noopener noreferrer nofollow">dice.com/hiring/pricing</a> |
 | Standard, annual contract | $749 a month | — | <a href="https://www.dice.com/hiring/pricing" target="_blank" rel="noopener noreferrer nofollow">dice.com/hiring/pricing</a> |
 
-ClearHire’s plans and prices are on [Paid plans](/features/paid-plans), and the full side-by-side is on [ClearHire’s comparison page](https://clearhire.aoneahsan.com/compare/dice).
+Ours: [Paid plans](/features/paid-plans). Side by side: [ClearHire vs Dice](https://clearhire.aoneahsan.com/compare/dice).
 
-## Where ClearHire falls short
+## Where we are smaller
 
-- **Only resumes leave in six formats.** A [resume exports](/guides/export-resume-pdf-docx) as PDF, Word, JSON, HTML, Markdown or XML. Cover letters copy out as plain text, and a portfolio has no export.
-- **Free exports name us.** A resume exported on Free carries one “built with” line. [Paid plans](/features/paid-plans) remove it.
-- **There is no career path on your record.** The roadmap and skills-gap pages are reading, not a plan kept for you.
-- **A company’s answer about a person stays private.** Only that person and the company’s admins can read it.
-
-## FAQ
-
-### Can ClearHire import my Dice data?
-No. ClearHire has no importer, so anything you bring across is typed in or pasted.
-
-### Do I have to pay to try this?
-No. Free is a plan and it does not end. [Paid plans](/features/paid-plans) raise the limits.
+- **We are not a tech-only board,** and we have no figure for how many engineers use us.
+- **Only resumes export,** in [six formats](/guides/export-resume-pdf-docx).
 
 > Built and maintained by [the ClearHire team](/about-the-author) — [aoneahsan.com](https://aoneahsan.com) · [GitHub](https://github.com/aoneahsan).

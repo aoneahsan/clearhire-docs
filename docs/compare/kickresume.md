@@ -1,7 +1,7 @@
 ---
 id: kickresume
 title: "Moving from Kickresume to ClearHire: steps and dated facts"
-description: "Move a CV from Kickresume to ClearHire: get the text out, enter your roles once, have each company confirm them, export. Facts checked 7 November 2026."
+description: "Leaving Kickresume for ClearHire: bring the resume text and cover letters, rebuild the website’s links as a portfolio, and get each role countersigned. Facts checked 7 November 2026."
 slug: /compare/kickresume
 sidebar_label: "Kickresume"
 last_update:
@@ -11,39 +11,29 @@ last_update:
 
 # Moving from Kickresume to ClearHire
 
-**Kickresume:** A resume, cover letter and personal website builder with a free tier of four templates. This page is the practical half: what carries across, in what order, and where it stops.
+Kickresume gives you a resume, matching cover letters and a personal website template, with four templates of each kind free and unlimited downloads. The yearly plan works out at $4.50 a month. If a small personal site next to the resume is what you are after, cheaply, that is Kickresume’s offer.
 
-## Who should stay, and who should move
+ClearHire names its file formats on the page, runs a job board with a filter for companies that confirm employment, and puts countersigned roles on the resume. Its portfolio holds items, links and video, but it is not a website template.
 
-Choose Kickresume if you want a personal website template beside the resume and a low yearly price.
+## Moving across
 
-Choose ClearHire if you want the formats named on the page, a job board with a verified-employer filter, and countersigned roles.
+1. **Download your resume and copy the text.** Kickresume’s pricing page does not name its formats, so use whichever one lets you select text.
+2. **Copy each cover letter.** Matching letters are a Kickresume habit; you will paste them into ClearHire one by one.
+3. **List what is on your Kickresume website.** Projects, links, any video. Those go into your portfolio here.
+4. **Sign in with Google and fill in your profile.** [Quick start](/getting-started/quick-start), then [Create your profile](/getting-started/create-your-profile). There is no importer.
+5. **Build the resume.** [Build your first resume](/getting-started/build-your-first-resume).
+6. **Ask for countersignatures.** [Request employment verification](/guides/request-employment-verification).
+7. **Export the resume.** [Export as PDF or DOCX](/guides/export-resume-pdf-docx).
 
-## Steps
+## What Kickresume’s pages say
 
-1. **Get your words out of Kickresume.** Its pages did not state an export we could point you to, so plan on copying the text by hand.
-2. **Sign in to ClearHire with Google.** That is the only sign-in, and the [quick start](/getting-started/quick-start) takes it from there.
-3. **Type your roles into your profile, once.** ClearHire has no importer, so this part is by hand. [Create your profile](/getting-started/create-your-profile) lists the sections; every resume after this draws from them.
-4. **Build the resume.** [Build your first resume](/getting-started/build-your-first-resume) covers the template and the sections.
-5. **Ask each company to confirm the role.** This is the step with no Kickresume equivalent to copy. [Request employment verification](/guides/request-employment-verification) says what the company sees and how long it has.
-6. **Export and open the file.** [Export as PDF or DOCX](/guides/export-resume-pdf-docx) has the troubleshooting.
-7. **Keep your Kickresume account until that file opens properly.** Then decide. Nothing here needs you to close it.
-
-
-## What we checked
-
-Every row was read on Kickresume’s own pages on 7 November 2026. A page that did not say gets “not stated”, never “no”. Open <a href="https://www.kickresume.com" target="_blank" rel="noopener noreferrer nofollow">Kickresume’s site</a> and check us.
+Read on 7 November 2026. The pricing page did not name download formats, did not say whether free files carry Kickresume’s name, and did not mention data exports or role confirmation. Check us against <a href="https://www.kickresume.com" target="_blank" rel="noopener noreferrer nofollow">Kickresume’s site</a>.
 
 | What | Kickresume | ClearHire | Kickresume’s page |
 | --- | --- | --- | --- |
 | A free plan that does not end | Yes | Yes | <a href="https://www.kickresume.com/en/pricing/" target="_blank" rel="noopener noreferrer nofollow">kickresume.com/en/pricing</a> |
-| Downloads a PDF | Not stated on the pages we checked | Yes | — |
-| Downloads a Word file | Not stated on the pages we checked | Yes | — |
-| Exports JSON, HTML, Markdown and XML | Not stated on the pages we checked | Yes | — |
-| Free downloads carry no vendor line | Not stated on the pages we checked | No | — |
 | Cover letters | Yes | Yes | <a href="https://www.kickresume.com/en/pricing/" target="_blank" rel="noopener noreferrer nofollow">kickresume.com/en/pricing</a> |
 | Portfolio | Yes | Yes | <a href="https://www.kickresume.com/en/pricing/" target="_blank" rel="noopener noreferrer nofollow">kickresume.com/en/pricing</a> |
-| A named company countersigns a role, and the record is then locked | Not stated on the pages we checked | Yes | — |
 
 | Kickresume plan | Price | Note | Page |
 | --- | --- | --- | --- |
@@ -52,23 +42,12 @@ Every row was read on Kickresume’s own pages on 7 November 2026. A page that d
 | Quarterly | $27 per 3 months | $9 / month | <a href="https://www.kickresume.com/en/pricing/" target="_blank" rel="noopener noreferrer nofollow">kickresume.com/en/pricing</a> |
 | Monthly | $19 a month | — | <a href="https://www.kickresume.com/en/pricing/" target="_blank" rel="noopener noreferrer nofollow">kickresume.com/en/pricing</a> |
 
-ClearHire’s plans and prices are on [Paid plans](/features/paid-plans), and the full side-by-side is on [ClearHire’s comparison page](https://clearhire.aoneahsan.com/compare/kickresume).
+For our side, see [Paid plans](/features/paid-plans). The full case: [ClearHire vs Kickresume](https://clearhire.aoneahsan.com/compare/kickresume).
 
-Note from the check: Download formats are not named on the pricing page.
+## What you give up
 
-## Where ClearHire falls short
-
-- **Only resumes leave in six formats.** A [resume exports](/guides/export-resume-pdf-docx) as PDF, Word, JSON, HTML, Markdown or XML. Cover letters copy out as plain text, and a portfolio has no export.
-- **Free exports name us.** A resume exported on Free carries one “built with” line. [Paid plans](/features/paid-plans) remove it.
-- **There is no career path on your record.** The roadmap and skills-gap pages are reading, not a plan kept for you.
-- **A company’s answer about a person stays private.** Only that person and the company’s admins can read it.
-
-## FAQ
-
-### Can ClearHire import my Kickresume data?
-No. ClearHire has no importer, so anything you bring across is typed in or pasted.
-
-### Do I have to pay to try this?
-No. Free is a plan and it does not end. [Paid plans](/features/paid-plans) raise the limits.
+- **The portfolio does not export.** It lives in ClearHire. Kickresume’s website template is a site of its own.
+- **Letters leave as plain text.** Only resumes have the six formats.
+- **A “built with” line on free files**, gone on [Paid plans](/features/paid-plans).
 
 > Built and maintained by [the ClearHire team](/about-the-author) — [aoneahsan.com](https://aoneahsan.com) · [GitHub](https://github.com/aoneahsan).

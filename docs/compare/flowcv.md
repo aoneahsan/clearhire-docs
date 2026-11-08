@@ -1,7 +1,7 @@
 ---
 id: flowcv
 title: "Moving from FlowCV to ClearHire: steps and dated facts"
-description: "Move a CV from FlowCV to ClearHire: get the text out, enter your roles once, have each company confirm them, export. Facts checked 7 November 2026."
+description: "Leaving FlowCV for ClearHire: your free PDF comes out clean; ours carries one line on Free. How to bring the resume, letter and tracked jobs across. Facts checked 7 November 2026."
 slug: /compare/flowcv
 sidebar_label: "FlowCV"
 last_update:
@@ -11,60 +11,42 @@ last_update:
 
 # Moving from FlowCV to ClearHire
 
-**FlowCV:** A resume builder whose free plan gives one resume and one cover letter with unlimited PDF downloads and no branding. This page is the practical half: what carries across, in what order, and where it stops.
+FlowCV’s free plan is generous in one specific way: one resume, one cover letter, unlimited PDF downloads, and no watermark or branding. Pro is $60 a year and adds a job tracker.
 
-## Who should stay, and who should move
+If one clean resume is exactly what you need, FlowCV is hard to beat, and on that point we lose: a free ClearHire export carries a “built with” line. ClearHire is for when you want more than one resume (Free holds thirty), a Word file and data formats, and roles a company has countersigned.
 
-Choose FlowCV if one resume with a clean, unbranded PDF on a free plan is exactly what you need.
+## Moving across
 
-Choose ClearHire if you want thirty resumes on the free plan, Word and data formats, and a role a company countersigned.
+1. **Download your PDF.** It is unbranded and unlimited, so take a fresh copy.
+2. **Copy your one cover letter** into a text file for later.
+3. **If you are on Pro, list the jobs in your tracker.** You will add them to [Application tracking](/features/applications-tracking), which takes jobs found anywhere.
+4. **Sign in with Google and paste your roles in.** [Quick start](/getting-started/quick-start), then [Create your profile](/getting-started/create-your-profile). Nothing is imported.
+5. **Build resumes for the jobs you are after.** [Build your first resume](/getting-started/build-your-first-resume).
+6. **Request countersignatures.** [Request employment verification](/guides/request-employment-verification).
+7. **Export.** [Export as PDF or DOCX](/guides/export-resume-pdf-docx). On Free, the file will name us at the foot; [Paid plans](/features/paid-plans) remove that.
 
-## Steps
+## What FlowCV’s pages say
 
-1. **Get your words out of FlowCV.** Its pages also list a PDF download.
-2. **Sign in to ClearHire with Google.** That is the only sign-in, and the [quick start](/getting-started/quick-start) takes it from there.
-3. **Type your roles into your profile, once.** ClearHire has no importer, so this part is by hand. [Create your profile](/getting-started/create-your-profile) lists the sections; every resume after this draws from them.
-4. **Build the resume.** [Build your first resume](/getting-started/build-your-first-resume) covers the template and the sections.
-5. **Ask each company to confirm the role.** This is the step with no FlowCV equivalent to copy. [Request employment verification](/guides/request-employment-verification) says what the company sees and how long it has.
-6. **Export and open the file.** [Export as PDF or DOCX](/guides/export-resume-pdf-docx) has the troubleshooting.
-7. **Keep your FlowCV account until that file opens properly.** Then decide. Nothing here needs you to close it.
-
-
-## What we checked
-
-Every row was read on FlowCV’s own pages on 7 November 2026. A page that did not say gets “not stated”, never “no”. Open <a href="https://flowcv.com" target="_blank" rel="noopener noreferrer nofollow">FlowCV’s site</a> and check us.
+Read on 7 November 2026. Their pricing page did not mention Word downloads, data exports or role confirmation. Check any row yourself on <a href="https://flowcv.com" target="_blank" rel="noopener noreferrer nofollow">FlowCV’s site</a>.
 
 | What | FlowCV | ClearHire | FlowCV’s page |
 | --- | --- | --- | --- |
 | A free plan that does not end | Yes | Yes | <a href="https://flowcv.com/pricing" target="_blank" rel="noopener noreferrer nofollow">flowcv.com/pricing</a> |
 | Downloads a PDF | Yes | Yes | <a href="https://flowcv.com/pricing" target="_blank" rel="noopener noreferrer nofollow">flowcv.com/pricing</a> |
-| Downloads a Word file | Not stated on the pages we checked | Yes | — |
-| Exports JSON, HTML, Markdown and XML | Not stated on the pages we checked | Yes | — |
 | Free downloads carry no vendor line | Yes | No | <a href="https://flowcv.com/pricing" target="_blank" rel="noopener noreferrer nofollow">flowcv.com/pricing</a> |
 | Cover letters | Yes | Yes | <a href="https://flowcv.com/pricing" target="_blank" rel="noopener noreferrer nofollow">flowcv.com/pricing</a> |
 | Tracks your applications | Partly | Yes | <a href="https://flowcv.com/pricing" target="_blank" rel="noopener noreferrer nofollow">flowcv.com/pricing</a> |
-| A named company countersigns a role, and the record is then locked | Not stated on the pages we checked | Yes | — |
 
 | FlowCV plan | Price | Note | Page |
 | --- | --- | --- | --- |
 | Free | $0 a month | Free forever; 1 resume and 1 cover letter; unlimited PDF downloads; no watermarks or branding | <a href="https://flowcv.com/pricing" target="_blank" rel="noopener noreferrer nofollow">flowcv.com/pricing</a> |
 | Pro | $60 a year | $5/month billed yearly | <a href="https://flowcv.com/pricing" target="_blank" rel="noopener noreferrer nofollow">flowcv.com/pricing</a> |
 
-ClearHire’s plans and prices are on [Paid plans](/features/paid-plans), and the full side-by-side is on [ClearHire’s comparison page](https://clearhire.aoneahsan.com/compare/flowcv).
+Our plans: [Paid plans](/features/paid-plans). The comparison: [ClearHire vs FlowCV](https://clearhire.aoneahsan.com/compare/flowcv).
 
-## Where ClearHire falls short
+## What you give up
 
-- **Only resumes leave in six formats.** A [resume exports](/guides/export-resume-pdf-docx) as PDF, Word, JSON, HTML, Markdown or XML. Cover letters copy out as plain text, and a portfolio has no export.
-- **Free exports name us.** A resume exported on Free carries one “built with” line. [Paid plans](/features/paid-plans) remove it.
-- **There is no career path on your record.** The roadmap and skills-gap pages are reading, not a plan kept for you.
-- **A company’s answer about a person stays private.** Only that person and the company’s admins can read it.
-
-## FAQ
-
-### Can ClearHire import my FlowCV data?
-No. ClearHire has no importer, so anything you bring across is typed in or pasted.
-
-### Do I have to pay to try this?
-No. Free is a plan and it does not end. [Paid plans](/features/paid-plans) raise the limits.
+- **A clean free PDF.** Said above, said again: FlowCV’s free file has no branding and ours does.
+- **Letters as files.** FlowCV keeps a letter beside the resume; ours copy out as plain text.
 
 > Built and maintained by [the ClearHire team](/about-the-author) — [aoneahsan.com](https://aoneahsan.com) · [GitHub](https://github.com/aoneahsan).

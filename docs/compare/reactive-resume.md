@@ -1,7 +1,7 @@
 ---
 id: reactive-resume
 title: "Moving from Reactive Resume to ClearHire: steps and dated facts"
-description: "Move a CV from Reactive Resume to ClearHire: get the text out, enter your roles once, have each company confirm them, export. Facts checked 7 November 2026."
+description: "Leaving Reactive Resume for ClearHire: its JSON export will not load here, so copy from the Word file. Keep your self-hosted copy if you run one. Facts checked 7 November 2026."
 slug: /compare/reactive-resume
 sidebar_label: "Reactive Resume"
 last_update:
@@ -11,28 +11,24 @@ last_update:
 
 # Moving from Reactive Resume to ClearHire
 
-**Reactive Resume:** An open-source resume builder under the MIT licence, free to use or self-host, exporting PDF, Word, Markdown and JSON. This page is the practical half: what carries across, in what order, and where it stops.
+Reactive Resume is open source under the MIT licence. Every feature is free, there is no paid tier, and you can run it on your own server from a Docker image. It exports PDF, Word, Markdown and JSON, and keeps cover letters and a job tracker too.
 
-## Who should stay, and who should move
+If you want the builder on your own machine and every byte under your control, Reactive Resume is the honest answer and ClearHire is not. ClearHire adds HTML and XML to the formats, runs a job board, and puts a countersigned role on the page.
 
-Choose Reactive Resume if you want to run the builder on your own server and keep every byte under your control.
+## Moving across
 
-Choose ClearHire if you want HTML and XML beside the other formats, a job board, and a countersigned role on the page.
+1. **Do not expect the JSON to load.** Reactive Resume will give you your data as JSON, but ClearHire has no importer. Export the Word file and copy from that.
+2. **Note your open applications** from its tracker, if you use it.
+3. **Sign in with Google and paste your roles.** [Quick start](/getting-started/quick-start), then [Create your profile](/getting-started/create-your-profile).
+4. **Add those applications** to [Application tracking](/features/applications-tracking).
+5. **Build the resume.** [Build your first resume](/getting-started/build-your-first-resume).
+6. **Request countersignatures.** [Request employment verification](/guides/request-employment-verification).
+7. **Export, and compare it with the Reactive Resume file.** [Export as PDF or DOCX](/guides/export-resume-pdf-docx).
+8. **If you self-host, keep the server.** It costs you nothing to leave it running beside this.
 
-## Steps
+## What Reactive Resume’s pages say
 
-1. **Get your words out of Reactive Resume.** Reactive Resume’s pages say it downloads a Word file, which is the easiest thing to copy from; its pages also list a PDF download; it lists a data export too.
-2. **Sign in to ClearHire with Google.** That is the only sign-in, and the [quick start](/getting-started/quick-start) takes it from there.
-3. **Type your roles into your profile, once.** ClearHire has no importer, so this part is by hand. [Create your profile](/getting-started/create-your-profile) lists the sections; every resume after this draws from them.
-4. **Build the resume.** [Build your first resume](/getting-started/build-your-first-resume) covers the template and the sections.
-5. **Ask each company to confirm the role.** This is the step with no Reactive Resume equivalent to copy. [Request employment verification](/guides/request-employment-verification) says what the company sees and how long it has.
-6. **Export and open the file.** [Export as PDF or DOCX](/guides/export-resume-pdf-docx) has the troubleshooting.
-7. **Keep your Reactive Resume account until that file opens properly.** Then decide. Nothing here needs you to close it.
-
-
-## What we checked
-
-Every row was read on Reactive Resume’s own pages on 7 November 2026. A page that did not say gets “not stated”, never “no”. Open <a href="https://rxresu.me" target="_blank" rel="noopener noreferrer nofollow">Reactive Resume’s site</a> and check us.
+Read on 7 November 2026, from its home page. It did not say whether its files carry any vendor line, or mention anyone confirming a role. Every row’s source is on <a href="https://rxresu.me" target="_blank" rel="noopener noreferrer nofollow">Reactive Resume’s site</a>.
 
 | What | Reactive Resume | ClearHire | Reactive Resume’s page |
 | --- | --- | --- | --- |
@@ -40,30 +36,19 @@ Every row was read on Reactive Resume’s own pages on 7 November 2026. A page t
 | Downloads a PDF | Yes | Yes | <a href="https://rxresu.me/" target="_blank" rel="noopener noreferrer nofollow">rxresu.me</a> |
 | Downloads a Word file | Yes | Yes | <a href="https://rxresu.me/" target="_blank" rel="noopener noreferrer nofollow">rxresu.me</a> |
 | Exports JSON, HTML, Markdown and XML | Partly | Yes | <a href="https://rxresu.me/" target="_blank" rel="noopener noreferrer nofollow">rxresu.me</a> |
-| Free downloads carry no vendor line | Not stated on the pages we checked | No | — |
 | Cover letters | Yes | Yes | <a href="https://rxresu.me/" target="_blank" rel="noopener noreferrer nofollow">rxresu.me</a> |
 | Tracks your applications | Yes | Yes | <a href="https://rxresu.me/" target="_blank" rel="noopener noreferrer nofollow">rxresu.me</a> |
-| A named company countersigns a role, and the record is then locked | Not stated on the pages we checked | Yes | — |
 
 | Reactive Resume plan | Price | Note | Page |
 | --- | --- | --- | --- |
 | Everything | $0 a month | There is no paid tier; hosting funded by optional donations | <a href="https://rxresu.me/" target="_blank" rel="noopener noreferrer nofollow">rxresu.me</a> |
 
-ClearHire’s plans and prices are on [Paid plans](/features/paid-plans), and the full side-by-side is on [ClearHire’s comparison page](https://clearhire.aoneahsan.com/compare/reactive-resume).
+For our side, see [Paid plans](/features/paid-plans). The comparison: [ClearHire vs Reactive Resume](https://clearhire.aoneahsan.com/compare/reactive-resume).
 
-## Where ClearHire falls short
+## What you give up
 
-- **Only resumes leave in six formats.** A [resume exports](/guides/export-resume-pdf-docx) as PDF, Word, JSON, HTML, Markdown or XML. Cover letters copy out as plain text, and a portfolio has no export.
-- **Free exports name us.** A resume exported on Free carries one “built with” line. [Paid plans](/features/paid-plans) remove it.
-- **There is no career path on your record.** The roadmap and skills-gap pages are reading, not a plan kept for you.
-- **A company’s answer about a person stays private.** Only that person and the company’s admins can read it.
-
-## FAQ
-
-### Can ClearHire import my Reactive Resume data?
-No. ClearHire has no importer, so anything you bring across is typed in or pasted.
-
-### Do I have to pay to try this?
-No. Free is a plan and it does not end. [Paid plans](/features/paid-plans) raise the limits.
+- **Running it on your own server.** Reactive Resume ships a Docker image; ClearHire does not.
+- **Free with nothing on the file.** A free ClearHire export prints one “built with” line; [Paid plans](/features/paid-plans) remove it. Reactive Resume has no paid tier at all.
+- **Letters as files.** Ours copy out as plain text.
 
 > Built and maintained by [the ClearHire team](/about-the-author) — [aoneahsan.com](https://aoneahsan.com) · [GitHub](https://github.com/aoneahsan).

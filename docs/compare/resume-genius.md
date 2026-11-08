@@ -1,7 +1,7 @@
 ---
 id: resume-genius
 title: "Moving from Resume Genius to ClearHire: steps and dated facts"
-description: "Move a CV from Resume Genius to ClearHire: get the text out, enter your roles once, have each company confirm them, export. Facts checked 7 November 2026."
+description: "Leaving Resume Genius for ClearHire: the free resume download is TXT, the free cover letter comes as Word. Bring both across and get each role countersigned. Facts checked 7 November 2026."
 slug: /compare/resume-genius
 sidebar_label: "Resume Genius"
 last_update:
@@ -11,38 +11,30 @@ last_update:
 
 # Moving from Resume Genius to ClearHire
 
-**Resume Genius:** A resume and cover letter builder sold through a 14-day trial, with free templates to download as Word files. This page is the practical half: what carries across, in what order, and where it stops.
+Resume Genius has hundreds of templates and example text to start from. Free Access downloads the resume as TXT only, while its cover letter builder lists PDF, Word and TXT. The paid route is a $2.95 14-day trial, renewing at $23.95 every four weeks.
 
-## Who should stay, and who should move
+If you like to start from a filled-in example, Resume Genius gives you plenty. ClearHire is for someone who wants the resume as PDF and Word without the trial, with countersigned roles printed on it.
 
-Choose Resume Genius if you want hundreds of ready templates and example text to start from.
+## Moving across
 
-Choose ClearHire if you want the resume PDF and Word file without the trial, and a countersigned role on them.
+1. **Download the resume as TXT.** On Free that is the format you get, and it pastes cleanly.
+2. **Download each cover letter as Word.** That route stays open on the free side.
+3. **Sign in to ClearHire with Google.** Then paste each role into [your profile](/getting-started/create-your-profile); there is no importer. [Quick start](/getting-started/quick-start).
+4. **Build the resume.** [Build your first resume](/getting-started/build-your-first-resume).
+5. **Paste your letters in.** Know that ClearHire lets letters out again only as plain text.
+6. **Ask your employers to countersign.** [Request employment verification](/guides/request-employment-verification).
+7. **Export PDF or Word.** [Export as PDF or DOCX](/guides/export-resume-pdf-docx).
 
-## Steps
+## What Resume Genius’s pages say
 
-1. **Get your words out of Resume Genius.** Its PDF download depends on the plan, so check the table below first.
-2. **Sign in to ClearHire with Google.** That is the only sign-in, and the [quick start](/getting-started/quick-start) takes it from there.
-3. **Type your roles into your profile, once.** ClearHire has no importer, so this part is by hand. [Create your profile](/getting-started/create-your-profile) lists the sections; every resume after this draws from them.
-4. **Build the resume.** [Build your first resume](/getting-started/build-your-first-resume) covers the template and the sections.
-5. **Ask each company to confirm the role.** This is the step with no Resume Genius equivalent to copy. [Request employment verification](/guides/request-employment-verification) says what the company sees and how long it has.
-6. **Export and open the file.** [Export as PDF or DOCX](/guides/export-resume-pdf-docx) has the troubleshooting.
-7. **Keep your Resume Genius account until that file opens properly.** Then decide. Nothing here needs you to close it.
-
-
-## What we checked
-
-Every row was read on Resume Genius’s own pages on 7 November 2026. A page that did not say gets “not stated”, never “no”. Open <a href="https://resumegenius.com" target="_blank" rel="noopener noreferrer nofollow">Resume Genius’s site</a> and check us.
+Read on 7 November 2026. The pricing page did not mention data exports, whether free files carry Resume Genius’s name, or role confirmation. Check any row yourself on <a href="https://resumegenius.com" target="_blank" rel="noopener noreferrer nofollow">Resume Genius’s site</a>.
 
 | What | Resume Genius | ClearHire | Resume Genius’s page |
 | --- | --- | --- | --- |
 | A free plan that does not end | Yes | Yes | <a href="https://resumegenius.com/pricing" target="_blank" rel="noopener noreferrer nofollow">resumegenius.com/pricing</a> |
 | Downloads a PDF | Partly | Yes | <a href="https://resumegenius.com/pricing" target="_blank" rel="noopener noreferrer nofollow">resumegenius.com/pricing</a> |
 | Downloads a Word file | Partly | Yes | <a href="https://resumegenius.com/pricing" target="_blank" rel="noopener noreferrer nofollow">resumegenius.com/pricing</a> |
-| Exports JSON, HTML, Markdown and XML | Not stated on the pages we checked | Yes | — |
-| Free downloads carry no vendor line | Not stated on the pages we checked | No | — |
 | Cover letters | Yes | Yes | <a href="https://resumegenius.com/pricing" target="_blank" rel="noopener noreferrer nofollow">resumegenius.com/pricing</a> |
-| A named company countersigns a role, and the record is then locked | Not stated on the pages we checked | Yes | — |
 
 | Resume Genius plan | Price | Note | Page |
 | --- | --- | --- | --- |
@@ -50,21 +42,12 @@ Every row was read on Resume Genius’s own pages on 7 November 2026. A page tha
 | 14-day Trial Plan | $2.95 for 14 days | Auto renews after 14 days at $23.95 billed every four weeks | <a href="https://resumegenius.com/pricing" target="_blank" rel="noopener noreferrer nofollow">resumegenius.com/pricing</a> |
 | Annual Plan | $95.40 a year | $7.95/month, one-time payment, auto renews annually | <a href="https://resumegenius.com/pricing" target="_blank" rel="noopener noreferrer nofollow">resumegenius.com/pricing</a> |
 
-ClearHire’s plans and prices are on [Paid plans](/features/paid-plans), and the full side-by-side is on [ClearHire’s comparison page](https://clearhire.aoneahsan.com/compare/resume-genius).
+Ours: [Paid plans](/features/paid-plans). The side-by-side: [ClearHire vs Resume Genius](https://clearhire.aoneahsan.com/compare/resume-genius).
 
-## Where ClearHire falls short
+## What you give up
 
-- **Only resumes leave in six formats.** A [resume exports](/guides/export-resume-pdf-docx) as PDF, Word, JSON, HTML, Markdown or XML. Cover letters copy out as plain text, and a portfolio has no export.
-- **Free exports name us.** A resume exported on Free carries one “built with” line. [Paid plans](/features/paid-plans) remove it.
-- **There is no career path on your record.** The roadmap and skills-gap pages are reading, not a plan kept for you.
-- **A company’s answer about a person stays private.** Only that person and the company’s admins can read it.
-
-## FAQ
-
-### Can ClearHire import my Resume Genius data?
-No. ClearHire has no importer, so anything you bring across is typed in or pasted.
-
-### Do I have to pay to try this?
-No. Free is a plan and it does not end. [Paid plans](/features/paid-plans) raise the limits.
+- **Cover letters as Word files.** Resume Genius gives you one free. Ours copy out as text.
+- **Example text to start from.** We do not ship a library of filled-in resumes.
+- **A “built with” line on free exports**, removed on [Paid plans](/features/paid-plans).
 
 > Built and maintained by [the ClearHire team](/about-the-author) — [aoneahsan.com](https://aoneahsan.com) · [GitHub](https://github.com/aoneahsan).

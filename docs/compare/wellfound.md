@@ -1,7 +1,7 @@
 ---
 id: wellfound
 title: "Moving from Wellfound to ClearHire: steps and dated facts"
-description: "Use ClearHire beside or instead of Wellfound: post the role again, or track what you already sent and filter the board. Facts checked 7 November 2026."
+description: "Using ClearHire beside Wellfound: a startup can post here as well as there, and candidates can filter to companies that confirm employment. Facts checked 7 November 2026."
 slug: /compare/wellfound
 sidebar_label: "Wellfound"
 last_update:
@@ -11,37 +11,31 @@ last_update:
 
 # Moving from Wellfound to ClearHire
 
-**Wellfound:** A startup job board with free unlimited job posts and paid sourcing seats. This page is the practical half: what carries across, in what order, and where it stops.
+Wellfound is a startup job board. Posts are free and unlimited; job ads start at $200, and sourcing seats run from $135 a month. If you hire for a startup and want free posts and a sourcing tool on one site, it does that well.
 
-## Who should stay, and who should move
+ClearHire is for candidates who want to filter to companies that confirm employment, and who bring countersigned roles with them.
 
-Choose Wellfound if you hire for a startup and want free posts plus a sourcing tool on the same site.
+## If your startup hires on Wellfound
 
-Choose ClearHire if candidates should be able to filter to companies that confirm employment, and bring countersigned roles with them.
+1. **Add the company.** [ClearHire for companies](/features/for-companies). One account can hold several companies, which suits a studio or a founder with two.
+2. **Copy the role over.** Postings do not move automatically.
+3. **Countersign your alumni.** Early employees will ask. Their answers are what make your company show up under the verified filter.
+4. **Keep Wellfound for sourcing.** We are not trying to replace its seats.
 
-## If you hire
+## If you are looking at startups
 
-1. **Sign in with Google and add your company.** [ClearHire for companies](/features/for-companies) covers the profile and its locations.
-2. **Post the role again.** A Wellfound posting does not copy across, and ClearHire has no importer for postings.
-3. **Work the applicants in the pipeline.** Answer employment claims from people who name your company while you are there.
+1. **Set up your profile.** [Create your profile](/getting-started/create-your-profile).
+2. **Put Wellfound applications into the tracker.** [Application tracking](/features/applications-tracking).
+3. **Filter the board to companies that confirm employment.** [Job search](/features/job-search).
+4. **Ask your last startup to countersign** while the people who knew you are still there.
 
-## If you are looking for work
+## What Wellfound’s pages say
 
-1. **Build your profile once.** [Create your profile](/getting-started/create-your-profile) is the place to start.
-2. **Search the board.** [Job search](/features/job-search) explains the filters, including the one for companies that answer employment claims.
-3. **Add what you already sent through Wellfound by hand.** [Application tracking](/features/applications-tracking) holds jobs found anywhere, not only here.
-4. **Keep Wellfound open as well.** A job board is not an either-or, and nothing here asks you to leave it.
-
-
-## What we checked
-
-Every row was read on Wellfound’s own pages on 7 November 2026. A page that did not say gets “not stated”, never “no”. Open <a href="https://wellfound.com" target="_blank" rel="noopener noreferrer nofollow">Wellfound’s site</a> and check us.
+Read on 7 November 2026, on the recruit pricing page. It said nothing about a verified-employer filter or role confirmation. Every row’s source is on <a href="https://wellfound.com" target="_blank" rel="noopener noreferrer nofollow">Wellfound’s site</a>.
 
 | What | Wellfound | ClearHire | Wellfound’s page |
 | --- | --- | --- | --- |
 | Companies post jobs and people apply | Yes | Yes | <a href="https://wellfound.com/recruit/pricing" target="_blank" rel="noopener noreferrer nofollow">wellfound.com/recruit/pricing</a> |
-| Filter to jobs from companies that confirm employment | Not stated on the pages we checked | Yes | — |
-| A named company countersigns a role, and the record is then locked | Not stated on the pages we checked | Yes | — |
 
 | Wellfound plan | Price | Note | Page |
 | --- | --- | --- | --- |
@@ -50,21 +44,11 @@ Every row was read on Wellfound’s own pages on 7 November 2026. A page that di
 | Reach: Starter | $135 per seat, per month | — | <a href="https://wellfound.com/recruit/pricing" target="_blank" rel="noopener noreferrer nofollow">wellfound.com/recruit/pricing</a> |
 | Reach: Growth | $199 per seat, per month | — | <a href="https://wellfound.com/recruit/pricing" target="_blank" rel="noopener noreferrer nofollow">wellfound.com/recruit/pricing</a> |
 
-ClearHire’s plans and prices are on [Paid plans](/features/paid-plans), and the full side-by-side is on [ClearHire’s comparison page](https://clearhire.aoneahsan.com/compare/wellfound).
+What ClearHire costs is on [Paid plans](/features/paid-plans). Side by side: [ClearHire vs Wellfound](https://clearhire.aoneahsan.com/compare/wellfound).
 
-## Where ClearHire falls short
+## Where we are smaller
 
-- **Only resumes leave in six formats.** A [resume exports](/guides/export-resume-pdf-docx) as PDF, Word, JSON, HTML, Markdown or XML. Cover letters copy out as plain text, and a portfolio has no export.
-- **Free exports name us.** A resume exported on Free carries one “built with” line. [Paid plans](/features/paid-plans) remove it.
-- **There is no career path on your record.** The roadmap and skills-gap pages are reading, not a plan kept for you.
-- **A company’s answer about a person stays private.** Only that person and the company’s admins can read it.
-
-## FAQ
-
-### Can ClearHire import my Wellfound data?
-No. ClearHire has no importer, so anything you bring across is typed in or pasted.
-
-### Do I have to pay to try this?
-No. Free is a plan and it does not end. [Paid plans](/features/paid-plans) raise the limits.
+- **No sourcing seats** like Wellfound’s Reach.
+- **Resume-only exports.** [Six formats](/guides/export-resume-pdf-docx), not for letters.
 
 > Built and maintained by [the ClearHire team](/about-the-author) — [aoneahsan.com](https://aoneahsan.com) · [GitHub](https://github.com/aoneahsan).

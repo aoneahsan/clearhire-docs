@@ -1,7 +1,7 @@
 ---
 id: enhancv
 title: "Moving from Enhancv to ClearHire: steps and dated facts"
-description: "Move a CV from Enhancv to ClearHire: get the text out, enter your roles once, have each company confirm them, export. Facts checked 7 November 2026."
+description: "Leaving Enhancv for ClearHire: the free plan lasts seven days and downloads PDF only, so copy the text first, then paste it in and get each role countersigned. Facts checked 7 November 2026."
 slug: /compare/enhancv
 sidebar_label: "Enhancv"
 last_update:
@@ -11,38 +11,30 @@ last_update:
 
 # Moving from Enhancv to ClearHire
 
-**Enhancv:** A design-led resume builder with a seven-day free plan and a Pro tier that removes its branding. This page is the practical half: what carries across, in what order, and where it stops.
+Enhancv is design-led and helps with the words: real-time content suggestions and a tool to tailor the resume to each job description. Its free plan lasts seven days, carries Enhancv branding and caps you at twelve section items. Pro Quarterly is $69 every three months, without branding. Its FAQ says resumes download as a PDF, not a Word doc.
 
-## Who should stay, and who should move
+If you tailor for each application and want suggestions while you do it, Enhancv is made for that. ClearHire’s free plan does not end after a week, gives you a Word file, and carries countersigned roles.
 
-Choose Enhancv if you want real-time content suggestions and a tailoring tool for each job description.
+## Moving across
 
-Choose ClearHire if you want a free plan that does not end after a week, a Word file, and a countersigned role.
+1. **Check how many of your seven days are left.** If you are on the free plan, download the PDF today.
+2. **Copy the text out of the PDF.** It is the only format Enhancv lists, so expect to tidy line breaks.
+3. **Paste the full history, not the twelve items.** If the item cap made you drop roles, add them back in your ClearHire [profile](/getting-started/create-your-profile). The [quick start](/getting-started/quick-start) gets you signed in with Google. No importer.
+4. **Make one resume per kind of job.** [Build your first resume](/getting-started/build-your-first-resume). This is the nearest thing to Enhancv’s tailoring: separate resumes drawn from the same profile.
+5. **Ask companies to countersign.** [Request employment verification](/guides/request-employment-verification).
+6. **Export to Word or PDF.** [Export as PDF or DOCX](/guides/export-resume-pdf-docx).
 
-## Steps
+## What Enhancv’s pages say
 
-1. **Get your words out of Enhancv.** Its pages also list a PDF download.
-2. **Sign in to ClearHire with Google.** That is the only sign-in, and the [quick start](/getting-started/quick-start) takes it from there.
-3. **Type your roles into your profile, once.** ClearHire has no importer, so this part is by hand. [Create your profile](/getting-started/create-your-profile) lists the sections; every resume after this draws from them.
-4. **Build the resume.** [Build your first resume](/getting-started/build-your-first-resume) covers the template and the sections.
-5. **Ask each company to confirm the role.** This is the step with no Enhancv equivalent to copy. [Request employment verification](/guides/request-employment-verification) says what the company sees and how long it has.
-6. **Export and open the file.** [Export as PDF or DOCX](/guides/export-resume-pdf-docx) has the troubleshooting.
-7. **Keep your Enhancv account until that file opens properly.** Then decide. Nothing here needs you to close it.
-
-
-## What we checked
-
-Every row was read on Enhancv’s own pages on 7 November 2026. A page that did not say gets “not stated”, never “no”. Open <a href="https://enhancv.com" target="_blank" rel="noopener noreferrer nofollow">Enhancv’s site</a> and check us.
+Read on 7 November 2026. The pages did not mention data exports or anyone confirming a role. Every row’s source is on <a href="https://enhancv.com" target="_blank" rel="noopener noreferrer nofollow">Enhancv’s site</a>.
 
 | What | Enhancv | ClearHire | Enhancv’s page |
 | --- | --- | --- | --- |
 | A free plan that does not end | No | Yes | <a href="https://enhancv.com/pricing/" target="_blank" rel="noopener noreferrer nofollow">enhancv.com/pricing</a> |
 | Downloads a PDF | Yes | Yes | <a href="https://enhancv.com/pricing/" target="_blank" rel="noopener noreferrer nofollow">enhancv.com/pricing</a> |
 | Downloads a Word file | No | Yes | <a href="https://enhancv.com/pricing/" target="_blank" rel="noopener noreferrer nofollow">enhancv.com/pricing</a> |
-| Exports JSON, HTML, Markdown and XML | Not stated on the pages we checked | Yes | — |
 | Free downloads carry no vendor line | No | No | <a href="https://enhancv.com/pricing/" target="_blank" rel="noopener noreferrer nofollow">enhancv.com/pricing</a> |
 | Cover letters | Yes | Yes | <a href="https://enhancv.com/pricing/" target="_blank" rel="noopener noreferrer nofollow">enhancv.com/pricing</a> |
-| A named company countersigns a role, and the record is then locked | Not stated on the pages we checked | Yes | — |
 
 | Enhancv plan | Price | Note | Page |
 | --- | --- | --- | --- |
@@ -50,23 +42,11 @@ Every row was read on Enhancv’s own pages on 7 November 2026. A page that did 
 | Pro Quarterly | $69 per 3 months | $23/mo billed every 3 months; no branding | <a href="https://enhancv.com/pricing/" target="_blank" rel="noopener noreferrer nofollow">enhancv.com/pricing</a> |
 | Pro Monthly | No public price | Quote only: tab shown, amount not in the page text we could read | <a href="https://enhancv.com/pricing/" target="_blank" rel="noopener noreferrer nofollow">enhancv.com/pricing</a> |
 
-ClearHire’s plans and prices are on [Paid plans](/features/paid-plans), and the full side-by-side is on [ClearHire’s comparison page](https://clearhire.aoneahsan.com/compare/enhancv).
+Our prices: [Paid plans](/features/paid-plans). Side by side: [ClearHire vs Enhancv](https://clearhire.aoneahsan.com/compare/enhancv).
 
-Note from the check: The page shows a currency placeholder on some cards; only the $69 quarterly figure was readable.
+## What you give up
 
-## Where ClearHire falls short
-
-- **Only resumes leave in six formats.** A [resume exports](/guides/export-resume-pdf-docx) as PDF, Word, JSON, HTML, Markdown or XML. Cover letters copy out as plain text, and a portfolio has no export.
-- **Free exports name us.** A resume exported on Free carries one “built with” line. [Paid plans](/features/paid-plans) remove it.
-- **There is no career path on your record.** The roadmap and skills-gap pages are reading, not a plan kept for you.
-- **A company’s answer about a person stays private.** Only that person and the company’s admins can read it.
-
-## FAQ
-
-### Can ClearHire import my Enhancv data?
-No. ClearHire has no importer, so anything you bring across is typed in or pasted.
-
-### Do I have to pay to try this?
-No. Free is a plan and it does not end. [Paid plans](/features/paid-plans) raise the limits.
+- **Content suggestions and job-by-job tailoring.** We have neither.
+- **Free files still carry a line.** Enhancv’s free plan has its branding; ours has one “built with” line. [Paid plans](/features/paid-plans) remove it.
 
 > Built and maintained by [the ClearHire team](/about-the-author) — [aoneahsan.com](https://aoneahsan.com) · [GitHub](https://github.com/aoneahsan).
