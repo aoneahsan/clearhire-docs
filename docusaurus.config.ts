@@ -41,6 +41,7 @@ const config: Config = {
   // Google Rich Results, Perplexity, ChatGPT, and Gemini extract structured
   // entity data when citing ClearHire docs.
   headTags: [
+    { tagName: 'meta', attributes: { name: 'yandex-verification', content: 'bfb02722189028cf' } },
     {
       tagName: 'link',
       attributes: {
