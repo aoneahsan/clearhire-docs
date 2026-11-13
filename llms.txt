@@ -45,6 +45,14 @@ This `llms.txt` follows the [llmstxt.org](https://llmstxt.org) spec — a struct
 - [Run the ATS resume checker](https://clearhire-docs.aoneahsan.com/guides/ats-resume-checker)
 - [Export or delete your data](https://clearhire-docs.aoneahsan.com/guides/data-export-and-deletion)
 
+## White-label & licensing
+
+- [White-label licence](https://clearhire-docs.aoneahsan.com/white-label): ClearHire under your own name on web and Android, hosted and updated by us; the source moves only with a buyout.
+- [Setup, updates and renewals](https://clearhire-docs.aoneahsan.com/white-label/setup-and-updates): From payment to a live copy, the six included months, renewing by licence key.
+- [Verify a licence](https://clearhire-docs.aoneahsan.com/white-label/verify-a-licence): Check a copy by its key or its domain.
+- [White-label questions](https://clearhire-docs.aoneahsan.com/white-label/faq): Code, exclusivity, platforms, custom work.
+- Prices: https://clearhire.aoneahsan.com/white-label/pricing (read from the licensing service; not repeated in these docs)
+
 ## Reference
 
 - [FAQ](https://clearhire-docs.aoneahsan.com/faq): Common questions about accounts, verification, privacy, cost, and platform availability.

@@ -5,8 +5,43 @@
     <link>https://clearhire-docs.aoneahsan.com/</link>
     <description><![CDATA[Build resumes, prove your employment history, and track applications.]]></description>
     <language>en</language>
-    <lastBuildDate>Sat, 07 Nov 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 15:06:21 GMT</lastBuildDate>
     <atom:link href="https://clearhire-docs.aoneahsan.com/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ClearHire for Companies: Post Jobs, Verify, and Hire</title>
+      <link>https://clearhire-docs.aoneahsan.com/features/for-companies</link>
+      <guid isPermaLink="true">https://clearhire-docs.aoneahsan.com/features/for-companies</guid>
+      <pubDate>Fri, 13 Nov 2026 15:06:21 GMT</pubDate>
+      <description><![CDATA[ClearHire for companies covers company profiles, job posting, applicant tracking, talent search, employee reviews, and employment verification in one place.]]></description>
+    </item>
+    <item>
+      <title>ClearHire White-Label Licence: Your Name on Web and Android</title>
+      <link>https://clearhire-docs.aoneahsan.com/white-label</link>
+      <guid isPermaLink="true">https://clearhire-docs.aoneahsan.com/white-label</guid>
+      <pubDate>Fri, 13 Nov 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[A ClearHire white-label licence runs it under your name and domain on web and Android. We host and update it; the code moves only with a buyout.]]></description>
+    </item>
+    <item>
+      <title>ClearHire White-Label FAQ: Code, Exclusivity and Platforms</title>
+      <link>https://clearhire-docs.aoneahsan.com/white-label/faq</link>
+      <guid isPermaLink="true">https://clearhire-docs.aoneahsan.com/white-label/faq</guid>
+      <pubDate>Fri, 13 Nov 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[What buyers ask about a ClearHire white-label licence: whether the code comes with it, who else may license it, which platforms it covers, and custom work.]]></description>
+    </item>
+    <item>
+      <title>ClearHire White-Label Setup, Updates and Renewals Explained</title>
+      <link>https://clearhire-docs.aoneahsan.com/white-label/setup-and-updates</link>
+      <guid isPermaLink="true">https://clearhire-docs.aoneahsan.com/white-label/setup-and-updates</guid>
+      <pubDate>Fri, 13 Nov 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[How a ClearHire white-label copy goes live on your domain, what the six included months of updates cover, and how renewals add three, six or twelve.]]></description>
+    </item>
+    <item>
+      <title>Verify a ClearHire White-Label Licence by Key or by Domain</title>
+      <link>https://clearhire-docs.aoneahsan.com/white-label/verify-a-licence</link>
+      <guid isPermaLink="true">https://clearhire-docs.aoneahsan.com/white-label/verify-a-licence</guid>
+      <pubDate>Fri, 13 Nov 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Check whether a copy of ClearHire is licensed: paste its key or domain on the verify page and read our licensing service's answer, not the site's claim.]]></description>
+    </item>
     <item>
       <title>Moving to ClearHire from another CV tool or job board</title>
       <link>https://clearhire-docs.aoneahsan.com/compare</link>
@@ -391,13 +426,6 @@
       <guid isPermaLink="true">https://clearhire-docs.aoneahsan.com/features/employment-verification</guid>
       <pubDate>Sat, 26 Sep 2026 11:30:51 GMT</pubDate>
       <description><![CDATA[Employment verification in ClearHire lets a past employer confirm a role on your profile, adding a countersignature. Learn the request flow, timeout, and its limits.]]></description>
-    </item>
-    <item>
-      <title>ClearHire for Companies: Post Jobs, Verify, and Hire</title>
-      <link>https://clearhire-docs.aoneahsan.com/features/for-companies</link>
-      <guid isPermaLink="true">https://clearhire-docs.aoneahsan.com/features/for-companies</guid>
-      <pubDate>Sat, 26 Sep 2026 11:30:51 GMT</pubDate>
-      <description><![CDATA[ClearHire for companies covers company profiles, job posting, applicant tracking, talent search, employee reviews, and employment verification in one place.]]></description>
     </item>
     <item>
       <title>Job Search in ClearHire: Filters, Alerts, Saved Searches</title>
