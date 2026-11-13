@@ -68,6 +68,6 @@ Either the employee requests it or an authorised contact at your company starts 
 Reviews are tied to a verified employment link, so they reflect a real working relationship rather than anonymous posting. See [company reviews](/features/company-reviews).
 
 ### Does ClearHire cost anything for companies?
-Confirming a former employee's record is free and always will be — a company answering a request is doing ClearHire a favour, and charging for that would be backwards. The company side's own tools sit under the same three plans as the rest of the product: Free, Pro and Team. A separate white-label licence exists for organizations that want their own branded deployment; it is not required to post jobs or hire on ClearHire itself.
+Confirming a former employee's record is free and always will be — a company answering a request is doing ClearHire a favour, and charging for that would be backwards. The company side's own tools sit under the same three plans as the rest of the product: Free, Pro and Team. A separate [white-label licence](/white-label) exists for organizations that want their own branded deployment; it is not required to post jobs or hire on ClearHire itself.
 
 > Built and maintained by [the ClearHire team](/about-the-author) — [aoneahsan.com](https://aoneahsan.com) · [GitHub](https://github.com/aoneahsan).

@@ -121,6 +121,13 @@ const sidebars: SidebarsConfig = {
         },
       ],
     },
+    {
+      type: 'category',
+      label: 'White-label & licensing',
+      collapsed: true,
+      link: { type: 'doc', id: 'white-label/index' },
+      items: ['white-label/setup-and-updates', 'white-label/verify-a-licence', 'white-label/faq'],
+    },
     'faq',
     'privacy',
     'changelog',
