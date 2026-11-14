@@ -5,7 +5,7 @@ description: "A ClearHire white-label licence runs it under your name and domain
 slug: /white-label
 sidebar_label: Overview
 last_update:
-  date: 2026-11-13
+  date: 2026-11-14
   author: ClearHire team
 ---
 
@@ -34,7 +34,8 @@ There is no browser extension, npm package or desktop app to license, because Cl
 - **A licence** is non-exclusive. We host and update it, and we may license ClearHire to other buyers until someone
   buys it outright. No source code is disclosed.
 - **The buyout** hands over the source code of every repository that builds the web and Android apps, with six
-  months of updates. After it, ClearHire is not sold to anyone else.
+  months of updates. After it, ClearHire is not sold to anyone else, and the buyer pays us a 7% royalty on its gross
+  revenue, quarterly, for as long as it earns.
 
 Prices, the bundle discount and the buyout figure are on the [pricing page](https://clearhire.aoneahsan.com/white-label/pricing),
 which reads them from our licensing service. They are not repeated here, so this page cannot disagree with it.

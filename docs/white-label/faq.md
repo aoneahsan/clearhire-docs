@@ -1,11 +1,11 @@
 ---
 id: faq
 title: "ClearHire White-Label FAQ: Code, Exclusivity and Platforms"
-description: "What buyers ask about a ClearHire white-label licence: whether the code comes with it, who else may license it, which platforms it covers, and custom work."
+description: "What buyers ask about a ClearHire white-label licence: the code, the buyout royalty, who else may license it, paying by Wise transfer, platforms and custom work."
 slug: /white-label/faq
 sidebar_label: Questions
 last_update:
-  date: 2026-11-13
+  date: 2026-11-14
   author: ClearHire team
 ---
 
@@ -22,6 +22,17 @@ No. A licence is the product running under your name on our hosting. The code ch
 ### What does a buyout include?
 The source code of every repository that builds the web and Android apps, with six months of updates. After it,
 ClearHire is not sold to anyone else. Licences sold before the buyout keep their terms.
+
+### Is there anything to pay after a buyout?
+Yes, a royalty. The buyer pays us 7% of the gross revenue ClearHire earns, not counting sales tax or VAT collected,
+every quarter with a revenue statement. It runs for as long as ClearHire earns revenue, and it is still owed after a
+resale. The [licence terms](https://clearhire.aoneahsan.com/white-label/license-terms#c7) say the same in plain words.
+
+## Paying
+
+### How do we pay?
+By bank transfer to our Wise account. The payment page shows the details and asks for the transfer reference. Once we
+confirm the transfer, the licence key arrives by email.
 
 ## Exclusivity
 

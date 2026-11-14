@@ -5,7 +5,7 @@ description: "How a ClearHire white-label copy goes live on your domain, what th
 slug: /white-label/setup-and-updates
 sidebar_label: Setup and updates
 last_update:
-  date: 2026-11-13
+  date: 2026-11-14
   author: ClearHire team
 ---
 
@@ -22,8 +22,9 @@ that.** This page covers both, in the order they happen.
 3. **The licence key turns active.** Until then it reads *pending setup* on the
    [verify page](https://clearhire.aoneahsan.com/verify-license), which is the correct state and not a fault.
 
-A licence is issued when the payment provider confirms the payment to our licensing service. The page you return to
-after paying grants nothing by itself; the licence key arrives by email.
+You pay by bank transfer to our Wise account and send the transfer reference from the payment page. A licence is
+issued once we confirm the transfer. The page you return to after paying grants nothing by itself; the licence key
+arrives by email.
 
 ## What counts as an update
 
