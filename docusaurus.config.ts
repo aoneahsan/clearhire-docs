@@ -171,6 +171,8 @@ const config: Config = {
             '**/*.test.{js,jsx,ts,tsx}',
             '**/__tests__/**',
             'MANUAL-TASKS.md',
+            // docs/PACKAGES.md is the fleet's fixed-path dependency record, never a published page.
+            'PACKAGES.md',
             // 🔴 `tracking/` is the content tracker — an internal record of which page has been
             //    walked against which wave. It is not documentation and this repo is public.
             'tracking/**',

@@ -1,5 +1,7 @@
 # AGENTS.md — clearhire-docs
 
+<!-- fleet:node-26-13-1 v1 --> Node 26.13.1 LTS (.nvmrc), packages latest — 2026-11-16
+
 Public Docusaurus documentation site for the **ClearHire** app.
 
 **Mirror of `CLAUDE.md`** — byte-identical except this line. Update one, update the other.

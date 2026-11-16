@@ -1,12 +1,11 @@
 # Version blockers
 
-**Reviewed:** 2026-10-21
+**Reviewed:** 2026-11-16
 
 ## TypeScript 7
 
-TypeScript remains on the current 6.0 line because Docusaurus 3.10.2 has not established TypeScript 7 as its supported baseline. Both dependency update scripts reject `typescript` so a routine update cannot cross that compatibility boundary silently.
-
-Recheck when Docusaurus documents TypeScript 7 support. Remove the rejection only after `yarn gates` passes on the new major.
+Adopted (`~7.0.2`). `yarn typecheck` passes on it, and the site has neither `typescript-eslint` nor the Capacitor CLI,
+the tools that hold the rest of the fleet on 6.0. The update scripts no longer reject `typescript` (2026-11-16).
 
 ## Dependency audit
 

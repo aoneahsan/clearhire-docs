@@ -42,7 +42,7 @@ docs/tracking/clearhire-docs-content-tracker.json  # resumable enrichment backlo
 
 ## Maintenance
 
-- [PACKAGES.md](PACKAGES.md) records the current dependency baseline and verification commands.
+- [docs/PACKAGES.md](docs/PACKAGES.md) records the current dependency baseline and verification commands.
 - [VERSION-BLOCKERS.md](VERSION-BLOCKERS.md) records upgrades that are intentionally held.
 
 **Last Updated:** 2026-10-21
