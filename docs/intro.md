@@ -39,6 +39,7 @@ Today the only promotions in the product are cards for the developer’s other a
 - New here: the [quick start](/getting-started/quick-start), then [create your profile](/getting-started/create-your-profile) and [build your first resume](/getting-started/build-your-first-resume).
 - The part nothing else here does: [employment verification](/features/employment-verification), and the app’s public explainer of [how employment verification works](https://clearhire.aoneahsan.com/help/verification).
 - Hiring: [ClearHire for companies](/features/for-companies).
+- Your job search in your own code, an AI assistant or your calendar: [ClearHire for developers](/developers).
 - Data, deletion and what is kept: the [privacy summary](/privacy), [data export and deletion](/guides/data-export-and-deletion) and the [FAQ](/faq).
 
 > Built and maintained by [the ClearHire team](/about-the-author) — [aoneahsan.com](https://aoneahsan.com) · [GitHub](https://github.com/aoneahsan).

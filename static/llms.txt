@@ -53,6 +53,17 @@ This `llms.txt` follows the [llmstxt.org](https://llmstxt.org) spec — a struct
 - [White-label questions](https://clearhire-docs.aoneahsan.com/white-label/faq): Code, the buyout royalty, exclusivity, paying by Wise transfer, platforms, custom work.
 - Prices: https://clearhire.aoneahsan.com/white-label/pricing (read from the licensing service; not repeated in these docs)
 
+## Developers (switching on with the next release; not live on 19 November 2026)
+
+- [Overview](https://clearhire-docs.aoneahsan.com/developers): The API, MCP server, webhooks and calendar feed; full access to the seeker's own account, read-only access to a company's jobs and their applications.
+- [Access keys](https://clearhire-docs.aoneahsan.com/developers/authentication): Bearer keys or OAuth, scopes (write includes read, remove never implied), 30/90/365-day expiry, the 10-minute reveal rule, 120 requests a minute per key plus a plan-set daily total, the error envelope.
+- [The API](https://clearhire-docs.aoneahsan.com/developers/api): Base https://lxvdadoeyghxqyanpyla.supabase.co/functions/v1/api/v1; OpenAPI at /v1/openapi.json and /v1/openapi.md; pagination 20 by default, 50 at most.
+- [AI assistants (MCP)](https://clearhire-docs.aoneahsan.com/developers/mcp): https://lxvdadoeyghxqyanpyla.supabase.co/functions/v1/mcp for Claude, ChatGPT, Claude Code and Cursor; removals wait for the person's confirmation in ClearHire.
+- [Webhooks](https://clearhire-docs.aoneahsan.com/developers/webhooks): Standard Webhooks signatures, the event list, retries for just over a day, test, replay and pause.
+- [Calendar feed](https://clearhire-docs.aoneahsan.com/developers/calendar-feed): Interviews and reminders as a revocable, read-only .ics subscription.
+- [Two-step sign-in](https://clearhire-docs.aoneahsan.com/developers/two-step-sign-in): Authenticator codes, single-use recovery codes, an opt-in remembered browser; required for admins.
+- [Developer changelog](https://clearhire-docs.aoneahsan.com/developers/changelog)
+
 ## Reference
 
 - [FAQ](https://clearhire-docs.aoneahsan.com/faq): Common questions about accounts, verification, privacy, cost, and platform availability.
