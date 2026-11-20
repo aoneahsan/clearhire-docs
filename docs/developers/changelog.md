@@ -6,13 +6,9 @@ slug: /developers/changelog
 sidebar_label: Developer changelog
 keywords: [clearhire api changelog, clearhire api changes, api versions]
 last_update:
-  date: 2026-11-19
+  date: 2026-11-20
   author: The ClearHire team
 ---
-
-:::warning[Not switched on yet (19 November 2026)]
-This arrives with the next ClearHire release. Until then, nothing on this page works.
-:::
 
 # Developer changelog
 
@@ -20,7 +16,7 @@ Every change to the API, the MCP server, webhooks and the calendar feed is liste
 version is part of its address, `/v1`, and the [OpenAPI file](./api.md#where-is-the-full-reference) always describes the version
 it sits under. Changes to the app itself are in the [main changelog](/changelog).
 
-## 19 November 2026
+## 20 November 2026
 
 - Access keys under Settings → Other apps, the `/v1` API with its OpenAPI file, the MCP server for AI
   assistants, webhooks for applications, interviews, reminders and job alerts, the calendar feed of interviews

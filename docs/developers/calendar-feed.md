@@ -6,13 +6,9 @@ slug: /developers/calendar-feed
 sidebar_label: Calendar feed
 keywords: [clearhire calendar feed, interview calendar subscription, ics feed, google calendar subscription]
 last_update:
-  date: 2026-11-19
+  date: 2026-11-20
   author: The ClearHire team
 ---
-
-:::warning[Not switched on yet (19 November 2026)]
-This arrives with the next ClearHire release. Until then, nothing on this page works.
-:::
 
 # Calendar feed
 

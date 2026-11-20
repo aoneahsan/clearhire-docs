@@ -6,13 +6,9 @@ slug: /developers/mcp
 sidebar_label: AI assistants (MCP)
 keywords: [clearhire mcp server, connect claude to clearhire, chatgpt connector, claude code mcp, cursor mcp]
 last_update:
-  date: 2026-11-19
+  date: 2026-11-20
   author: The ClearHire team
 ---
-
-:::warning[Not switched on yet (19 November 2026)]
-This arrives with the next ClearHire release. Until then, nothing on this page works.
-:::
 
 # Connect an AI assistant (MCP)
 

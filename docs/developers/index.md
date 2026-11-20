@@ -6,13 +6,9 @@ slug: /developers
 sidebar_label: Overview
 keywords: [clearhire api, clearhire mcp, clearhire webhooks, clearhire calendar feed, job search api]
 last_update:
-  date: 2026-11-19
+  date: 2026-11-20
   author: The ClearHire team
 ---
-
-:::warning[Not switched on yet (19 November 2026)]
-This arrives with the next ClearHire release. Until then, nothing on this page works.
-:::
 
 # ClearHire for developers
 
