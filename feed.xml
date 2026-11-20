@@ -5,8 +5,71 @@
     <link>https://clearhire-docs.aoneahsan.com/</link>
     <description><![CDATA[Build resumes, prove your employment history, and track applications.]]></description>
     <language>en</language>
-    <lastBuildDate>Sat, 14 Nov 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://clearhire-docs.aoneahsan.com/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ClearHire for Developers: API, MCP, Webhooks and Feeds</title>
+      <link>https://clearhire-docs.aoneahsan.com/developers</link>
+      <guid isPermaLink="true">https://clearhire-docs.aoneahsan.com/developers</guid>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Four ways to take your ClearHire job search somewhere else: a script, an AI assistant, your own server or a calendar app, and what none of them can ever do.]]></description>
+    </item>
+    <item>
+      <title>The ClearHire API: Base Address, OpenAPI and Pagination</title>
+      <link>https://clearhire-docs.aoneahsan.com/developers/api</link>
+      <guid isPermaLink="true">https://clearhire-docs.aoneahsan.com/developers/api</guid>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[The ClearHire REST API at one versioned base address, with cursor pagination at 20 rows a page by default and 50 at most, and an OpenAPI file of every route.]]></description>
+    </item>
+    <item>
+      <title>ClearHire Access Keys: Scopes, OAuth and Rate Limits</title>
+      <link>https://clearhire-docs.aoneahsan.com/developers/authentication</link>
+      <guid isPermaLink="true">https://clearhire-docs.aoneahsan.com/developers/authentication</guid>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[How your code proves it may reach your ClearHire account: access keys and scopes, the 10-minute rule for seeing a key again, expiry, OAuth, limits and errors.]]></description>
+    </item>
+    <item>
+      <title>ClearHire Calendar Feed: Interviews in Your Calendar</title>
+      <link>https://clearhire-docs.aoneahsan.com/developers/calendar-feed</link>
+      <guid isPermaLink="true">https://clearhire-docs.aoneahsan.com/developers/calendar-feed</guid>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Subscribe to your ClearHire interviews and reminders from Google Calendar, Apple Calendar or Outlook with a private, read-only feed address you can revoke.]]></description>
+    </item>
+    <item>
+      <title>ClearHire Developer Changelog: API, MCP and Webhooks</title>
+      <link>https://clearhire-docs.aoneahsan.com/developers/changelog</link>
+      <guid isPermaLink="true">https://clearhire-docs.aoneahsan.com/developers/changelog</guid>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Every change to the ClearHire API, MCP server, webhooks, calendar feed and two-step sign-in, newest first, so a script that worked last month still works.]]></description>
+    </item>
+    <item>
+      <title>How to Connect an AI Assistant to ClearHire Through MCP</title>
+      <link>https://clearhire-docs.aoneahsan.com/developers/mcp</link>
+      <guid isPermaLink="true">https://clearhire-docs.aoneahsan.com/developers/mcp</guid>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Connect Claude, ChatGPT, Claude Code or Cursor to your ClearHire account through MCP, choose what it may do on the consent page, and confirm every removal.]]></description>
+    </item>
+    <item>
+      <title>Two-Step Sign-In for Your ClearHire Account Explained</title>
+      <link>https://clearhire-docs.aoneahsan.com/developers/two-step-sign-in</link>
+      <guid isPermaLink="true">https://clearhire-docs.aoneahsan.com/developers/two-step-sign-in</guid>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Turn on two-step sign-in for ClearHire with an authenticator app, keep recovery codes for a lost phone, choose whether to remember a browser; admins must use it.]]></description>
+    </item>
+    <item>
+      <title>ClearHire Webhooks: Events, Signatures and Retries</title>
+      <link>https://clearhire-docs.aoneahsan.com/developers/webhooks</link>
+      <guid isPermaLink="true">https://clearhire-docs.aoneahsan.com/developers/webhooks</guid>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[ClearHire webhooks tell your server when an application, interview, reminder or job alert changes. Standard Webhooks signing, with Node, Python and PHP code.]]></description>
+    </item>
+    <item>
+      <title>ClearHire: Verified-Employment Resume Builder</title>
+      <link>https://clearhire-docs.aoneahsan.com/intro</link>
+      <guid isPermaLink="true">https://clearhire-docs.aoneahsan.com/intro</guid>
+      <pubDate>Thu, 19 Nov 2026 16:58:28 GMT</pubDate>
+      <description><![CDATA[ClearHire is a resume builder and verified-employment job platform where past employers confirm your roles. Learn what it does, who it serves, and its limits.]]></description>
+    </item>
     <item>
       <title>ClearHire White-Label Licence: Your Name on Web and Android</title>
       <link>https://clearhire-docs.aoneahsan.com/white-label</link>
@@ -370,13 +433,6 @@
       <guid isPermaLink="true">https://clearhire-docs.aoneahsan.com/guides/request-employment-verification</guid>
       <pubDate>Sat, 26 Sep 2026 14:03:39 GMT</pubDate>
       <description><![CDATA[A step-by-step guide to requesting employment verification in ClearHire — how to send a request, what the employer sees, and how the request timeout behaves.]]></description>
-    </item>
-    <item>
-      <title>ClearHire: Verified-Employment Resume Builder</title>
-      <link>https://clearhire-docs.aoneahsan.com/intro</link>
-      <guid isPermaLink="true">https://clearhire-docs.aoneahsan.com/intro</guid>
-      <pubDate>Sat, 26 Sep 2026 14:03:39 GMT</pubDate>
-      <description><![CDATA[ClearHire is a resume builder and verified-employment job platform where past employers confirm your roles. Learn what it does, who it serves, and its limits.]]></description>
     </item>
     <item>
       <title>About the ClearHire Team: An Independent Developer</title>
