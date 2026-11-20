@@ -4,11 +4,11 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 
+import {OTHER_PLATFORMS, platformHref} from '@site/src/data/platforms';
 import styles from './index.module.css';
 
-const APP_URL = 'https://clearhire.aoneahsan.com';
-const PLAY_URL =
-  'https://play.google.com/store/apps/details?id=com.aoneahsan.clearhire';
+const APP_URL = platformHref('web');
+const PLAY_URL = platformHref('android');
 
 type Feature = {
   title: string;
@@ -63,6 +63,13 @@ function HomepageHeader(): ReactNode {
             Open the app
           </Link>
         </div>
+        <p className={styles.also}>
+          <span>Also on</span>
+          {OTHER_PLATFORMS.filter((platform) => !platform.primary).map((platform) => (
+            <Link key={platform.id} href={platform.href}>{platform.name}</Link>
+          ))}
+          <Link to="/apps">All apps →</Link>
+        </p>
       </div>
     </header>
   );

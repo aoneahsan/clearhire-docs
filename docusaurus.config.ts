@@ -2,6 +2,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 import discoveryFeed from './src/plugins/discoveryFeed';
+import {APPS_LASTMOD, OTHER_PLATFORMS, platformHref} from './src/data/platforms';
 
 // ---------------------------------------------------------------------------
 // ClearHire — Documentation site config
@@ -11,10 +12,9 @@ import discoveryFeed from './src/plugins/discoveryFeed';
 // ---------------------------------------------------------------------------
 
 const SITE_URL = 'https://clearhire-docs.aoneahsan.com';
-const APP_URL = 'https://clearhire.aoneahsan.com';
+const APP_URL = platformHref('web');
 const ORG_ID = `${APP_URL}/#organization`;
-const PLAY_URL =
-  'https://play.google.com/store/apps/details?id=com.aoneahsan.clearhire';
+const PLAY_URL = platformHref('android');
 
 const config: Config = {
   future: {
@@ -207,10 +207,10 @@ const config: Config = {
             }
             if (newest === null) throw new Error('sitemap: no dated page');
             const listing = new Set([`${SITE_URL}/`, `${SITE_URL}/sitemap`, `${SITE_URL}/feed`]);
-            const undated = items.filter((item) => !item.lastmod && !listing.has(item.url));
+            const undated = items.filter((item) => !item.lastmod && !listing.has(item.url) && item.url !== `${SITE_URL}/apps`);
             if (undated.length > 0) throw new Error(`sitemap: undated ${undated.map((i) => i.url).join(', ')}`);
             const lastmod: string = newest;
-            return items.map((item) => (item.lastmod ? item : { ...item, lastmod }));
+            return items.map((item) => (item.lastmod ? item : { ...item, lastmod: item.url === `${SITE_URL}/apps` ? APPS_LASTMOD : lastmod }));
           },
         },
       } satisfies Preset.Options,
@@ -274,8 +274,15 @@ const config: Config = {
         { to: '/getting-started/quick-start', label: 'Get Started', position: 'left' },
         { to: '/faq', label: 'FAQ', position: 'left' },
         { to: '/about-the-author', label: 'The team', position: 'right' },
-        { href: APP_URL, label: 'Open App', position: 'right' },
-        { href: PLAY_URL, label: 'Google Play', position: 'right' },
+        {
+          type: 'dropdown',
+          label: 'Get ClearHire',
+          position: 'right',
+          items: [
+            ...OTHER_PLATFORMS.map((platform) => ({ label: platform.name, href: platform.href })),
+            { label: 'All apps', to: '/apps' },
+          ],
+        },
         {
           href: 'https://github.com/aoneahsan/clearhire-docs',
           label: 'GitHub',
@@ -286,6 +293,13 @@ const config: Config = {
     footer: {
       style: 'dark',
       links: [
+        {
+          title: 'Get ClearHire',
+          items: [
+            ...OTHER_PLATFORMS.map((platform) => ({ label: platform.name, href: platform.href })),
+            { label: 'All apps', to: '/apps' },
+          ],
+        },
         {
           title: 'Documentation',
           items: [
@@ -307,8 +321,6 @@ const config: Config = {
         {
           title: 'ClearHire',
           items: [
-            { label: 'Open the app', href: APP_URL },
-            { label: 'Get it on Google Play', href: PLAY_URL },
             { label: 'Privacy', to: '/privacy' },
             { label: 'Changelog', to: '/changelog' },
             { label: 'Sitemap', to: '/sitemap' },
