@@ -22,7 +22,7 @@ Public Docusaurus documentation site for the **ClearHire** app.
 | Package manager | Yarn 4.18.1 only; never npm/pnpm for local work |
 | Node | 24.13.0 (`.nvmrc`; CI uses the same version) |
 | Maker | the ClearHire team (OD-245/252 — no page names one maker; the team page keeps the fact line "Founder: Ahsan Mahmood", OD-256). Contact aoneahsan@gmail.com |
-| Live URL | https://clearhire-docs.aoneahsan.com — **GitHub Pages only** (`deploy-pages.yml` on every push to `main`; serving, verified 2026-09-03). No Firebase target |
+| Live URL | https://clearhire-docs.aoneahsan.com — **GitHub Pages only**, served from the `gh-pages` branch: build locally, then publish `build/` there by hand (last publish `111c134`, 2026-11-20). No GitHub Actions workflow since 2026-10-31 (`3f3dc8a`). No Firebase target |
 | Documents | the ClearHire **rebuild** (`../clearhire/`, branch `main` since 2026-10-27 (OD-283), Supabase backend, live since 2026-09-02). ✅ **Factually aligned on 2026-09-05 (OD-187)** — Supabase not Firestore, the extension page an honest notice (OD-164), wave 8's real progression, announcements, a 2.0.0 changelog entry, the three plans named. ✅ **`intro.md`'s narrative shipped 2026-09-17** — story surface `docs-site-intro`, approved at GATE 4 (OD-217); change it through `../clearhire/docs/story/`, never here |
 | App URL | https://clearhire.aoneahsan.com |
 | Play Store | https://play.google.com/store/apps/details?id=com.aoneahsan.clearhire — the rebuild, 2.15.0, live on production since 2026-10-27 (owner-confirmed, OD-284) |
@@ -77,6 +77,14 @@ yarn build       # docusaurus build → ./build (exit 0)
 Local search via `@easyops-cn/docusaurus-search-local` (no Algolia account). The index is built at
 compile time — **search only works against a real build** (`yarn build && yarn serve`), never `yarn start`.
 
+## Blog
+
+`blog/` holds the team's posts, one `.md` each (front matter: `slug`, `title`, `description`, `authors: [team]`, `image`,
+`date`; `{/* truncate */}` after the opening line), each image in `static/img/social/`. Empty, the blog stays off. The first
+post turns on the blog, its RSS and Atom feeds, its search index, its sitemap entries, its cards on `/sitemap` and
+`/feed`, and the Blog links; the words live in `src/data/blog.ts`. Commit a post before building: an undated URL fails
+the build.
+
 ## Content tracker
 
 Resumable enrichment backlog: `docs/tracking/clearhire-docs-content-tracker.json`. The 23-page baseline is
@@ -86,8 +94,8 @@ complete; deep-enrichment batches are listed there.
 
 Enabling GitHub Pages and the DNS for `clearhire-docs.aoneahsan.com` are owner-only — both done in fact
 (the site serves over HTTPS from GitHub, re-verified 2026-09-12) and tracked in this repo's
-`docs/MANUAL-TASKS.md`, which only the owner ticks. There is no Firebase target and no deploy script; a push
-to `main` is the deploy.
+`docs/MANUAL-TASKS.md`, which only the owner ticks. There is no Firebase target, no deploy script and no Actions workflow (removed 2026-10-31), so a push
+to `main` deploys nothing: build, then publish `build/` to `gh-pages` as a commit named `Deploy <main hash>: <what changed>`.
 
 ## Gitignore
 
@@ -98,6 +106,8 @@ Full rule + private/public protocol: `~/.claude/rules/project-config.md`.
 `Gitignore Last Verified: 2026-10-13` — generated `supabase/.temp/` CLI metadata is ignored and stays local; no CLI state is published.
 
 ## Last Updated
+
+2026-11-22 — a blog that switches on with its first post (`blog/`, `src/data/blog.ts`): posts join `/feed`, `/feed.xml`, `/sitemap`, the search index and `sitemap.xml` (`/blog` dated by its newest post). The deploy lines now say what happens since the workflows went (2026-10-31): `build/` is published to `gh-pages` by hand.
 
 2026-10-28 — readable `/sitemap` and `/feed` pages built by `src/plugins/discoveryFeed.ts`, a lastmod on every sitemap URL (an undated page fails the build, so commit before building), `/search` noindexed through a `SearchPage` wrapper, a PNG social card, the changelog's current release set to 2.15.0, and the phone app view page. The app's branch and Play rows above now read `main` and 2.15.0.
 

@@ -12,13 +12,22 @@ const GROUPS: ReadonlyArray<{ id: string; label: string; icon: string }> = [
   { id: 'getting-started', label: 'Getting Started', icon: 'M5 15V5l10 5z' },
   { id: 'features', label: 'Features', icon: 'M3 3h6v6H3zM11 3h6v6h-6zM3 11h6v6H3zM11 11h6v6h-6z' },
   { id: 'guides', label: 'Guides', icon: 'M5 2.5h7l3 3v12H5zM12 2.5v3h3' },
+  // Posts follow the docs. Like every group, it shows only when it has a card, so not before the first post.
+  { id: 'blog', label: 'Blog', icon: 'M4 16l1-4 8-8 3 3-8 8zM11 6l3 3' },
 ];
 
-const MACHINE_FILES: ReadonlyArray<{ href: string; label: string; hint: string }> = [
-  { href: 'pathname:///sitemap.xml', label: 'sitemap.xml', hint: 'Every page with the date its words last changed.' },
-  { href: 'pathname:///feed.xml', label: 'feed.xml', hint: 'RSS of documentation updates, newest first.' },
-  { href: 'pathname:///llms.txt', label: 'llms.txt', hint: 'A plain-text guide to these docs for AI assistants.' },
-];
+/** The machine-readable files. feed.xml's hint names the posts once the blog has any. */
+function machineFiles(posts: number): ReadonlyArray<{ href: string; label: string; hint: string }> {
+  return [
+    { href: 'pathname:///sitemap.xml', label: 'sitemap.xml', hint: 'Every page with the date its words last changed.' },
+    {
+      href: 'pathname:///feed.xml',
+      label: 'feed.xml',
+      hint: posts > 0 ? 'RSS of documentation updates and blog posts, newest first.' : 'RSS of documentation updates, newest first.',
+    },
+    { href: 'pathname:///llms.txt', label: 'llms.txt', hint: 'A plain-text guide to these docs for AI assistants.' },
+  ];
+}
 
 /** Lowercase, strip accents and punctuation: the form both sides of a match are compared in. */
 function normalize(value: string): string {
@@ -90,7 +99,7 @@ export default function SitemapPage({ data }: { data: DiscoveryPageData }): Reac
         <p>Every page of the ClearHire documentation, grouped as the sidebar groups them.</p>
 
         <ul className={styles.machine}>
-          {MACHINE_FILES.map((file) => (
+          {machineFiles(data.posts).map((file) => (
             <li key={file.href}>
               <Link href={file.href}>{file.label}</Link> <span className={styles.hint}>{file.hint}</span>
             </li>

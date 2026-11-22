@@ -1,7 +1,10 @@
+import { existsSync, readdirSync } from 'node:fs';
+import { fileURLToPath } from 'node:url';
 import { themes as prismThemes } from 'prism-react-renderer';
 import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 import discoveryFeed from './src/plugins/discoveryFeed';
+import { BLOG_DESCRIPTION, BLOG_PATH, BLOG_TITLE } from './src/data/blog';
 import {APPS_LASTMOD, OTHER_PLATFORMS, platformHref} from './src/data/platforms';
 
 // ---------------------------------------------------------------------------
@@ -15,6 +18,14 @@ const SITE_URL = 'https://clearhire-docs.aoneahsan.com';
 const APP_URL = platformHref('web');
 const ORG_ID = `${APP_URL}/#organization`;
 const PLAY_URL = platformHref('android');
+
+/**
+ * Whether blog/ holds a post yet. Until it does, the blog stays off: an empty blog page would sit in sitemap.xml with
+ * nothing on it, and a Blog link would point at it. The first post added to blog/ turns on the blog, its feeds, its
+ * search index, its sitemap entries, its cards on /sitemap and /feed, and the Blog links in the navbar and the footer.
+ */
+const BLOG_DIR = fileURLToPath(new URL('./blog', import.meta.url));
+const HAS_POSTS = existsSync(BLOG_DIR) && readdirSync(BLOG_DIR).some((name) => /\.mdx?$/.test(name));
 
 const config: Config = {
   future: {
@@ -145,7 +156,8 @@ const config: Config = {
         hashed: true,
         indexDocs: true,
         indexPages: true,
-        indexBlog: false,
+        indexBlog: HAS_POSTS,
+        blogRouteBasePath: BLOG_PATH,
         docsRouteBasePath: '/',
         highlightSearchTermsOnTargetPage: true,
         explicitSearchResultPath: true,
@@ -189,28 +201,67 @@ const config: Config = {
           showLastUpdateAuthor: true,
           breadcrumbs: true,
         },
-        blog: false,
+        blog: HAS_POSTS && {
+          path: 'blog',
+          routeBasePath: BLOG_PATH.slice(1),
+          blogTitle: BLOG_TITLE,
+          blogDescription: BLOG_DESCRIPTION,
+          blogSidebarTitle: 'Recent posts',
+          blogSidebarCount: 10,
+          postsPerPage: 10,
+          showReadingTime: false,
+          // A post's last update comes from git: shown under the post, and its sitemap lastmod. No name is shown.
+          showLastUpdateTime: true,
+          showLastUpdateAuthor: false,
+          // Every author and tag is defined once, in blog/authors.yml (and blog/tags.yml when a post uses one).
+          onInlineAuthors: 'throw',
+          onInlineTags: 'throw',
+          onUntruncatedBlogPosts: 'throw',
+          feedOptions: {
+            type: ['rss', 'atom'],
+            xslt: true,
+            title: BLOG_TITLE,
+            description: BLOG_DESCRIPTION,
+            copyright: 'Made by the ClearHire team.',
+            language: 'en-GB',
+          },
+        },
         theme: { customCss: './src/css/custom.css' },
         sitemap: {
           lastmod: 'date',
           changefreq: null,
           priority: null,
-          // /search is a utility page with no indexable content of its own.
-          ignorePatterns: ['/search'],
-          /* A lastmod on EVERY URL. The doc pages carry their git date; the pages that list them
-             (/, /sitemap, /feed) take the newest date of what they list. An undated URL fails the build. */
+          // /search is a utility page with no indexable content of its own. The blog's tag, author, archive and later
+          // list pages only repeat its posts; each post is listed once, by its own URL.
+          ignorePatterns: ['/search', '/blog/tags/**', '/blog/authors/**', '/blog/archive', '/blog/page/**'],
+          /* A lastmod on EVERY URL. The doc pages and blog posts carry their git date; the pages that list them
+             (/, /sitemap, /feed) take the newest date of what they list, and /blog the newest of its posts. An
+             undated URL fails the build, so commit a page or a post before building. */
           createSitemapItems: async ({ defaultCreateSitemapItems, ...params }) => {
             const items = await defaultCreateSitemapItems(params);
+            const blogUrl = `${SITE_URL}${BLOG_PATH}`;
             let newest: string | null = null;
+            let newestPost: string | null = null;
             for (const item of items) {
               if (item.lastmod && (newest === null || item.lastmod > newest)) newest = item.lastmod;
+              if (item.lastmod && item.url.startsWith(`${blogUrl}/`) && (newestPost === null || item.lastmod > newestPost)) {
+                newestPost = item.lastmod;
+              }
             }
             if (newest === null) throw new Error('sitemap: no dated page');
             const listing = new Set([`${SITE_URL}/`, `${SITE_URL}/sitemap`, `${SITE_URL}/feed`]);
-            const undated = items.filter((item) => !item.lastmod && !listing.has(item.url) && item.url !== `${SITE_URL}/apps`);
+            const undated = items.filter(
+              (item) =>
+                !item.lastmod &&
+                !listing.has(item.url) &&
+                item.url !== `${SITE_URL}/apps` &&
+                !(item.url === blogUrl && newestPost !== null),
+            );
             if (undated.length > 0) throw new Error(`sitemap: undated ${undated.map((i) => i.url).join(', ')}`);
             const lastmod: string = newest;
-            return items.map((item) => (item.lastmod ? item : { ...item, lastmod: item.url === `${SITE_URL}/apps` ? APPS_LASTMOD : lastmod }));
+            const listedDate = (url: string): string =>
+              url === `${SITE_URL}/apps` ? APPS_LASTMOD : url === blogUrl && newestPost !== null ? newestPost : lastmod;
+            return items.map((item) => (item.lastmod ? item : { ...item, lastmod: listedDate(item.url) }));
           },
         },
       } satisfies Preset.Options,
@@ -273,6 +324,7 @@ const config: Config = {
         },
         { to: '/getting-started/quick-start', label: 'Get Started', position: 'left' },
         { to: '/faq', label: 'FAQ', position: 'left' },
+        ...(HAS_POSTS ? [{ to: BLOG_PATH, label: 'Blog', position: 'left' as const }] : []),
         { to: '/about-the-author', label: 'The team', position: 'right' },
         {
           type: 'dropdown',
@@ -323,6 +375,7 @@ const config: Config = {
           items: [
             { label: 'Privacy', to: '/privacy' },
             { label: 'Changelog', to: '/changelog' },
+            ...(HAS_POSTS ? [{ label: 'Blog', to: BLOG_PATH }] : []),
             { label: 'Sitemap', to: '/sitemap' },
             { label: 'Updates', to: '/feed' },
           ],

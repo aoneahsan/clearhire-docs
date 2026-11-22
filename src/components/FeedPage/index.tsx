@@ -9,12 +9,14 @@ const DATE = new Intl.DateTimeFormat('en-GB', { day: 'numeric', month: 'long', y
 
 /** The readable feed: the same pages as feed.xml, newest change first. */
 export default function FeedPage({ data }: { data: DiscoveryPageData }): ReactNode {
+  // Once the blog has posts they share this list, each dated by the day it was published.
+  const what = data.posts > 0 ? 'documentation pages and blog posts' : 'documentation pages';
   return (
-    <Layout title="Updates" description="ClearHire documentation pages, newest change first, the same list as feed.xml.">
+    <Layout title="Updates" description={`ClearHire ${what}, newest change first, the same list as feed.xml.`}>
       <main className="container margin-vert--lg">
         <h1>Updates</h1>
         <p>
-          The documentation pages, newest change first. Subscribe with{' '}
+          The {what}, newest change first. Subscribe with{' '}
           <Link href="pathname:///feed.xml">feed.xml</Link> in any RSS reader.
         </p>
         <ol className={styles.feed}>

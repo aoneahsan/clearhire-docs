@@ -1,6 +1,7 @@
 import { writeFile } from 'node:fs/promises';
 import { join } from 'node:path';
 
+import type { BlogContent } from '@docusaurus/plugin-content-blog';
 import type { LoadedContent } from '@docusaurus/plugin-content-docs';
 import type { AllContent, Plugin } from '@docusaurus/types';
 
@@ -8,8 +9,9 @@ type FeedItem = {
   title: string;
   description: string;
   permalink: string;
+  /** A doc's last change, or a blog post's publication day. */
   updatedAt: Date;
-  /** The first path segment, or `start` for a top-level page. Groups the `/sitemap` cards. */
+  /** The first path segment, or `start` for a top-level page; `blog` for a post. Groups the `/sitemap` cards. */
   group: string;
   tags: string[];
 };
@@ -18,6 +20,8 @@ type FeedItem = {
 export type DiscoveryPageData = {
   items: Array<Omit<FeedItem, 'updatedAt'> & { updatedAt: string }>;
   newest: string;
+  /** How many of the items are blog posts: none until the first post is published. */
+  posts: number;
 };
 
 export default function discoveryFeed(): Plugin {
@@ -25,15 +29,18 @@ export default function discoveryFeed(): Plugin {
   return {
     name: 'discovery-feed',
     async allContentLoaded({ allContent, actions }) {
-      items = docsFeedItems(allContent);
-      if (items.length === 0) {
+      const docs = docsFeedItems(allContent);
+      if (docs.length === 0) {
         throw new Error('discovery-feed: no dated documentation pages were found');
       }
+      const posts = blogFeedItems(allContent);
+      items = sortNewestFirst([...docs, ...posts]);
       /* The readable twins of sitemap.xml and feed.xml (rules/project-config.md): every frontend ships
          /sitemap and /feed as pages, prerendered so the whole list reads with no script. */
       const pageData: DiscoveryPageData = {
         items: items.map((item) => ({ ...item, updatedAt: item.updatedAt.toISOString() })),
         newest: items[0]!.updatedAt.toISOString(),
+        posts: posts.length,
       };
       const data = await actions.createData('discovery-pages.json', JSON.stringify(pageData));
       actions.addRoute({ path: '/sitemap', exact: true, component: '@site/src/components/SitemapPage', modules: { data } });
@@ -80,6 +87,38 @@ function docsFeedItems(allContent: AllContent): FeedItem[] {
       }),
     );
   });
+  return sortNewestFirst(items);
+}
+
+/**
+ * The blog posts the blog plugin loaded, dated by the day each was published. Drafts are already gone from a
+ * production build; an unlisted post stays out here too, as it does from the blog's own lists. Empty while the blog
+ * is off (no post in blog/ yet).
+ *
+ * @param allContent - every plugin's loaded content
+ * @returns one item per listed post
+ */
+function blogFeedItems(allContent: AllContent): FeedItem[] {
+  const instances = (allContent['docusaurus-plugin-content-blog'] ?? {}) as Record<string, BlogContent | undefined>;
+  return Object.values(instances)
+    .flatMap((content) => content?.blogPosts ?? [])
+    .filter((post) => !post.metadata.unlisted)
+    .flatMap(({ metadata }) => {
+      const updatedAt = parseDate(metadata.date);
+      return updatedAt
+        ? [{
+            title: metadata.title,
+            description: metadata.description,
+            permalink: metadata.permalink,
+            updatedAt,
+            group: 'blog',
+            tags: metadata.tags.map((tag) => tag.label),
+          }]
+        : [];
+    });
+}
+
+function sortNewestFirst(items: FeedItem[]): FeedItem[] {
   return items.sort(
     (left, right) =>
       right.updatedAt.getTime() - left.updatedAt.getTime() ||
