@@ -1,9 +1,29 @@
+import { readdirSync, readFileSync } from 'node:fs';
 import { writeFile } from 'node:fs/promises';
-import { join } from 'node:path';
+import { join, relative, sep } from 'node:path';
 
 import type { BlogContent } from '@docusaurus/plugin-content-blog';
 import type { LoadedContent } from '@docusaurus/plugin-content-docs';
-import type { AllContent, Plugin } from '@docusaurus/types';
+import type { AllContent, LoadContext, Plugin } from '@docusaurus/types';
+
+/**
+ * Docusaurus writes every route module's path into the client bundle, so the absolute path createData returns
+ * would publish this machine's folders and give each machine different chunk names. addRoute gets the alias.
+ */
+function generatedModule(generatedFilesDir: string, file: string): string {
+  return `@generated/${relative(generatedFilesDir, file).split(sep).join('/')}`;
+}
+
+/** Fails the build when any client bundle still carries this site's absolute path. */
+function assertNoLocalPaths(outDir: string, siteDir: string): void {
+  const jsDir = join(outDir, 'assets', 'js');
+  const forms = [siteDir.split(sep).join('/'), siteDir.split(sep).join('\\\\')];
+  for (const file of readdirSync(jsDir).filter((name) => name.endsWith('.js'))) {
+    const text = readFileSync(join(jsDir, file), 'utf8');
+    const found = forms.find((form) => text.includes(form));
+    if (found) throw new Error(`${file} carries the local path ${found}: pass createData paths to addRoute through generatedModule()`);
+  }
+}
 
 type FeedItem = {
   title: string;
@@ -24,7 +44,7 @@ export type DiscoveryPageData = {
   posts: number;
 };
 
-export default function discoveryFeed(): Plugin {
+export default function discoveryFeed({ generatedFilesDir, siteDir }: LoadContext): Plugin {
   let items: FeedItem[] = [];
   return {
     name: 'discovery-feed',
@@ -42,11 +62,12 @@ export default function discoveryFeed(): Plugin {
         newest: items[0]!.updatedAt.toISOString(),
         posts: posts.length,
       };
-      const data = await actions.createData('discovery-pages.json', JSON.stringify(pageData));
+      const data = generatedModule(generatedFilesDir, await actions.createData('discovery-pages.json', JSON.stringify(pageData)));
       actions.addRoute({ path: '/sitemap', exact: true, component: '@site/src/components/SitemapPage', modules: { data } });
       actions.addRoute({ path: '/feed', exact: true, component: '@site/src/components/FeedPage', modules: { data } });
     },
     async postBuild({ outDir, siteConfig }) {
+      assertNoLocalPaths(outDir, siteDir);
       const siteUrl = new URL(siteConfig.baseUrl, siteConfig.url).toString();
       await writeFile(
         join(outDir, 'feed.xml'),
