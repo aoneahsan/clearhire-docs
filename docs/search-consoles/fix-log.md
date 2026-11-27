@@ -3,10 +3,11 @@
 Newest entry first. One section per issue. `live-verified` is ours; `indexed` belongs to Google. This folder is
 excluded from the published site (`docusaurus.config.ts:202`).
 
-## clearhire-docs#1 — [SEO][URGENT][PENDING] URL-level indexing + AEO fix list · 2026-11-27 · commit `<pending>`
+## clearhire-docs#1 — [SEO][URGENT][PENDING] URL-level indexing + AEO fix list · 2026-11-27 · commit `31aab6b` (gh-pages `a9edfbe`)
 
-Status: partly done (config and build fixed and contract-tested in `build/`; deploy, live proof and IndexNow pending in
-the main session)
+Status: partly done — fixed boxes live-verified, google-pending; docs-home copy Pending (below).
+Published 2026-11-27; IndexNow 200. Live: `/faq` → 301 `/faq/`; `/faq/` canonical
+`https://clearhire-docs.aoneahsan.com/faq/` (one); `"@type":"FAQPage"` in the raw HTML.
 
 | Box | SA | What was wrong (evidence) | Root fix (file:line) | Contract test | Live proof (command → result) |
 |---|---|---|---|---|---|
