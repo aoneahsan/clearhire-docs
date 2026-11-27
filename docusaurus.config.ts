@@ -4,6 +4,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 import discoveryFeed from './src/plugins/discoveryFeed';
+import faqSchema from './src/plugins/faqSchema';
 import { BLOG_DESCRIPTION, BLOG_PATH, BLOG_TITLE } from './src/data/blog';
 import {APPS_LASTMOD, OTHER_PLATFORMS, platformHref} from './src/data/platforms';
 
@@ -137,7 +138,10 @@ const config: Config = {
 
   i18n: { defaultLocale: 'en', locales: ['en'] },
 
-  trailingSlash: false,
+  /* 🔴 SLASHED, because GitHub Pages serves `page/index.html` with a real 301 from `/page` and 404s `/page/` when the
+     build writes `page.html` (SA-P26, clearhire-docs#1, owner 2026-11-27). Canonicals, the sitemap and every internal
+     link follow this one form. */
+  trailingSlash: true,
 
   markdown: {
     mermaid: true,
@@ -194,12 +198,18 @@ const config: Config = {
             //    Excluding a directory that does not exist yet costs nothing; discovering the
             //    omission after a build has published somebody's working notes costs a lot.
             'story/**',
+            // `search-consoles/` is the fleet's fixed-path console and fix record, never a published page.
+            'search-consoles/**',
           ],
           routeBasePath: '/',
           editUrl: 'https://github.com/aoneahsan/clearhire-docs/edit/main/',
           showLastUpdateTime: true,
           showLastUpdateAuthor: true,
           breadcrumbs: true,
+          /* No tag pages: a generated tag list only repeats the pages it lists (SA-P32). An inline tag fails the
+             build rather than quietly publishing one. */
+          tags: false,
+          onInlineTags: 'throw',
         },
         blog: HAS_POSTS && {
           path: 'blog',
@@ -239,28 +249,28 @@ const config: Config = {
              undated URL fails the build, so commit a page or a post before building. */
           createSitemapItems: async ({ defaultCreateSitemapItems, ...params }) => {
             const items = await defaultCreateSitemapItems(params);
-            const blogUrl = `${SITE_URL}${BLOG_PATH}`;
+            const blogUrl = `${SITE_URL}${BLOG_PATH}/`;
             let newest: string | null = null;
             let newestPost: string | null = null;
             for (const item of items) {
               if (item.lastmod && (newest === null || item.lastmod > newest)) newest = item.lastmod;
-              if (item.lastmod && item.url.startsWith(`${blogUrl}/`) && (newestPost === null || item.lastmod > newestPost)) {
+              if (item.lastmod && item.url.startsWith(blogUrl) && item.url !== blogUrl && (newestPost === null || item.lastmod > newestPost)) {
                 newestPost = item.lastmod;
               }
             }
             if (newest === null) throw new Error('sitemap: no dated page');
-            const listing = new Set([`${SITE_URL}/`, `${SITE_URL}/sitemap`, `${SITE_URL}/feed`]);
+            const listing = new Set([`${SITE_URL}/`, `${SITE_URL}/sitemap/`, `${SITE_URL}/feed/`]);
             const undated = items.filter(
               (item) =>
                 !item.lastmod &&
                 !listing.has(item.url) &&
-                item.url !== `${SITE_URL}/apps` &&
+                item.url !== `${SITE_URL}/apps/` &&
                 !(item.url === blogUrl && newestPost !== null),
             );
             if (undated.length > 0) throw new Error(`sitemap: undated ${undated.map((i) => i.url).join(', ')}`);
             const lastmod: string = newest;
             const listedDate = (url: string): string =>
-              url === `${SITE_URL}/apps` ? APPS_LASTMOD : url === blogUrl && newestPost !== null ? newestPost : lastmod;
+              url === `${SITE_URL}/apps/` ? APPS_LASTMOD : url === blogUrl && newestPost !== null ? newestPost : lastmod;
             return items.map((item) => (item.lastmod ? item : { ...item, lastmod: listedDate(item.url) }));
           },
         },
@@ -268,7 +278,7 @@ const config: Config = {
     ],
   ],
 
-  plugins: [discoveryFeed],
+  plugins: [discoveryFeed, faqSchema],
 
   themeConfig: {
     image: 'img/social-card.png',

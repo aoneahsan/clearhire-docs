@@ -5,7 +5,7 @@
 
 ## Get ClearHire
 
-- [All apps](https://clearhire-docs.aoneahsan.com/apps): every released surface of ClearHire.
+- [All apps](https://clearhire-docs.aoneahsan.com/apps/): every released surface of ClearHire.
 - [ClearHire web app](https://clearhire.aoneahsan.com)
 - [Google Play](https://play.google.com/store/apps/details?id=com.aoneahsan.clearhire)
 
@@ -26,57 +26,57 @@ This `llms.txt` follows the [llmstxt.org](https://llmstxt.org) spec — a struct
 
 ## Getting Started
 
-- [Introduction](https://clearhire-docs.aoneahsan.com/intro): What ClearHire is, who it's for, and how verified employment works.
-- [Quick Start](https://clearhire-docs.aoneahsan.com/getting-started/quick-start): Create an account and build your first resume in minutes.
-- [Create Your Profile](https://clearhire-docs.aoneahsan.com/getting-started/create-your-profile): The seven profile sections every resume is generated from.
-- [Build Your First Resume](https://clearhire-docs.aoneahsan.com/getting-started/build-your-first-resume): Pick a template, choose sections, export to PDF or DOCX.
+- [Introduction](https://clearhire-docs.aoneahsan.com/intro/): What ClearHire is, who it's for, and how verified employment works.
+- [Quick Start](https://clearhire-docs.aoneahsan.com/getting-started/quick-start/): Create an account and build your first resume in minutes.
+- [Create Your Profile](https://clearhire-docs.aoneahsan.com/getting-started/create-your-profile/): The seven profile sections every resume is generated from.
+- [Build Your First Resume](https://clearhire-docs.aoneahsan.com/getting-started/build-your-first-resume/): Pick a template, choose sections, export to PDF or DOCX.
 
 ## Features
 
-- [Profile Management](https://clearhire-docs.aoneahsan.com/features/profile-management): Experience, education, projects, skills, languages, certifications, and awards in one structured record.
-- [Resume Builder](https://clearhire-docs.aoneahsan.com/features/resume-builder): Multiple templates, section control, and PDF/DOCX export.
-- [Employment Verification](https://clearhire-docs.aoneahsan.com/features/employment-verification): Request and grant verification; how the timeout and the countersignature work.
-- [Job Search](https://clearhire-docs.aoneahsan.com/features/job-search): Filters, saved searches, and job alerts.
-- [Application Tracking](https://clearhire-docs.aoneahsan.com/features/applications-tracking): Track every application through its stages.
-- [Company & Employee Reviews](https://clearhire-docs.aoneahsan.com/features/company-reviews): Mutual reviews tied to verified employment.
-- [Career Tools](https://clearhire-docs.aoneahsan.com/features/career-tools): ATS checker, cover-letter and bio generators, interview prep, salary insights.
-- [Gamification](https://clearhire-docs.aoneahsan.com/features/gamification): Badges, levels, streaks, and leaderboards.
-- [Analytics](https://clearhire-docs.aoneahsan.com/features/analytics): Profile views, resume downloads, and application metrics.
-- [For Companies](https://clearhire-docs.aoneahsan.com/features/for-companies): Company profiles, job posting, applicant tracking, and verification.
-- [Browser Extension](https://clearhire-docs.aoneahsan.com/features/browser-extension): LinkedIn profile capture and application auto-fill on LinkedIn, Indeed, and Glassdoor. Built but NOT published to any store.
+- [Profile Management](https://clearhire-docs.aoneahsan.com/features/profile-management/): Experience, education, projects, skills, languages, certifications, and awards in one structured record.
+- [Resume Builder](https://clearhire-docs.aoneahsan.com/features/resume-builder/): Multiple templates, section control, and PDF/DOCX export.
+- [Employment Verification](https://clearhire-docs.aoneahsan.com/features/employment-verification/): Request and grant verification; how the timeout and the countersignature work.
+- [Job Search](https://clearhire-docs.aoneahsan.com/features/job-search/): Filters, saved searches, and job alerts.
+- [Application Tracking](https://clearhire-docs.aoneahsan.com/features/applications-tracking/): Track every application through its stages.
+- [Company & Employee Reviews](https://clearhire-docs.aoneahsan.com/features/company-reviews/): Mutual reviews tied to verified employment.
+- [Career Tools](https://clearhire-docs.aoneahsan.com/features/career-tools/): ATS checker, cover-letter and bio generators, interview prep, salary insights.
+- [Gamification](https://clearhire-docs.aoneahsan.com/features/gamification/): Badges, levels, streaks, and leaderboards.
+- [Analytics](https://clearhire-docs.aoneahsan.com/features/analytics/): Profile views, resume downloads, and application metrics.
+- [For Companies](https://clearhire-docs.aoneahsan.com/features/for-companies/): Company profiles, job posting, applicant tracking, and verification.
+- [Browser Extension](https://clearhire-docs.aoneahsan.com/features/browser-extension/): LinkedIn profile capture and application auto-fill on LinkedIn, Indeed, and Glassdoor. Built but NOT published to any store.
 
 ## Guides
 
-- [Export a resume to PDF or DOCX](https://clearhire-docs.aoneahsan.com/guides/export-resume-pdf-docx)
-- [Request employment verification](https://clearhire-docs.aoneahsan.com/guides/request-employment-verification)
-- [Run the ATS resume checker](https://clearhire-docs.aoneahsan.com/guides/ats-resume-checker)
-- [Export or delete your data](https://clearhire-docs.aoneahsan.com/guides/data-export-and-deletion)
+- [Export a resume to PDF or DOCX](https://clearhire-docs.aoneahsan.com/guides/export-resume-pdf-docx/)
+- [Request employment verification](https://clearhire-docs.aoneahsan.com/guides/request-employment-verification/)
+- [Run the ATS resume checker](https://clearhire-docs.aoneahsan.com/guides/ats-resume-checker/)
+- [Export or delete your data](https://clearhire-docs.aoneahsan.com/guides/data-export-and-deletion/)
 
 ## White-label & licensing
 
-- [White-label licence](https://clearhire-docs.aoneahsan.com/white-label): ClearHire under your own name on web and Android, hosted and updated by us; the source moves only with a buyout, which carries a 7% royalty on gross revenue (excluding sales tax/VAT), paid quarterly with a revenue statement for as long as it earns, including after a resale.
-- [Setup, updates and renewals](https://clearhire-docs.aoneahsan.com/white-label/setup-and-updates): From a Wise transfer to a live copy, the six included months, renewing by licence key.
-- [Verify a licence](https://clearhire-docs.aoneahsan.com/white-label/verify-a-licence): Check a copy by its key or its domain.
-- [White-label questions](https://clearhire-docs.aoneahsan.com/white-label/faq): Code, the buyout royalty, exclusivity, paying by Wise transfer, platforms, custom work.
+- [White-label licence](https://clearhire-docs.aoneahsan.com/white-label/): ClearHire under your own name on web and Android, hosted and updated by us; the source moves only with a buyout, which carries a 7% royalty on gross revenue (excluding sales tax/VAT), paid quarterly with a revenue statement for as long as it earns, including after a resale.
+- [Setup, updates and renewals](https://clearhire-docs.aoneahsan.com/white-label/setup-and-updates/): From a Wise transfer to a live copy, the six included months, renewing by licence key.
+- [Verify a licence](https://clearhire-docs.aoneahsan.com/white-label/verify-a-licence/): Check a copy by its key or its domain.
+- [White-label questions](https://clearhire-docs.aoneahsan.com/white-label/faq/): Code, the buyout royalty, exclusivity, paying by Wise transfer, platforms, custom work.
 - Prices: https://clearhire.aoneahsan.com/white-label/pricing (read from the licensing service; not repeated in these docs)
 
 ## Developers (switching on with the next release; not live on 19 November 2026)
 
-- [Overview](https://clearhire-docs.aoneahsan.com/developers): The API, MCP server, webhooks and calendar feed; full access to the seeker's own account, read-only access to a company's jobs and their applications.
-- [Access keys](https://clearhire-docs.aoneahsan.com/developers/authentication): Bearer keys or OAuth, scopes (write includes read, remove never implied), 30/90/365-day expiry, the 10-minute reveal rule, 120 requests a minute per key plus a plan-set daily total, the error envelope.
-- [The API](https://clearhire-docs.aoneahsan.com/developers/api): Base https://lxvdadoeyghxqyanpyla.supabase.co/functions/v1/api/v1; OpenAPI at /v1/openapi.json and /v1/openapi.md; pagination 20 by default, 50 at most.
-- [AI assistants (MCP)](https://clearhire-docs.aoneahsan.com/developers/mcp): https://lxvdadoeyghxqyanpyla.supabase.co/functions/v1/mcp for Claude, ChatGPT, Claude Code and Cursor; removals wait for the person's confirmation in ClearHire.
-- [Webhooks](https://clearhire-docs.aoneahsan.com/developers/webhooks): Standard Webhooks signatures, the event list, retries for just over a day, test, replay and pause.
-- [Calendar feed](https://clearhire-docs.aoneahsan.com/developers/calendar-feed): Interviews and reminders as a revocable, read-only .ics subscription.
-- [Two-step sign-in](https://clearhire-docs.aoneahsan.com/developers/two-step-sign-in): Authenticator codes, single-use recovery codes, an opt-in remembered browser; required for admins.
-- [Developer changelog](https://clearhire-docs.aoneahsan.com/developers/changelog)
+- [Overview](https://clearhire-docs.aoneahsan.com/developers/): The API, MCP server, webhooks and calendar feed; full access to the seeker's own account, read-only access to a company's jobs and their applications.
+- [Access keys](https://clearhire-docs.aoneahsan.com/developers/authentication/): Bearer keys or OAuth, scopes (write includes read, remove never implied), 30/90/365-day expiry, the 10-minute reveal rule, 120 requests a minute per key plus a plan-set daily total, the error envelope.
+- [The API](https://clearhire-docs.aoneahsan.com/developers/api/): Base https://lxvdadoeyghxqyanpyla.supabase.co/functions/v1/api/v1; OpenAPI at /v1/openapi.json and /v1/openapi.md; pagination 20 by default, 50 at most.
+- [AI assistants (MCP)](https://clearhire-docs.aoneahsan.com/developers/mcp/): https://lxvdadoeyghxqyanpyla.supabase.co/functions/v1/mcp for Claude, ChatGPT, Claude Code and Cursor; removals wait for the person's confirmation in ClearHire.
+- [Webhooks](https://clearhire-docs.aoneahsan.com/developers/webhooks/): Standard Webhooks signatures, the event list, retries for just over a day, test, replay and pause.
+- [Calendar feed](https://clearhire-docs.aoneahsan.com/developers/calendar-feed/): Interviews and reminders as a revocable, read-only .ics subscription.
+- [Two-step sign-in](https://clearhire-docs.aoneahsan.com/developers/two-step-sign-in/): Authenticator codes, single-use recovery codes, an opt-in remembered browser; required for admins.
+- [Developer changelog](https://clearhire-docs.aoneahsan.com/developers/changelog/)
 
 ## Reference
 
-- [FAQ](https://clearhire-docs.aoneahsan.com/faq): Common questions about accounts, verification, privacy, cost, and platform availability.
-- [Privacy & data handling](https://clearhire-docs.aoneahsan.com/privacy): What ClearHire stores, shares, and deletes.
-- [Changelog](https://clearhire-docs.aoneahsan.com/changelog): Notable releases.
-- [About the ClearHire team](https://clearhire-docs.aoneahsan.com/about-the-author): who builds ClearHire, where the other apps are, and how to get in touch.
+- [FAQ](https://clearhire-docs.aoneahsan.com/faq/): Common questions about accounts, verification, privacy, cost, and platform availability.
+- [Privacy & data handling](https://clearhire-docs.aoneahsan.com/privacy/): What ClearHire stores, shares, and deletes.
+- [Changelog](https://clearhire-docs.aoneahsan.com/changelog/): Notable releases.
+- [About the ClearHire team](https://clearhire-docs.aoneahsan.com/about-the-author/): who builds ClearHire, where the other apps are, and how to get in touch.
 
 ## Product links
 
